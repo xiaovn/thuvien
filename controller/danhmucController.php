@@ -58,5 +58,79 @@ Class danhmucController extends baseController
             $this->view->show('404');
         }
     }
+    public function doituong($para)
+    {
 
+        $madoituong = $this->func->getid($para[1]);
+        if($this->func->checkid($madoituong,"xdata_doituong","madoituong"))
+        {
+            $this->view->data['xdata'] = $madoituong;
+            $this->view->show('testview');
+        }
+        else
+        {
+            $this->view->data['notifi'] = "Xin lỗi, không tồn tại khối lớp này!";
+            $this->view->show('404');
+        }
+    }
+    public function theloai($para)
+    {
+
+        $matheloai = $this->func->getid($para[1]);
+        if($this->func->checkid($matheloai,"xiaob_theloai","matheloai"))
+        {
+            $this->view->data['xdata'] = $matheloai;
+            $this->view->show('testview');
+        }
+        else
+        {
+            $this->view->data['notifi'] = "Xin lỗi, không tồn tại khối lớp này!";
+            $this->view->show('404');
+        }
+    }
+    public function baigiang($para)
+    {
+
+        $mamom = $this->func->getid($para[1]);
+        if($this->func->checkid($mamom,"xiaob_subj","subjid"))
+        {
+            $this->view->data['xdata'] = $mamom;
+            $this->view->show('testview');
+        }
+        else
+        {
+            $this->view->data['notifi'] = "Xin lỗi, không tồn tại môn này!";
+            $this->view->show('404');
+        }
+    }
+    public function giaotrinh($para)
+    {
+
+        $mamom = $this->func->getid($para[1]);
+        if($this->func->checkid($mamom,"xiaob_subj","subjid"))
+        {
+            $this->view->data['xdata'] = $mamom;
+            $this->view->show('testview');
+        }
+        else
+        {
+            $this->view->data['notifi'] = "Xin lỗi, không tồn tại môn này!";
+            $this->view->show('404');
+        }
+    }
+    public function dethi($para)
+    {
+
+        $maloai = $this->func->getid($para[1]);
+        if($this->func->checkid($maloai,"xiaob_subj","subjid"))
+        {
+            $this->view->data['xdata'] = $maloai;
+            $this->view->show('testview');
+        }
+        else
+        {
+            $this->view->data['notifi'] = "Xin lỗi, không tồn tại môn này!";
+            $this->view->show('404');
+        }
+    }
 }
