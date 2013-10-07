@@ -12,6 +12,7 @@ function __construct($registry) {
 	$this->registry = $registry;
 	$this->model = &baseModel::getInstance();
 	$this->view  = &baseView::getInstance();
+	$this->func  = &general::getInstance();
 }
 
 
