@@ -9,7 +9,7 @@
  */
 session_start();
 //=============== Custom configuration ==================//
-define('DB_NAME', 'thuvien'); //database name
+define('DB_NAME', 'xiaovn_xem'); //database name
 define('DB_USER', 'root'); //database user
 define('DB_PASSWORD', ''); //database password
 define('DB_HOST', 'localhost'); //sql server
