@@ -1,0 +1,206 @@
+/*************************** PLAYER WRAPPER */
+/*
+.PKL_wrapper{
+	left:0px;
+	top:0px;
+	width:293px;
+	float:left;
+	position:relative;
+	z-index:1;
+	display:block;
+	height:25px;
+}
+
+/*************************** CONTROLS BKGD
+.PKL_controlsBkgd{
+	background-image:url("g_controlsBkgd.png");
+	left:0px;
+	background-repeat:no-repeat;
+	top:0px;
+	width:293px;
+	font-size:0px;
+	float:left;
+	position:absolute;
+	z-index:6;
+	display:block;
+	height:25px;
+}
+
+/*************************** PLAY 
+.PKL_playpause, .PKL_play{
+	background-image:url("b_play.png");
+	left:3px;
+	background-repeat:no-repeat;
+	top:1px;
+	cursor:pointer;
+	width:39px;
+	font-size:0px;
+	float:left;
+	position:absolute;
+	z-index:6;
+	display:block;
+	height:21px;
+}
+div.PKL_playpause:hover, div.PKL_play:hover{
+	background-image:url("b_play_over.png");
+}
+div.PKL_playpause:active, div.PKL_play:active{
+	background-image:url("b_play_down.png");
+}
+div.PKL_playpause.pause, div.PKL_play.pause{
+	background-image:url("b_pause.png");
+}
+div.PKL_playpause.pause:hover, div.PKL_play.pause:hover{
+	background-image:url("b_pause_over.png");
+}
+div.PKL_playpause.pause:active, div.PKL_play.pause:active{
+	background-image:url("b_pause_down.png");
+}
+
+/*************************** MUTE 
+.PKL_mute{
+	background-image:url("b_mute.png");
+	left:240px;
+	background-repeat:no-repeat;
+	top:1px;
+	cursor:pointer;
+	width:30px;
+	font-size:0px;
+	float:left;
+	position:absolute;
+	z-index:5;
+	display:block;
+	height:21px;
+}
+div.PKL_mute:hover{
+	background-image:url("b_mute_over.png");
+}
+div.PKL_mute:active{
+	background-image:url("b_mute_down.png");
+}
+div.PKL_mute.on{
+	background-image:url("b_mute_down.png");
+}
+div.PKL_mute.on:hover{
+	background-image:url("b_mute_over.png");
+}
+div.PKL_mute.on:active{
+	background-image:url("b_mute.png");
+}
+
+/*************************** TIME 
+.PKL_time{
+	color:#e6e5e5;
+	left:156px;
+	vertical-align:middle;
+	text-align:center;
+	font-family:Arial;
+	top:3px;
+	white-space:nowrap;
+	width:86px;
+	font-size:12px;
+	font-weight:normal;
+	position:absolute;
+	z-index:6;
+	display:block;
+	overflow:hidden;
+	height:17px;
+}
+
+/*************************** SCRUB BKGD 
+.PKL_scrubBkgd{
+	background-image:url("g_scrubBkgd.png");
+	left:46px;
+	background-repeat:no-repeat;
+	top:6px;
+	cursor:pointer;
+	width:103px;
+	font-size:0px;
+	float:left;
+	position:absolute;
+	z-index:5;
+	display:block;
+	height:11px;
+}
+
+/*************************** SCRUB BAR 
+.PKL_scrubBar{
+	background-image:url("g_scrubBar.png");
+	overflow:hidden;
+	left:0px;
+	background-repeat:no-repeat;
+	top:0px;
+	cursor:pointer;
+	width:26px;
+	font-size:0px;
+	float:left;
+	position:absolute;
+	z-index:1;
+	display:block;
+	height:11px;
+}
+
+/*************************** LOADING 
+.PKL_loading{
+	background-image:url("g_scrubLoading.png");
+	overflow:hidden;
+	left:0px;
+	background-repeat:no-repeat;
+	top:0px;
+	width:26px;
+	font-size:0px;
+	float:right;
+	position:relative;
+	background-position:right;
+	z-index:1;
+	display:block;
+	height:11px;
+}
+
+/*************************** SCRUB HANDLE 
+.PKL_scrubHandle{
+	background-image:url("b_scrubHandle.png");
+	left:0px;
+	background-repeat:no-repeat;
+	top:-2px;
+	cursor:pointer;
+	width:16px;
+	font-size:0px;
+	float:left;
+	position:absolute;
+	z-index:6;
+	display:block;
+	height:15px;
+}
+div.PKL_scrubHandle:hover{
+	background-image:url("b_scrubHandle_over.png");
+}
+div.PKL_scrubHandle:active{
+	background-image:url("b_scrubHandle_down.png");
+}
+
+/*************************** THINKER 
+.PKL_thinker{
+	background-image:url("g_thinker.gif");
+	left:269px;
+	background-repeat:no-repeat;
+	top:3px;
+	width:17px;
+	font-size:0px;
+	position:absolute;
+	z-index:10;
+	display:block;
+	height:18px;
+}
+div.PKL_thinker.off{
+	background-image:none;
+}
+
+.PKL_preloader{
+	width:1px;
+	height:1px;
+	background-repeat:no-repeat;
+	background-image:url("b_play_over.png#b_play_down.png#b_pause.png#b_pause_over.png#b_pause_down.png#b_scrubHandle_over.png#b_scrubHandle_down.png#b_mute_over.png#b_mute_down.png#b_mute_down.png#b_mute_over.png#b_mute.png#background-image:none#b_scrubHandle_over.png#b_scrubHandle_down.png");
+	display:none;
+}
+*/

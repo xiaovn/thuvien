@@ -1,0 +1,104 @@
+.level-btn{
+	background-color: #FEEED0;
+	color: #094eff;
+	border: 7px solid;
+	border-color: #3a984a;
+	border-radius: 9px;
+	font-size: 15px;
+	width:110px;
+	height:50px;
+    cursor: pointer;
+    top: 0px;
+    position: relative;
+	}
+.level-btn-active{
+	border-color: #FF6905;
+	color:#ff0000;
+	}
+ .ranking_number{
+    width: 32px;
+    text-align: center;
+    height: 26px;
+    background-repeat: no-repeat;
+    color: blue;
+    background-image: url(bg_number_ranking-1.png)/*tpa=http://www.thuviengiaoduc.org/file/learn/child/olympic/allranking/imgs/bg_number_ranking.png*/;
+	}
+.ranking_name{
+	width: 205px;
+    padding-left: 15px!important;
+    height: 26px;
+	}
+.ranking_time{
+	height: 26px;
+    width: 70px;
+    text-align: center;
+	}
+.ranking_score{
+	height: 26px;
+    text-align: center;
+    padding-left: 0px!important;
+    width: 90px;
+    padding-right: 32px!important;
+	}
+.table_ranking{
+	border-spacing: 0px;
+    display:none;
+	}
+.table_ranking tr{
+	margin-top:2px;
+    font-weight: bold;
+	}
+.your_ranking{
+	background-color:#FF9;
+	color:#F00;
+	}
+ #play_rating_btn{
+    cursor: pointer;
+ }	    
+ #area_button{
+    text-align: center;
+    position: relative;
+ }
+ #ranking-table{
+    position:absolute; top: 132px;
+    left: 80px;
+    width: 489px;
+    height: 650px;
+    overflow:hidden;
+    overflow-y: auto;
+ }
+.mCSB_scrollTools .mCSB_draggerRail{
+    width: 14px;
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 0px;
+} 
+.mCSB_scrollTools .mCSB_buttonDown{
+    height: 14px;
+    border: 1px solid #000;
+    opacity: 1;
+    background-position: center;
+    margin-top: -34px;
+}
+
+.mCSB_scrollTools .mCSB_buttonUp{
+    height: 16px;
+    border: 1px solid #000;
+    opacity: 1;
+    background-position: center;
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+    width: 100%;
+    border-radius: 0px;
+    background-color: #f65f49!important;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.mCustomScrollBox>.mCSB_scrollTools {
+    opacity: 1;
+}
+.mCSB_scrollTools .mCSB_dragger { 
+    width: 12px;
+    margin-left: 2px;
+    margin-top: 2px;
+}

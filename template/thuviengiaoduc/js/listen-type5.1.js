@@ -1,0 +1,10 @@
+var num_page=10; var arr_bl=new Array();arr_bl[0]="It is cloudy and overcast. Maybe it is going to rain soon.";
+arr_bl[1]="It is so hot today. I really want to go to the beach.";
+arr_bl[2]="What's the weather like today?";
+arr_bl[3]="Driving on foggy days is really dangerous.";
+arr_bl[4]="It's cool and windy today. We should go out and play.";
+arr_bl[5]="She was born on a dark and stormy night.";
+arr_bl[6]="I don't want to go outside. It's freezing cold right now.";
+arr_bl[7]="It is quite chilly today.";
+arr_bl[8]="It is always hot, sunny and humid in the summer.";
+arr_bl[9]="Look! It is snowy outside. Let's go out and play.";

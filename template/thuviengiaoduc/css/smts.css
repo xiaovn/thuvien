@@ -1,0 +1,26 @@
+.content{padding:20px;}
+.hiddendiv{position:absolute; top:-9999px; left:-9999px; visibility:hidden; white-space: pre-wrap; width: 210px; min-height: 140px; font-family: Arial, sans-serif; font-size: 13px; padding:0 0 0 10px; word-wrap: break-word;}
+.content .textarea-wrapper{height:152px; overflow:hidden;}
+#smtsbg{position: absolute; top: 0px; left: 0px;}
+#smtsftfa{position: absolute; top: 294px; left: 95px; width: 505px; height: 152px;}
+#smtsfta{width: 462px; height: 152px; border: 0px; resize: none; background: transparent; margin:0; overflow:hidden; outline:none; font-family: Arial; font-size: 16px; color: #452501;line-height: 25px; padding: 10px;}
+#smtssubmit{position: absolute; top: 533px; left: 434px; width: 106px; height: 55px; cursor: pointer; background-image: url("gui_bai.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/learn_through_stories/dungchung/smts/gui_bai.png*/;}
+#smtssubmit:hover{background-position: -107px 0px;}
+  
+/*scroll*/
+.mCSB_scrollTools{display: block!important}
+.mCSB_container {margin-right: 0px;}
+.mCSB_scrollTools .mCSB_draggerRail{width: 28px;border-radius: 0px;margin-left: 0px;} 
+.mCSB_scrollTools .mCSB_buttonDown{height: 10px;opacity: 1;background-position: center;}
+.mCSB_scrollTools .mCSB_buttonUp{height: 10px;opacity: 1;background-position: center;}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{width: 100%;border-radius: 0px;background-position: center;background-repeat: no-repeat;background-color: transparent!important;height: 38px;width: 18px;}
+.mCustomScrollBox>.mCSB_scrollTools {opacity: 1;width: 22px;}
+.mCSB_scrollTools .mCSB_dragger{width: 23px;height: 38px!important;}
+.mCSB_scrollTools a+.mCSB_draggerContainer {margin: 18px 0;}
+.mCSB_scrollTools .mCSB_buttonDown {background-position: center;opacity: 1;margin-top: -30px;}
+.mCSB_scrollTools{ background-image: url("bgCuon.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/learn_through_stories/dungchung/smts/bgCuon.png*/;}
+.mCSB_scrollTools .mCSB_draggerRail{background-color: transparent;}
+.mCSB_scrollTools .mCSB_buttonUp{background-image: url("up1.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/learn_through_stories/dungchung/smts/up1.png*/; margin-top: 5px;}
+.mCSB_scrollTools .mCSB_buttonDown{background-image: url('dow1.png');}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background-image: url('drags1.png')!important;margin-left: 2px!important;}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar:hover{}

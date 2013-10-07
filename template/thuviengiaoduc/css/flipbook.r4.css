@@ -1,0 +1,14 @@
+.magazine{}
+.magazine .mgzp{background-size: 100% 100%;}
+.mgzpct{padding: 60px 20px 0px 30px;}
+.vi{display: none;}
+.vi_btn{margin-bottom: 10px; cursor: pointer;}
+.tra, .str{border-bottom: 1px solid #aab279; font-size: 20px; margin: 0px 0px 8px 0px; line-height: 25px;}
+.tra{color: #423782;}
+.str{color: #9a1c29;}
+.en{min-height: 110px;}
+.audio_flipbook{display: none}
+.mgzsp, .mgzsp_ac{position: absolute;top: 7px;left: 176px;width: 35px;cursor: pointer;}
+.mgzsp_ac{display: none;} 
+#ragbook{width: 101px;height: 44px;cursor: pointer;position: absolute;left: 237px;top: 326px;background-image: url("readagain.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/stories_with_famous_people/dungchung/book/images/readagain.png*/; }
+#ragbook:hover{background-position: -101px 0px;}  

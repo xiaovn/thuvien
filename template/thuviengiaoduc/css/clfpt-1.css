@@ -1,0 +1,101 @@
+/*audio*/
+div.jp-audio div.jp-interface {background-image: url("nen-5.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/stories_with_famous_people/dungchung/clfpt/img/nen.png*/; height: 49px;}
+div.jp-audio {width: 220px;}
+div.jp-audio div.jp-interface > *{margin-top: 10px;}
+div.jp-audio a.jp-play {background: url("play1-2.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/stories_with_famous_people/dungchung/clfpt/img/play1.png*/no-repeat;}
+div.jp-audio a.jp-pause {background: url("pause1-2.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/stories_with_famous_people/dungchung/clfpt/img/pause1.png*/no-repeat; display: none;}
+div.jp-audio .jp-border {background-image: url("ngan-2.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/stories_with_famous_people/dungchung/clfpt/img/ngan.png*/;}
+div.jp-audio .jp-progress-slide {background: url("sk1-2.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/stories_with_famous_people/dungchung/clfpt/img/sk1.png*/ no-repeat;}
+div.jp-audio div.ui-slider-range {background: url("sk2-2.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/stories_with_famous_people/dungchung/clfpt/img/sk2.png*/ no-repeat;}
+div.jp-audio .ui-state-default {background: url("point-2.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/stories_with_famous_people/dungchung/clfpt/img/point.png*/ no-repeat;}
+div.jp-audio .ui-state-default:active{background: url("point2-1.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/stories_with_famous_people/dungchung/clfpt/img/point2.png*/ no-repeat;}
+div.jp-audio div.jp-time-holder {top: 12px;}
+div.jp-audio .jp-border {top: 1px;}
+div.jp-audio div.jp-interface ul.jp-controls a {margin-top: 9px;margin-left: 4px;}
+/*clock*/
+#clfprt.countdownHolder{font-family: Arial; font-size: 17px; letter-spacing: -5px;}
+#clfprt .digit.static{background: transparent; box-shadow: none; color: black; width: 3px; margin-left: 0px; text-align: center;}
+#clfprt .digit{ background: transparent; display: none;} 
+#clfprt .static{display: block;} 
+#clfprt .countDiv:before, .countDiv:after {width: 2px; height: 2px;box-shadow: none; margin-left: -2px;}
+#clfprt .countDiv{width: 8px; height: 22px;}
+#clfprt .position{width: 10px; padding: 0px; margin: 0px; height: 21px;}
+/*public*/
+.ab{position:absolute;top:0px;left:0px;}
+.clfpschd{display: none; width: 727px; height: 567px;position:absolute;top:0px;left:0px; background-size: 100% 100%;}
+#clfp{position: relative; display: block; font-family: Arial;}
+.clfpnq{color: #C6620A; left: 28px; top: 23px;}
+.clfptt{left: 28px; top: 64px;color: #f4d8b9;}
+/*instoduction*/
+#clfpsi{background-image: url("bg-start-1.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/stories_with_famous_people/dungchung/clfpt/img/bg-start.png*/; display: block;}
+#clfpitn{color: #CB452C; left: 28px; top: 111px; font-weight: bold;}
+#clfpiav{width: 200px; height: 165px; border: 2px solid #9BC525; left: 439px; top: 102px;}
+#clfpstart, #clfpnx, #clfprrd{width: 136px; height: 31px; cursor: pointer; background-repeat: no-repeat;}
+#clfpstart{left: 298px; top: 422px; background-image: url("start-8.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/stories_with_famous_people/dungchung/clfpt/img/start.png*/;}
+#clfpnx{left: 370px; top: 490px; background-image: url("next-8.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/stories_with_famous_people/dungchung/clfpt/img/next.png*/; display: none;}
+#clfpstart:hover, #clfpnx:hover, #clfprrd:hover{background-position: -136px 0px;}
+#clfpitq,#clfpismax,#clfpip,#clfpismin{font-weight: bold;top: 340px; font-size: 20px;}
+#clfpitq{left: 77px;}
+#clfpismax{left: 220px;}
+#clfpip{left: 390px;}
+#clfpismin{left: 597px;}
+#clfpwarning{margin-left: 18px; color: red;}
+/*task screen*/
+#clfpms{background-image: url("bg-game-1.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/stories_with_famous_people/dungchung/clfpt/img/bg-game.png*/;}
+#clfpat{width: 727px; height: 325px; top: 90px;}
+.clfpts{width: 727px; height: 325px;}
+.clfpttrq{top: 18px; width: 700px; text-align: center; padding: 0px 10px; font-size: 18px;}
+.clfptsl{width: 180px; height: 180px; overflow: hidden; border: 2px solid #f985a0; top: 80px; cursor: pointer;}
+.clfptsl > img{width: 180px; height: 180px;}
+.clfptslAca{border: 2px solid blue;}
+.clfptsll{left: 140px;}
+.clfptslr{left: 390px}
+.clfptwa{left: 260px; top: 284px;}
+.clfpta{}
+#clfptrs{left: 25px; top: 424px; font-size: 14px;}
+#clfptan{left: 43px; top: 453px; font-size: 14px;}
+#clfptol{left: 190px; top: 490px;}
+.clfpol{width: 150px; height: 32px; background-repeat: no-repeat; background-image: url("outline-7.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/stories_with_famous_people/dungchung/clfpt/img/outline.png*/; cursor: pointer;}
+.clfpol:hover{background-position: -150px 0px;}
+#clfpsm{width: 136px; height: 32px; left: 370px; top: 490px; background-image: url("submit-6.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/stories_with_famous_people/dungchung/clfpt/img/submit.png*/; cursor: pointer; background-repeat: no-repeat;}
+#clfpsm:hover{background-position: -136px 0px;}
+#clfpnx{}
+#clfpir{color: #579C11;}
+#clfpincr{color: red;}
+.clfpkw{color: #ED1966; text-decoration: underline;}
+.clfpts{visibility: hidden;}
+.clfpts:nth-child(1){visibility: visible;}
+/*result*/
+#clfprs{background-image: url("bg-end-1.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/stories_with_famous_people/dungchung/clfpt/img/bg-end.png*/;}
+#clfprtq,#clfprsmax,#clfprp,#clfprsmin,#clfprys,#clfprt{font-weight: bold;top: 277px; font-size: 20px;}
+#clfprtq{left: 81px;}
+#clfprsmax{left: 204px;}
+#clfprp{left: 313px;}
+#clfprsmin{left: 425px;}
+#clfprys{color: #FF0000; font-size: 25px; left: 527px; top: 277px;} 
+#clfprt{left: 612px; width: 80px; height: 21px; font-weight: normal; font-size: 15px;}
+#clfprol{left: 206px; top: 434px;}
+#clfprrd{left: 394px; top: 434px; background-image: url("img/redo.png");}
+#clfprrt{top: 351px;width: 722px;text-align: center;padding: 0px 5px;font-size: 14px;}
+/*outline*/
+#clfpsol{width: 739px; height: 564px;}
+#clfpato{background: #ef7f03; height: 40px; width: 693px; left: 22px; top: 40px; font-size: 14px; color: white;}
+#clfpocl{background: #d2edf7;}
+#clfpoll, #clfpor, #clfpos{top: 11px;}
+#clfpoll{left: 19px;}
+#clfpor{left: 505px;}
+#clfpos{left: 586px;}
+#clfpocl{width: 30px; height: 30px; border-radius: 5px; left: 656px; top: 5px; cursor: pointer; vertical-align: middle; text-align: center;}
+#clfpotb{height: 385px; width: 630px; left: 22px; top: 80px; background: white; overflow-y: hidden; padding: 10px 48px 10px 15px;}
+.clfpowrow{border-top: 1px solid #dddddd; margin-bottom: 5px; cursor: pointer;}
+.clfporow{font-size: 12px; height: 18px; margin-top: 4px; padding: 7px 10px 7px 10px;}
+.clfporowAct, .clfporow:hover{background: #d2edf8;}
+.clfpon,.clfpoq,.clfpors,.clfposc{float: left;}
+.clfpon{font-weight: bold; width: 26px;}
+.clfpoq{width: 455px;}
+.clfpors{width: 50px; text-align: center;}
+.clfposc{margin-left: 29px; width: 40px; text-align: center;}
+/* add new size font*/
+.clfpnq{font-size: 20px;}
+#clfpitn {font-size: 19px;}
+.clfptt {font-size: 18px;}

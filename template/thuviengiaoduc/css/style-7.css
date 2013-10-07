@@ -1,0 +1,207 @@
+.game_puzzle{
+	top: 0px;
+	left:0px;
+	position:relative;
+	width:719px;
+	height:550px;
+	overflow:hidden;
+}
+
+.game_puzzle img{
+	position: absolute;
+	top: 0px;
+	left: 0px; 
+	}
+.game_puzzle #item_cow_1{
+	top: 300px;
+	}
+.game_puzzle div{
+	position: absolute;
+	top: 0px;
+	left: 0px; 
+}
+.game_puzzle #wrap_drop_item{
+	left: 300px;
+	}
+.game_puzzle #item_bo_2{
+	top: 260px;
+	}
+.game_puzzle .icon_drag{
+	z-index: 1;
+	opacity: 1!important;
+	}
+.game_puzzle .frame_game{
+	width: 100%;
+	left: 100%;
+	top:0px;
+	left:735px;
+    display: none;
+	}
+
+.game_puzzle .icon_drag_canh_1{
+	
+	}
+.game_puzzle .rag_canh_1{
+	
+	}
+.game_puzzle .frame_wrap_resul{
+	width: 440px;
+	height: 329px;
+	border: 2px solid blue;
+	border-radius: 0px;
+	left: 275px;
+	display: none;
+}
+.game_puzzle #frame_wrap_resul_canh_1{
+	display: block;
+}
+.game_puzzle .image_result{
+	width: 440px;
+	height: 329px;
+	left: 0px;
+	z-index: 10;
+	cursor: pointer;
+	}
+/*---------------canh 2-----------------------*/
+.game_puzzle #item_canh_1_0{
+	left: 277px;
+	top: 2px;
+	}
+.game_puzzle #item_canh_1_1{
+	left: 357px;
+	top: 2px;
+	}
+ .game_puzzle #item_canh_1_2{
+	left: 377px;
+    top: 144px;
+	}
+ .game_puzzle #icon_canh_1_0{
+	top: 5px;
+	left: 5px;
+	}
+ .game_puzzle #icon_canh_1_1{
+	top: 377px;
+	left: 385px;
+	}
+ .game_puzzle #icon_canh_1_2{
+	top: 343px;
+	left: 25px;
+}
+/*---------------canh 2-----------------------*/
+.game_puzzle #item_canh_2_0{
+	left: 277px;
+    top: 2px;
+	}
+.game_puzzle #item_canh_2_1{
+	top: 2px;
+    left: 375px;
+	}
+
+ .game_puzzle #item_canh_2_2{
+	left: 376px;
+	top: 133px;
+ }
+
+.game_puzzle #icon_canh_2_0{
+	top: 2px;
+    left: 5px;
+	}
+.game_puzzle #icon_canh_2_1{
+	top: 357px;
+	left: 15px;
+	}
+.game_puzzle #icon_canh_2_2{
+	top: 345px;
+    left: 373px;
+	}
+ /*---------------canh 3-----------------------*/
+.game_puzzle #item_canh_3_0{
+	left: 277px;
+    top: 2px;
+	}
+.game_puzzle #item_canh_3_1{
+	top: 2px;
+    left: 375px;
+	}
+
+ .game_puzzle #item_canh_3_2{
+	left: 376px;
+	top: 133px;
+ }
+
+.game_puzzle #icon_canh_3_0{
+	top: 2px;
+    left: 5px;
+	}
+.game_puzzle #icon_canh_3_1{
+	top: 357px;
+	left: 15px;
+	}
+.game_puzzle #icon_canh_3_2{
+	top: 345px;
+    left: 373px;
+	}
+ /*---------------canh 4-----------------------*/
+.game_puzzle #item_canh_4_0{
+	left: 277px;
+    top: 2px;
+	}
+.game_puzzle #item_canh_4_1{
+	left: 399px;
+    top: 2px;
+	}
+
+ .game_puzzle #item_canh_4_2{
+	left: 376px;
+    top: 118px;
+ }
+
+.game_puzzle #icon_canh_4_0{
+	top: 2px;
+    left: 5px;
+	}
+.game_puzzle #icon_canh_4_1{
+	top: 357px;
+	left: 15px;
+	}
+.game_puzzle #icon_canh_4_2{
+	top: 345px;
+    left: 373px;
+	}
+ /*---------------canh 5-----------------------*/
+.game_puzzle #item_canh_5_0{
+	left: 277px;
+    top: 2px;
+	}
+.game_puzzle #item_canh_5_1{
+	left: 354px;
+    top: 2px;
+	}
+
+ .game_puzzle #item_canh_5_2{
+	left: 360px;
+    top: 105px;
+ }
+
+.game_puzzle #icon_canh_5_0{
+	top: 2px;
+    left: 5px;
+	}
+.game_puzzle #icon_canh_5_1{
+	top: 357px;
+	left: 15px;
+	}
+.game_puzzle #icon_canh_5_2{
+	top: 345px;
+    left: 373px;
+	}
+ /*==========================================*/
+.game_puzzle #next_btn{
+	display: none;
+	top: 67px;
+	left: 137px;
+	}
+.game_puzzle .item_drag{
+	width: 440px;
+	height: 206px;
+}

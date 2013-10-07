@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+a {text-decoration:none}
+input {font-family:Arial, Helvetica, sans-serif;}
+.base_box { position:relative; width:98%; background:#f4f4f4; min-height:100px; border-radius:4px; border:1px solid #dedede; float:left;}
+.base_box_shadow {width:80%; height:22px; margin:0 auto; background:url(bg_box_shadow.png)/*tpa=http://www.thuviengiaoduc.org/file/baihoc/listening/common/css/images/bg_box_shadow.png*/ no-repeat; clear:both;}
+.base_title {width:100%;  float:left; height:41px; line-height:41px; border-bottom:1px solid #dedede; background:url(iel_bg_title.jpg)/*tpa=http://www.thuviengiaoduc.org/file/baihoc/listening/common/css/images/iel_bg_title.jpg*/ repeat-x; font-size:14px; font-weight:bold; color:#64a56b;}
+.base_title_1 {width:97%; padding-left:10px; float:left; height:41px; line-height:41px; border-bottom:1px solid #dedede; font-weight:bold; }
+
+.base_title_content {padding-left:45px; background:url(iel_icon_title.png)/*tpa=http://www.thuviengiaoduc.org/file/baihoc/listening/common/css/images/iel_icon_title.png*/ 11px 12px no-repeat;}
+.iets_bottom {width:100%; height:45px; background:url(bg_bottom.jpg)/*tpa=http://www.thuviengiaoduc.org/file/baihoc/listening/common/css/images/bg_bottom.jpg*/ repeat-x; float:left; text-align:center;}
+.base_control {margin:0 auto;width:225px; margin-top:8px;}
+.base_nb{ float:right; width:32%; text-align:right;}
+.base_index {width:130px; margin-right:15px; float:left; text-align:center; font-size:17px; font-weight:bold; margin-top:3px; color:#767676;}
+.bt_index_text{ padding:5px 10px; border:1px solid #ccc; margin-right:10px}
+.base_control {margin:0 auto;width:225px; margin-top:8px;}
+.ietl_ctrl_pagi {width:57px; float:left; text-align:center; font-size:17px; font-weight:bold; margin-top:3px; color:#767676;}
+.bt_button {width:81px; height:29px;float:left;}
+.bt_prev {background:url(button_control.png)/*tpa=http://www.thuviengiaoduc.org/file/baihoc/listening/common/css/images/button_control.png*/ 0px -60px no-repeat; cursor:pointer}
+.bt_next {background:url(button_control.png)/*tpa=http://www.thuviengiaoduc.org/file/baihoc/listening/common/css/images/button_control.png*/ 0px -90px no-repeat;cursor:pointer}
+.bt_prev_dis {background:url(button_control.png)/*tpa=http://www.thuviengiaoduc.org/file/baihoc/listening/common/css/images/button_control.png*/ 0px -30px no-repeat;}
+.bt_next_dis {background:url(button_control.png)/*tpa=http://www.thuviengiaoduc.org/file/baihoc/listening/common/css/images/button_control.png*/ 0px 0px no-repeat;}
+.base_content {width:97%;display:none; margin:9px; float:left; background:#FFF6D5; border:1px solid #dedede; box-shadow: inset 0 0 5px #e0ddce;}
+.box_active{ display:block;}
+.base_content_title {float:left; margin:5px; font-size:14px; color:#fff;}
+.base_cnt_tit_l {width:9px; height:34px; float:left; background:url(bg_title_content.png)/*tpa=http://www.thuviengiaoduc.org/file/baihoc/listening/common/css/images/bg_title_content.png*/ 0px 0px no-repeat;}
+.base_cnt_tit_c {float:left; padding:0 15px 0 5px; background:url(bg_title_content.png)/*tpa=http://www.thuviengiaoduc.org/file/baihoc/listening/common/css/images/bg_title_content.png*/ 0px -34px repeat-x; height:34px; line-height:34px; }
+.base_cnt_tit_r {width:9px; height:34px; float:left; background:url(bg_title_content.png)/*tpa=http://www.thuviengiaoduc.org/file/baihoc/listening/common/css/images/bg_title_content.png*/ 0px -68px no-repeat;}
+.base_box_slide {width:100%; float:left; margin:10px; text-align:justify;}
+.base_note_b {width:850px; float:left;color:#0053b1; margin:10px 15px 0 ; font-style:italic}
+.iets_control_bt {width:80%; float:right; height:31px; margin:8px 0; margin-right:20px; display:block;}
+.base_bt_global {float:right; margin-left:10px; height:30px; line-height:30px; color:#fff; font-weight:bold; border-radius:4px; padding:0 15px; border:none; background:url(bt_submit.jpg)/*tpa=http://www.thuviengiaoduc.org/file/baihoc/listening/common/css/images/bt_submit.jpg*/ 0px 0px repeat-x; font-family:Arial, Helvetica, sans-serif; cursor:pointer;}
+.base_bt_global:hover {background:url(bt_submit.jpg)/*tpa=http://www.thuviengiaoduc.org/file/baihoc/listening/common/css/images/bt_submit.jpg*/ 0px -30px repeat-x;}
+
+/*Dang 1*/
+.base_box_content{width:95%; min-height:20px;float:left; padding:15px;}
+.base_s1_item {width:90%; margin-top:5px; min-height:20px; background:#fff; float:left; box-shadow:inset 0px 0px 5px #ededed; padding:15px; margin-bottom:10px;}
+.base_s1_i_stt {width:20px;float:left; color:#414141; font-size:14px; font-weight:bold;}
+.base_s1_i_content {float:left;width:830px;}
+.stt_blank{color:#7a5f46; border:none; border-bottom:1px dashed #e2e2e2;}
+.part_drag{ position:relative;}
+.stt_drag{ position:absolute;}
+
+/*Dang 2*/
+.base_s2_item {width:95%; float:left; min-height:100px; margin:15px;}
+.base_s2_bottom {width:95%; height:34px; background:url(s2_bottom.png)/*tpa=http://www.thuviengiaoduc.org/file/baihoc/listening/common/css/images/s2_bottom.png*/ no-repeat; float:left}
+.base_s2_top {width:95%; height:34px; background:url(s2_top.png)/*tpa=http://www.thuviengiaoduc.org/file/baihoc/listening/common/css/images/s2_top.png*/ no-repeat; float:left;}
+.base_s2_middle {width:93%; min-height:50px; background:url(s2_middle.png)/*tpa=http://www.thuviengiaoduc.org/file/baihoc/listening/common/css/images/s2_middle.png*/ repeat-y; float:left; padding:20px;}
+.base_area {width:93%; height:168px; background:url(bg_area_h24.jpg)/*tpa=http://www.thuviengiaoduc.org/file/baihoc/listening/common/css/images/bg_area_h24.jpg*/ top left; resize:none; border:none; line-height:24px; font-family:Arial, Helvetica, sans-serif; font-size:13px;}
+
+/*Dang 3*/
+.base_s3_item {width:100%; background:#fff; float:left; border:1px solid #dedede; border-radius:4px; margin-bottom:6px;}
+.base_s3_number {width:22px; height:23px;float:left; margin:10px 15px; background:url(s3_number.png)/*tpa=http://www.thuviengiaoduc.org/file/baihoc/listening/common/css/images/s3_number.png*/ no-repeat; line-height:22px; text-align:center; font-size:16px; font-weight:bold; color:#fff;}
+.base_s3_right {width:93%; float:left; margin:10px 0;}
+.base_s3_right_tit {width:100%; float:left; font-weight:bold; margin-bottom:7px;}
+.base_s3_right_input {width:800px; border:1px solid #d9d9d9; border-radius:3px; box-shadow:inset 2px 1px 2px #f0f0f0; padding:0 7px; height:22px; line-height:22px; color:#3456f0;}
+
+/*Dang 41*/
+
+.base_s4_left {width:580px; float:left;}
+.base_s4_right {width:270px; float:left; padding: 12px 15px;}
+.base_s4_left_item {width:100%; float:left; padding:8px 0; border-bottom:1px solid #d8d4c5;}
+.base_s4_text {width:247px; padding-left:28px; float: left; line-height:16px; background:url(s4_star.png)/*tpa=http://www.thuviengiaoduc.org/file/baihoc/listening/common/css/images/s4_star.png*/ 2px 0px no-repeat; margin-right:10px;}
+.base_s4_box_blank {float:left; height:33px; border:1px solid #dddddd; border-radius:2px; box-shadow:inset 0 0 4px #eaeaea; background:#fff;}
+.base_s4_box_blank_glow { border-radius:4px; border:1px solid #eeede6; padding:4px; box-shadow: inset 0 0 3px #f2f3e4; float:left; width:270px;}
+.base_s4_box_blank_short {width:254px;}
+.base_s4_box_move {float:left;  border:1px solid #8b937f; border-radius:2px; min-height:18px; background:url(bg_item_ui.jpg)/*tpa=http://www.thuviengiaoduc.org/file/baihoc/listening/common/css/images/bg_item_ui.jpg*/ bottom repeat-x #f3fee4; padding:9px 15px 6px 15px; cursor:pointer; margin-bottom:5px; line-height:14px; text-align:justify;}
+.base_s4_box_move_short {width:224px;}
+
+/*Dang 42*/
+.base_s4_left2 {width:330px; float:left;}
+.base_s4_right2 {width:290px; float:left; padding: 12px 0px 0px 25px;}
+.base_s4_text2 {width:300px; padding-left:28px; float: left; line-height:16px; background:url(s4_star.png)/*tpa=http://www.thuviengiaoduc.org/file/baihoc/listening/common/css/images/s4_star.png*/ 2px 0px no-repeat; margin-bottom:8px;}
+.base_s4_box_blank_long {width:268px;}
+.base_s4_box_move_long {width:238px;}
+.base_s4_tf{width:18px; height:18px;  float:left; margin-top:12px;}
+/*Dang 5*/
+
+.base_s5_item {width:100%; background:url(bg_s5.jpg)/*tpa=http://www.thuviengiaoduc.org/file/baihoc/listening/common/css/images/bg_s5.jpg*/ bottom repeat-x; margin:10px; padding-bottom:15px; float:left}
+.base_s5_number {width:35px; font-weight:bold; color:#ef4900; float:left;}
+.base_s5_right {float:left; width:815px;}
+.base_s5_right_item {width:100%; text-align:justify; float:left;height:35px;}
+.base_s5_box_move {float:left;  border:1px solid #8b937f; border-radius:2px; min-height:18px; background:url(bg_item_ui.jpg)/*tpa=http://www.thuviengiaoduc.org/file/baihoc/listening/common/css/images/bg_item_ui.jpg*/ bottom repeat-x #f3fee4; padding:9px 15px 6px 15px; cursor:pointer;line-height:14px; text-align:justify; width:530px;}
+.base_s5_check {width:18px; height:18px; border-radius:18px; margin-top:8px; float:left; line-height:18px;text-align:center; color:#fff; font-size:14px; font-weight:bold;}
+.base_s5_check.base_s5_true { background:#2db336;}
+.base_s5_check.base_s5_false { background:red;}
+.stt_page_type{ display:none}
+.stt_tbao{width:200px; border:1px solid #d1d1d1;-moz-border-radius:5px; -webkit-border-radius:5px ; border-radius:5px ;position:relative; background:#fff; bottom:83px; z-index:210; box-shadow:5px 5px 5px #e8e8e8;display:none; text-align:justify; padding:15px 10px; float:left; margin-left:-225px;}  
+.stt_tf{ float:left; width:15px;}
+.base_stt_tf{ float:left; width:30px;}
+.ielts_sort_drag{ position:absolute; z-index:10}
+.ielts_sort_drop{position:absolute; z-index:1;border-radius: 3px 3px 3px 3px; box-shadow: 1px 1px 3px #C5C5C5 inset;float:left; height: 33px;width: 560px; }
+.base_sequence{float:left; width:100%; position:relative; }
+.base_sequence_index{float: left;text-align: center; width: 45px;}
+.base_sequence_index_item{color: #8C8B8B;float: right;font-size: 16px; height: 46px;margin-top: 5px;text-align: center; width: 30px;}
+.iets_sequence_content{ width:565px; float:left; position:relative;text-align:left; padding:0px; margin:0px;}
+.base_title_ques{ width:100%; margin-bottom:10px; float:left; }
+.stt_col_4{ width:25%; float:left;}
+.stt_col_2{ width:50%; float:left; margin-bottom:10px;}
+.stt_col_3{ width:33%; float:left;}
+.stt_col_1{ width:100%; float:left; margin-bottom:10px;}
+lable{ margin-left:10px;}
+.iets_hidden,.base_hidden{clear:both; width:92%; display:none; font-style:italic; color:#0694f8; margin:10px 0px;}
+.base_clear{ height:10px; clear:both; width:100%;}
+.drag-hover {border: 1px solid #F93;}
+.base_seq_left{float: left;text-align: center;width: 45px;}
+.base_sequence_content{ float:left; position:relative; width:600px;}
+.base_error{ border: 1px solid #F33; padding:10px 15px;}
+.base_sequence{width:93%; min-height:20px; background:#fff; float:left; box-shadow:inset 0px 0px 5px #ededed; padding:15px; margin-bottom:10px;}
+.tf_checkbox,.tf_sequence{ float:left; width:95%; margin:15px; font-style:italic;}
+.selectedText { background:yellow;}
+.stt_text_row{ width:90%; margin:10px; font-style:italic; color:blue}
+.stt_text{ font-style:italic; color:blue; margin-left:8px; margin-right:8px;}
+.base_index_sort{ visibility:hidden}
+.base_drag_index{ width:8px; float:right; font-weight:bold; font-size:15px; color:blue; margin-top:10px; visibility:hidden}
+.base_show_ans{ display:none;}
+.stt_mark{ font-style:italic; color:#005782;}
+.base_control_text{ float:left; width:100%; margin-top:15px; padding-bottom:10px;}
+.base_check{ cursor:pointer;background-image: url(60%_12.jpg)/*tpa=http://www.thuviengiaoduc.org/file/baihoc/listening/common/css/images/60%25_12.jpg*/;float: left;height: 32px;width: 110px; padding-bottom:10px; border:none; margin-left:15px;}
+.base_box .jquery_jplayer_long{ margin:0px 24px;}
+.base_text {
+    background: url(bg_area_h24.jpg)/*tpa=http://www.thuviengiaoduc.org/file/baihoc/listening/common/css/images/bg_area_h24.jpg*/ repeat scroll left top transparent;
+    border: 1px solid #AEAEAE;
+    font-size: 13px;
+    height: 168px;
+    line-height: 28px;
+    margin: 5px 22px 10px 22px;
+    padding-left: 10px;
+    resize: vertical;
+    width: 92%;
+	font-size:18px;
+	float:left;
+	
+}
+
+	.re_base_text,.base_result{color:#ff6d00; font-weight:bold; font-style:italic; float:left; width:90%; margin:10px 20px 0px 20px}
+	.sh_base_text{ margin:10px 20px; font-style:italic; color:blue; display:none; width:90%; float:left;}
+	.bt_showAns{ font-weight:normal; color:#06C; text-decoration:underline; cursor:pointer;}
+.tbao_base_text,.save_base_text{width:200px; float:left; border:1px solid #d1d1d1;-moz-border-radius:5px; -webkit-border-radius:5px ; border-radius:5px ;position:absolute; background:#fff; bottom:83px; z-index:210; box-shadow:5px 5px 5px #e8e8e8;display:none; text-align:left; padding:5px 10px; float:left;left:15px; bottom:65px;}  
+.base_bottom_text{width:100%; height:45px; background:url(bg_bottom.jpg)/*tpa=http://www.thuviengiaoduc.org/file/baihoc/listening/common/css/images/bg_bottom.jpg*/ repeat-x; float:left; text-align:center;}
+.base_nb{ float:right; text-align:right;}
+.base_index_text{width:130px; margin-right:15px; float:left; text-align:center; font-size:17px; font-weight:bold; margin-top:3px; color:#767676;}
+.bt_index_text{  border:1px solid #ccc; margin-right:10px; width:15px; text-align:center;}
+.bt_button_text{width:28px; height:28px;float:left; border:none;}
+.bt_prev_text{background:url(images/bg_button_back.jpg) no-repeat; cursor:pointer}
+.bt_next_text{background:url(images/bg_button_next.jpg);cursor:pointer}
+.bt_prev_dis_text{background:url(images/bg_button_back_dis.jpg)no-repeat;}
+.bt_next_dis_text{background:url(images/bg_button_next_dis.jpg)no-repeat;}  
+.base_close{ float:right; cursor:pointer; margin-left:20px; background:url(images/close.jpg) no-repeat; height:11px; width:11px; margin-top:10px; }
+/*Popup*/
+.lis_pop {
+    background: url("../images/bg_opacity.png") repeat scroll 0 0 transparent;
+    float: left;
+    height:410px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 300;
+}.lis_pop_layout {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 2px 2px 3px #333333;
+    color: #474646;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 28px;
+    margin: 56px auto 0;
+
+    padding: 70px 30px;
+    text-align: center;
+    width: 87%;
+}
+.lis_pop_layout a{color:#ef7f03;}
+.qz_pop_bt{background:url(images/bg_button_dangky.jpg) repeat-x; border-radius:4px; color:#fff; padding:0 30px; line-height:45px; height:45px; display:inline-block; width:200px;}
+.qz_close{ background:url(images/bg_button.png) no-repeat;   color: #FFFFFF;
+    height: 32px;
+    text-align: center;
+    width: 110px;
+    border: none;
+    line-height: 32px;
+    font-weight: bold;
+	cursor:pointer;
+    font-size: 15px;
+	}
+	.paragraph{ font-size:16px; }
+.ui-state-disabled{ opacity:1;}
+.iets_box_error, .paragraph{ font-size:15px; padding:5px 15px; float:left; width:90%;}
+.base_sequence_index_sort{ float:right;}
+.vcab_viptit {width:100%; float:left; height:28px; background:url(images/vcab_title.jpg) top left no-repeat; margin-bottom:15px;}
+.details{ width:720px; margin:0 auto;}
+.qzbg_part , .qz_part{ margin-left:-10px;}
+.details{ font-size:11pt !important; text-align:justify}
+.details table td, .details table th{ font-size:11pt !important}

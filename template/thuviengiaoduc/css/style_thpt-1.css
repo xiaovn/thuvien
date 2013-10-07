@@ -1,0 +1,47 @@
+
+	.ss{ width:400px;text-align:center; padding:20px;border:1px solid #DDDDDD; box-shadow:1px 1px 4px #aeaeae; margin:0 auto}
+	.question{ display:block; padding-left:25px;}
+	#result{ display:none}
+	
+	.div_page{margin:10px; display:none; text-align:justify; position:relative; width:700px; margin:10px 20px; padding:0px;}	
+	.hidd{ width:15px; visibility:hidden;}
+	.correct{ width:15px; visibility:hidden;}
+	#close{ margin-left:0px; color:red;}
+	#result_end{ display:none;}
+	.segment{ margin-top:15px;}
+	.input_text{width: 100px;margin-left:10px; margin-right:10px; color:red;  background:url(blank2-2.png)/*tpa=http://www.thuviengiaoduc.org/file/dungchung/blank2.png*/ repeat-x bottom; padding-bottom:8px; border:none; text-align:left}
+	.cau{ width:700px;}
+	.text_input .title_ques{ float:left; width:150px;}
+	.text_input .text_text{ float:left;margin-left:10px;}
+	span{ margin-left:15px;} 
+	.blank input{ width:400px;}
+	.gt{ text-align:center; width:710px; margin:0 auto; padding:20px; margin-top:100px; border:1px solid #DDDDDD; box-shadow:1px 1px 4px #aeaeae;}
+	.show_result{ margin-left:-5px; margin-top:-28px;}
+	.giai_thich{ color:#0000D2; padding:30px;}
+	.start{cursor:pointer; background:url(start.png)/*tpa=http://www.thuviengiaoduc.org/file/dungchung/button_img/start.png*/ no-repeat; height:49px; width:122px; margin-bottom:20px; border:none; color:#FFFFFF; font-weight:bold; line-height:49px; text-align:center; font-size:18px; padding-right:35px;}
+	.clock{ display:none;}
+	#container {
+    background: url(bg_clock_toeic.png)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-toeic/bai6/bg_clock_toeic.png*/ no-repeat scroll 0 0 transparent;
+    color: #454545;
+    font-size: 35px;
+    font-weight: bold;
+    height: 39px;
+    margin-bottom: 30px;
+    margin-left: 210px;
+    margin-top: 70px;
+    padding-left: 25px;
+    padding-top: 14px;
+    width: 199px; 
+}
+#cmd{
+     background: url(bg_submit-1.png)/*tpa=http://www.thuviengiaoduc.org/file/dungchung/button_img/bg_submit.png*/ no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    height: 44px;
+    width: 139px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 21px;
+    padding-right: 44px;
+    line-height: 44px;
+	cursor:pointer;
+}

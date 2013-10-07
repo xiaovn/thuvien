@@ -1,0 +1,54 @@
+.s{height:450px;}
+.ss{ position:absolute; z-index:999; width:400px;bottom:282px;  left:80px; padding:20px;border:1px solid #DDDDDD; box-shadow:1px solid #aeaeae; text-align:center;}
+
+	.question{ display:block; padding-left:25px;}
+	#result{ display:none}	
+	.div_page{margin:10px; display:none; text-align:justify; position:relative; width:670px; margin-left:60px; padding:0px; }
+	
+	.hidd{ width:15px; visibility:hidden;}
+	.correct{ width:15px; visibility:hidden;}
+	#close{ margin-left:0px; color:red;}
+	#result_end{ display:none;}
+	.segment{ margin-top:15px;}
+	.input_text{width: 100px;margin-left:10px; margin-right:10px;background:url(blank2-1.png)/*tpa=http://www.thuviengiaoduc.org/file/phothong/common/blank2.png*/ repeat-x bottom; padding-bottom:8px; border:none; text-align:left}
+	
+	.text_input .title_ques{ float:left; width:150px;}
+	.text_input .text_text{ float:left;margin-left:10px;}	
+	.blank input{ width:400px;}
+	.gt{ text-align:center; width:598px; margin:0 auto; padding:20px; margin:50px 60px; border:1px dotted #cccccc;}
+	.show_result{ margin-left:-5px; margin-top:-28px;}
+	.col1{ float:left; width:98%;}
+	.col2{ float:left; width:45%;}
+	.col3{ float:left; width:32%;}
+	.col4{ float:left; width:24%;}
+	.giai_thich{ display:none; clear:both; color:#003399}
+	.clr{ clear:both}
+	.start{ cursor:pointer; background:url(start.png)/*tpa=http://www.thuviengiaoduc.org/file/dungchung/button_img/start.png*/ no-repeat; height:49px; width:122px; margin-bottom:20px; border:none; color:#FFFFFF; font-weight:bold; line-height:49px; text-align:center; font-size:18px; padding-right:35px;}
+	.clock{ display:none;}
+	#container {
+    background: url(bg_clock_toeic.png)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-toeic/bai6/bg_clock_toeic.png*/ no-repeat scroll 0 0 transparent;
+    color: #454545;
+    font-size: 35px;
+    font-weight: bold;
+    height: 39px;
+    margin-left: 210px;
+    margin-top: 85px;
+    padding-left: 25px;
+    padding-top: 14px;
+    width: 199px;
+}
+.cau{ margin-top:30px;}
+#cmd{
+    background: url(bg_submit-1.png)/*tpa=http://www.thuviengiaoduc.org/file/dungchung/button_img/bg_submit.png*/ no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    height: 44px;
+    width: 139px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 21px;
+    padding-right: 44px;
+    line-height: 44px;
+	cursor:pointer;
+	padding-bottom:7px;
+}
+	

@@ -1,0 +1,55 @@
+/*
+	Featured Content Slider
+	by: Chris Coyier
+*/
+*											{ margin: 0; padding: 0; }
+body 										{ font-family: Arial, Helvetica, sans-serif; font-size: 10px; }
+
+					  				  
+/*
+	UTILITY STYLES
+*/				  				  
+					  				  
+.floatLeft 									{ float: left; margin-right: 10px;}
+.floatRight									{ float: right; }
+.clear 										{ clear: both; }
+a											{ outline: none; }
+
+
+/*
+	PAGE STRUCTURE
+*/
+#page-wrap 									{ width: 722px; margin: 25px auto; position: relative; min-height: 283px;}
+
+
+/*
+	TYPOGRAPHY
+*/
+									  		  font-family: Georgia, serif; font-style: italic; margin-top: 10px;}
+
+/*
+	SLIDER
+*/
+.slider-wrap								{ width:722px; height:283px; position: absolute; top: 87px; left: 40px; }			
+.stripViewer .panelContainer 
+.panel ul									{ text-align: left; margin: 0 15px 0 30px; }
+.stripViewer								{ position: relative; overflow: hidden; width: 722px; height: 220px; }
+.stripViewer .panelContainer				{ position: relative; left: 0; top: 0; }
+.stripViewer .panelContainer .panel			{ float: left; height: 100%; position: relative; width: 722px; }
+.stripNavL, .stripNavR, .stripNav			{ display: none; }
+.nav-thumb 									{ margin-right: 5px; }
+#movers-row									{  float: left; margin-left:-17px; margin-top:-1px; }
+#movers-row div								{ }
+#movers-row a.cross-link				{ float:left; margin-left:15px; }
+.photo-meta-data							{ background: url(transpBlack.png)/*tpa=http://www.thuviengiaoduc.org/file/khaigiang/css/images/transpBlack.png*/; padding: 10px; height: 30px;
+											  margin-top: -50px; position: relative; z-index: 9999; color: white; }
+.photo-meta-data span 						{ font-size: 13px; }
+.cross-link									{ display: block; width: 130px; margin-top: -14px; 
+											  position: relative; padding-top: 15px; }
+
+
+
+
+
+
+

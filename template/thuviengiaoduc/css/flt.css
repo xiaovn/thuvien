@@ -1,0 +1,85 @@
+/*audio*/
+#clf div.jp-audio div.jp-interface {background-image: url("nen-7.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/flt/img/nen.png*/; height: 49px;}
+#clf div.jp-audio {width: 220px;}
+#clf div.jp-audio div.jp-interface > *{margin-top: 10px;}
+#clf div.jp-audio a.jp-play {background: url("play1-4.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/flt/img/play1.png*/no-repeat;}
+#clf div.jp-audio a.jp-pause {background: url("pause1-4.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/flt/img/pause1.png*/no-repeat; display: none;}
+#clf div.jp-audio .jp-border {background-image: url("ngan-4.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/flt/img/ngan.png*/;}
+#clf div.jp-audio .jp-progress-slide {background: url("sk1-4.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/flt/img/sk1.png*/ no-repeat;}
+#clf div.jp-audio div.ui-slider-range {background: url("sk2-4.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/flt/img/sk2.png*/ no-repeat;}
+#clf div.jp-audio .ui-state-default {background: url("point-4.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/flt/img/point.png*/ no-repeat;}
+#clf div.jp-audio .ui-state-default:active{background: url("point2-3.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/flt/img/point2.png*/ no-repeat;}
+#clf div.jp-audio div.jp-time-holder {top: 12px;}
+#clf div.jp-audio .jp-border {top: 1px;}
+#clf div.jp-audio div.jp-interface ul.jp-controls a {margin-top: 9px;margin-left: 4px;}
+/*public*/
+#clf .ab{position:absolute;top:0px;left:0px;}
+.clfschd{display: none; width: 727px; height: 567px;position:absolute;top:0px;left:0px; background-size: 100% 100%;}
+#clf{position: relative; display: block; font-family: Arial;}
+#clf .clfnq{color: #C6620A; left: 28px; top: 23px;}
+#clf .fltt,#clf #clfrtt{left: 20px;top: 64px;color: #fefdfd;font-size: 14px;}
+/*instoduction*/
+#clf #clfsi{background-image: url("bg-start-2.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/flt/img/bg-start.png*/; display: block;}
+#clf .clfitn{color: #969896;left: 20px;top: 97px;font-style: italic; font-size: 14px;}
+#clf #clfiav{width: 341px; height: 245px; left: 190px; top: 153px;}
+#clf #clfstart, #clfnx, #clfrrd{width: 136px; height: 31px; cursor: pointer; background-repeat: no-repeat;}
+#clf #clfstart{left: 295px; top: 420px; background-image: url("start-10.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/flt/img/start.png*/;}
+#clf #clfnx{left: 370px; top: 490px; background-image: url("next-10.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/flt/img/next.png*/; display: none;}
+#clf #clfstart:hover, #clfnx:hover, #clfrrd:hover{background-position: -136px 0px;}
+#clf #clfitq,#clfismax,#clfip,#clfismin{font-weight: bold;top: 247px; font-size: 20px;}
+#clf #clfitq{left: 77px;}
+#clf #clfismax{left: 220px;}
+#clf #clfip{left: 390px;}
+#clf #clfismin{left: 597px;}
+#clf #clfwarning{margin-left: 18px; color: red;}
+/*task screen*/
+#clf #clfms{background-image: url("bg-game-2.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/flt/img/bg-game.png*/;}
+#clf #clfat{width: 727px; height: 325px; top: 90px;}
+#clf .flts{width: 727px; height: 325px;visibility: hidden;}
+#clf .flttrq{top: 18px; width: 700px; text-align: center; padding: 0px 10px; font-size: 18px;}
+#clf .fltsl{overflow: hidden; left: 452px; top: 33px; cursor: pointer;}
+#clf .fltsl > img{width: 223px; height: 193px;}
+#clf .fltslAca{border: 2px solid blue;}
+#clf .fltslr{left: 390px}
+#clf .fltwa{left: 461px; top: 230px;}
+#clf .flta{}
+#clf #fltrs{left: 25px; top: 424px; font-size: 14px;}
+#clf #fltan{left: 43px; top: 453px; font-size: 14px;}
+#clf #clfbb{display: none; width: 136px; height: 32px; background-repeat: no-repeat; background-image: url("back-7.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/flt/img/back.png*/; cursor: pointer;left: 190px; top: 490px;}
+#clf #clfbb:hover{background-position: -136px 0px;}
+#clf #clfnb{width: 136px; height: 32px; left: 370px; top: 490px; background-image: url("next-10.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/flt/img/next.png*/; cursor: pointer; background-repeat: no-repeat;}
+#clf #clfnb:hover{background-position: -136px 0px;}
+#clf #clfnsmb{display: none; width: 136px; height: 32px; left: 370px; top: 490px; background-image: url("result-7.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/flt/img/result.png*/; cursor: pointer; background-repeat: no-repeat;}
+#clf #clfnsmb:hover{background-position: -136px 0px;}
+#clf #clfrdb{width: 136px; height: 32px; left: 570px; top: 490px; background-image: url("redo-5.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/flt/img/redo.png*/; cursor: pointer; background-repeat: no-repeat;}
+#clf #clfrdb:hover{background-position: -136px 0px;}
+#clf #clfrdb{}
+#clf #clfnx{}
+#clf #clfir{color: #579C11;}
+#clf #clfincr{color: red;}
+#clf .clfkw{color: #ED1966; text-decoration: underline;}
+#clf .flts:nth-child(1){visibility: visible;}
+#clf .fltaw{top: 56px;left: 17px;width: 420px;}
+#clf .area_word{margin-top: 10px; position: relative;}
+#clf .area_answer_word{position: relative;}
+#clf .area_word, .area_answer_word, .ltlrh {text-align: center;}
+#clf .an_btn, .que_btn, .hbtn,.hbtnspace{display: inline-block;margin: 0px 1px 5px 1px;width: 40px;height: 40px;background-size: 100% 100%;position: relative;color: #500F05;font-family: Arial;}
+#clf .que_btn{background-image: url("img/bg_q.png") ;}
+#clf .an_btn,.lelrh{background-image: url("img/bg_answer.png");}
+#clf .lelrw,.lelrh{width: 40px;height: 40px;line-height: 40px;font-size: 30px;position: absolute;top: 0px;left: 0px;text-transform: uppercase;font-weight: bold;cursor: pointer;background-size: 100% 100%;}
+#clf .lelrh{display: none;}
+#clf #clfcor{left: 6px;top: 416px; display: none;}
+#clf #clfincor{left: 43px; top: 423px; display: none;}
+/*result*/
+#clf #clfrs{background-image: url("img/bg-end.png");}
+#clf #clfrtq,#clfrsmax,#clfrp,#clfrsmin,#clfrys,#clfrt{font-weight: bold;top: 277px; font-size: 20px;}
+#clf #clfrtq{left: 134px;}
+#clf #clfrsmax{left: 257px;}
+#clf #clfrp{left: 355px;}
+#clf #clfrsmin{left: 467px;}
+#clf #clfrys{color: #FF0000; font-size: 25px; left: 583px; top: 277px;} 
+#clf #clfrt{left: 612px; width: 80px; height: 21px; font-weight: normal; font-size: 15px;}
+#clf #clfrol{left: 322px;top: 280px;font-size: 38px;font-weight: bold;color: red;}
+#clf #clfrrd{left: 284px; top: 348px; background-image: url("img/do_again.png");}
+#clf #clfrrt{top: 351px;width: 722px;text-align: center;padding: 0px 5px;font-size: 14px;}
+

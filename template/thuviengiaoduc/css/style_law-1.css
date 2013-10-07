@@ -1,0 +1,463 @@
+/**** RESET ****/
+    html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, em, font, img,  strong, ol, ul, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+}
+a {
+	text-decoration:none;
+}
+img {
+	border: none;
+}
+.clear {
+	clear: both;
+}
+body {
+	font-family:  arial, helvetica, sans-serif;
+	font-size: 12px;
+}
+button {
+	cursor: pointer;
+	width: 80px;
+}
+input {
+	border: none;
+}
+/*** WRAPER ***/
+#q_wrapper_law {
+	width: 688px;
+	margin: 0px auto;
+	background-color: white;
+	overflow: hidden;
+	padding: 15px 10px;
+}
+#q_main_box_law {
+	text-align: center;
+	width: 100%;
+	height: auto;
+	border: 5px solid #d6d6d6;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	overflow: hidden;
+	float: left;
+}
+.q_header_law {
+	text-align: center;
+	color: white;
+	font-family:"Times New Roman", Times, serif;
+	width: 100%;
+	float: left;
+	height: 49px;
+	background: url("q_head_bg-1.jpg")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/learn_through_movies/dungchung/vocargame/imgs/q_head_bg.jpg*/ repeat-x top left;
+	-webkit-border-top-left-radius: 2px;
+	-webkit-border-top-right-radius: 2px;
+	-moz-border-radius-topleft: 2px;
+	-moz-border-radius-topright: 2px;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+}
+.q_header_law h3 {
+	margin-top: 5px;
+	font-size: 26px;
+}
+.q_content_law {
+	color: #313131;
+	margin-top: 2px;
+	border-top: 1px silver solid;
+	width: 100%;
+	float: left;
+	text-align: center;
+	background: url("q_song-1.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/learn_through_movies/dungchung/vocargame/imgs/q_song.png*/ repeat-x top left;
+	padding-top: 15px;
+}
+.q_con_title_law {
+	width: 720px;
+	margin-left: 10px;
+	margin-bottom:15px;
+	background: url("q_pencel-1.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/learn_through_movies/dungchung/vocargame/imgs/q_pencel.png*/ no-repeat left center;
+	float: left;
+	text-align: left !important;
+}
+.q_main_content_law {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+.q_lesson_law {
+	float: left;
+	border-bottom: 1px solid #e5e5e5;
+	color: #b92300;
+	margin-left: 26px;
+	padding-bottom: 1px;
+	width: 648px;
+}
+.q_bold_law {
+	font-weight: bold;
+}
+.q_main_content_law p.q_space_law {
+	margin-top: 6px;
+	margin-bottom: 32px;
+}
+.q_footer_law {
+	bottom: 0px;
+	width: 100%;
+	float: left;
+	height: 48px;
+	background: url("q_bg_foot-1.jpg")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/learn_through_movies/dungchung/vocargame/imgs/q_bg_foot.jpg*/ repeat-x center center;
+	text-align: center;
+}
+.q_back_top_law {
+	width: 83px;
+	height: 30px;
+	background: url("q_back_top-1.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/learn_through_movies/dungchung/vocargame/imgs/q_back_top.png*/ no-repeat center center;
+	border: none;
+	margin-top: 10px;
+	float: left;
+}
+.q_back_law {
+	margin: 10px 10px;
+	width: 83px;
+	height: 30px;
+	background: url("q_back-1.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/learn_through_movies/dungchung/vocargame/imgs/q_back.png*/ no-repeat center center;
+	border: none;
+	float: left;
+}
+.q_next_law {
+	width: 83px;
+	height: 30px;
+	background: url("q_next-1.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/learn_through_movies/dungchung/vocargame/imgs/q_next.png*/ no-repeat center center;
+	border: none;
+	margin: 10px 10px;
+	float: left;
+}
+.q_next_end_law {
+	width: 83px;
+	height: 30px;
+	background: url("q_next_end-1.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/learn_through_movies/dungchung/vocargame/imgs/q_next_end.png*/ no-repeat center center;
+	border: none;
+	margin-top: 10px;
+	float: left;
+}
+.q_foot_center_law {
+	font-weight: bold;
+	width: 60%;
+	margin: 0px auto;
+	color: #313131;
+}
+#sp_num_law {
+	float: left;
+	font-size: 16px;
+	margin-top: 15px;
+	width: 65px;
+	height: 25px;
+}
+.q_num_now_law {
+	color: #b92300;
+}
+.f_left_law {
+	margin-left: 235px;
+}
+/*  button */
+.main_but_law {
+	position: relative;
+}
+.sub_but_law {
+	position: relative;
+	margin-left: -92px !important;
+}
+.box_but_1_law {
+	float: left;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.box_but_2_law {
+	float: left;
+}
+.box_q_button_law {
+	overflow: hidden;
+	width: 575px;
+	min-height: 70px;
+	margin: 0px auto;
+	text-align: center;
+	font-size: 13px;
+}
+.box_q_alert_law {
+	position: relative;
+	width: 249px;
+	height: 102px;
+	margin: 0px auto;
+}
+.box_q_alert_law {
+	position: relative;
+	width: 249px;
+	height: 102px;
+	margin: 0px auto;
+	margin-bottom:10px;
+	display:none;
+}
+.button_law {
+	min-height: 14px;
+	font-weight: bold !important;
+	display: inline-block;
+	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+*display: inline;
+	vertical-align: baseline;
+	margin: 5px 2px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 1.5em .55em;
+	-webkit-border-radius: .2em;
+	-moz-border-radius: .2em;
+	border-radius: .2em;
+	width: 42px;
+	color: #606060;
+	border: solid 1px #b7b7b7;
+	background: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+	background: -moz-linear-gradient(top, #fff, #ededed);
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
+}
+.white_law:hover {
+	text-decoration: none;
+	background: #ededed;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc));
+	background: -moz-linear-gradient(top, #fff, #dcdcdc);
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc');
+}
+.button_law:active {
+	position: relative;
+	top: 1px;
+}
+/* white */  
+    .white_law {
+	color: #c2c2c2;
+	background: url("math_white_bg-1.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/learn_through_movies/dungchung/vocargame/imgs/math_white_bg.png*/ repeat-x top left;
+}
+/* blue */
+   .blue_law {
+	color: white;
+	background: url("math_blue_bg.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/learn_through_movies/dungchung/vocargame/imgs/math_blue_bg.png*/ repeat-x top left;
+}
+/* orange */
+   .orange_law {
+	color: white;
+	background: url("math_red_bg.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/learn_through_movies/dungchung/vocargame/imgs/math_red_bg.png*/ repeat-x top left;
+}
+.gray_law {
+	color: white;
+	background: url("math_sil_bg.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/learn_through_movies/dungchung/vocargame/imgs/math_sil_bg.png*/ repeat-x top left;
+}
+/********************** Drag drop ************************/    
+    .dr_txt_law {
+	width: 50%;
+	float: left;
+	border: 0px solid silver;
+	text-align: right;
+	height: 225px;
+}
+.dr_txt_law p {
+	background: url("dr_o_red-1.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/learn_through_movies/dungchung/vocargame/imgs/dr_o_red.png*/ no-repeat right center;
+	padding-right: 30px;
+	float: left;
+	width: 90%;
+	font-size: 24pt;
+	color: #0090c5;
+	font-family: arial !important;
+}
+.dr_imgs_law {
+	width: 50%;
+	float: left;
+	height: 225px;
+}
+.q_preview_law {
+	background:url(pre_but-1.jpg)/*tpa=http://www.thuviengiaoduc.org/file/learn/child/learn_through_movies/dungchung/vocargame/imgs/pre_but.jpg*/ no-repeat;
+	width:112px;
+	height:39px;
+	margin:0 auto;
+	margin-bottom:10px;
+	margin-top:10px;
+	cursor:pointer;
+}
+/********************** Pronunciation ************************/
+    .pronun_box_law {
+	border: 1px solid #d6d6d6;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	width: 270px;
+	margin: 0px auto;
+	padding: 5px 5px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.pro_sub_box_law {
+	border: 1px solid #f4f4f4;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	padding: 20px 20px;
+}
+.pronun_input_law {
+	color: #F96B00;
+	font-weight: bold;
+	font-size: 24pt;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 28px;
+	position: absolute;
+	width: 100%;
+	display: none;
+	height: 100%;
+}
+input.pro_put_law {
+	background: url("pronun_ov.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/learn_through_movies/dungchung/vocargame/imgs/pronun_ov.png*/ no-repeat center center;
+	width: 28px;
+	height: 32px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 24pt;
+	color: #4b4b4b;
+	padding-bottom: 5px;
+	overflow: hidden;
+	font-family:"Times New Roman", Times, serif;
+	font-size:28px;
+}
+/********************** Q4 ************************/
+   .q4_text_box_law {
+	width: 100%;
+	color: #6d0500;
+	text-align: justify;
+	font-size: 15px;
+	margin-bottom: 40px;
+}
+.q4_input_law {
+	margin-bottom: 180px;
+	color: #181818;
+	font-weight: bold;
+	font-size: 20pt;
+}
+.q4_input_box_law {
+	color: #008655;
+	font-weight: bold;
+	font-size: 20pt;
+	border: 1px solid #d6d6d6;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	text-align: center;
+	-moz-box-shadow: -5px -5px 5px #f4f4f4;
+	-webkit-box-shadow: -5px -5px 5px #f4f4f4;
+}
+/********************** Q5 ************************/ 
+    .box_q5_button_law {
+	width: 90%;
+	overflow: hidden;
+	margin: 10px auto;
+}
+.free_space_law {
+	margin-bottom: 0px;
+}
+.q5_choice_law {
+	width: 80%;
+	margin: 0px auto;
+	line-height: 40px;
+}
+.q5_choice_law p {
+	width: 50%;
+	float: left;
+}
+.q5_choice_law span {
+	color: #287800;
+	font-size: 16pt;
+	font-weight: bold;
+}
+.q5_choice_law input {
+	cursor: pointer;
+}
+/*soan*/      
+   
+   .input_box_law {
+	width:10px;
+	padding-bottom:5px;
+	border-bottom:1px solid #aeaeae
+}
+.dang3_box_q_button_law {
+	display:none
+}
+.dang3_active_law {
+	display:block
+}
+.q_submit_start_law {
+	width:190px;
+	height:68px;
+	background:url(../imgs/q_button.png) no-repeat;
+	margin:auto;
+	cursor:pointer;
+	margin-top:10px;
+}
+/*end dang 2 : sentence reorganizing*/
+    .q_main_start_law {
+	margin-top:10px;
+	margin-bottom:15px;
+    height: 304px;
+}
+
+/*----------tiennv-------------------*/
+.wrap_play_audio_law{
+	position: relative;
+	height: 60px;
+	}
+#play_audio_law{
+    display: none;
+    margin-top: 10px;
+}
+#playing_law{
+    position: absolute;
+	left: 255px;
+    top: 4px;
+	display: block;
+	}
+.q_footer_law > *{
+	display: none;
+	}
+#wrap_form_anwer_law{
+	width: 100%;
+	height: 45px;
+	overflow: hidden;
+	position: relative;
+	}
+#vocargame_true{
+    width: 140px;
+    height: 150px;
+    position: absolute;
+    position: absolute;
+    top: 214px;
+    left: 540px;
+    display: none;
+}
+#vocargame_false{
+    width: 140px;
+    height: 150px;
+    position: absolute;
+    top: 214px;
+    left: 52px;
+    display: none;
+}
+.q_footer_law #redo_vocargame_btn{
+    margin-top: 6px;
+    margin-left: 80px;
+    display: none;
+}
+#vocargame_img_start_screen{    
+    margin: auto;
+    display: block;   
+}

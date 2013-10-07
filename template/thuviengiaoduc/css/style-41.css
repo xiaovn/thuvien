@@ -1,0 +1,39 @@
+ .sub_active{
+        color: red!important;
+        font-weight: bold;
+    }
+    .sub_hover{
+        /*color: #FF1493!important;*/
+        background-color: #CCCCCC!important;
+    }
+    .hover{
+        color: #FF1493;
+    }    
+    .are_video{
+        height: 420px;
+         width: 333px;
+        overflow-y: auto;       
+    }   
+    .video p{
+        cursor: pointer!important;
+        margin:  10px 0px 10px 0px;		
+		float: left;
+        clear: both;
+    }
+    .video p span{
+        cursor: pointer!important;
+        }
+    .mejs-captions-position {
+        height: 48px;
+        bottom: 0!important;
+    }
+    .mejs-captions-text{
+        background: transparent!important;
+        padding: 0!important;
+        color: blue;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .mejs-captions-position-hover{
+        bottom: 0px!important;
+    }

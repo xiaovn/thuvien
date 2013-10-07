@@ -1,0 +1,41 @@
+@font-face { 
+    font-family:Cheri;
+	src: url("Cheri-10.eot")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/new-english-3/bai1/vocab/fonts/Cheri.eot*/;
+	src: url("Cheri-10.eot-#iefix")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/new-english-3/bai1/vocab/fonts/Cheri.eot?#iefix*/ format('embedded-opentype'),
+	url("Cheri-10.ttf")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/new-english-3/bai1/vocab/fonts/Cheri.ttf*/ format('truetype');
+}
+
+@font-face { 
+    font-family:Coasbl;
+	src: url("Coasbl-10.eot")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/new-english-3/bai1/vocab/fonts/Coasbl.eot*/;
+	src: url("Coasbl-10.eot-#iefix")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/new-english-3/bai1/vocab/fonts/Coasbl.eot?#iefix*/ format('embedded-opentype'),
+	url("Coasbl-10.ttf")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/new-english-3/bai1/vocab/fonts/Coasbl.ttf*/ format('truetype');
+}
+
+@font-face { 
+    font-family:Coobpl;
+	src: url("Coobpl-10.eot")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/new-english-3/bai1/vocab/fonts/Coobpl.eot*/;
+	src: url('Coobpl.eot?#iefix') format('embedded-opentype'),
+	url('Coobpl.ttf') format('truetype');
+}
+
+@font-face { 
+    font-family:Gettysburg;
+	src: url('Gettysburg.eot');
+	src: url('Gettysburg.eot?#iefix') format('embedded-opentype'),
+	url('Gettysburg.ttf') format('truetype');
+}
+
+@font-face { 
+    font-family:BLATANT;
+	src: url('BLATANT.eot');
+	src: url('BLATANT.eot?#iefix') format('embedded-opentype'),
+	url('BLATANT.ttf') format('truetype');
+}
+
+@font-face { 
+    font-family: comic;
+	src: url('COMIC.eot');
+	src: url('COMIC.eot?#iefix') format('embedded-opentype'),
+	url('COMIC.ttf') format('truetype');
+}

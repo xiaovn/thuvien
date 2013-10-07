@@ -1,0 +1,42 @@
+.sub_mn{position:absolute;z-index:9999;margin-top:30px;border:1px solid #ccc;background:#F8F8F8;display:none;}
+#arrow{position:absolute;width:inherit;margin-left:auto;margin-right:auto;left:0;top:45px;right:0;margin-top:0;z-index:99999;}
+ol#controls{height:32px;margin-bottom:22px;}
+#btn_regs{float:left;height:30.6px;border:none!important;}
+#phothong .ptcont .school_box{border:1px solid #CCC;min-height:150px;float:left;width:155px;margin:6px!important;padding:5px;}
+.lng_box{padding-bottom:60px;}
+.action-form-left{width:446px!important;margin-right:-40px;}
+.action-form-left-td{width:316px!important;}
+.box_dt_fast{display:none;position:absolute;z-index:9999999;left:768px;top:-228px;}
+.replay{background:url(bg_label_comment_number.jpg)/*tpa=http://www.thuviengiaoduc.org/images/home/bg_label_comment_number.jpg*/ left top no-repeat;padding:5px 20px 10px 7px; display:block;}
+.action ul li{float:left;margin-left:2px;}
+.form_lh input{margin-left:10px;line-height:23px;width:182px;height:23px;padding-left:10px;font-weight:700;color:#646464;font-size:12px;border:1px solid #B0ABA5;border-radius:3px;}
+.action_fromLoginHome{margin-top:5px;float:right;}
+.form_lh li{height:29px;line-height:29px;margin-left:40px;}
+.menu_cus{width:225px;position:absolute;top:-265px;left:896px;display:none;text-align:left;z-index:99999999;}
+.vbv2_back{background:url(button_pre_faq_d.jpg)/*tpa=http://www.thuviengiaoduc.org/images/home/button_pre_faq_d.jpg*/ no-repeat;display:block;float:left;}
+.vbv2_next{background:url(button_next_faq_d.jpg)/*tpa=http://www.thuviengiaoduc.org/images/home/button_next_faq_d.jpg*/ no-repeat;display:block;float:left;}
+.vbv2_current{background:url(bg_button_center_FAQ.jpg)/*tpa=http://www.thuviengiaoduc.org/images/home/bg_button_center_FAQ.jpg*/ no-repeat;margin-left:-1px;float:left;}
+.pagging{display:inline;}
+.lik_title_comment{width:389px;height:31px;background:url(lik_title_comment.png)/*tpa=http://www.thuviengiaoduc.org/images/home/lik_title_comment.png*/ no-repeat;float:left;color:#fff;font-weight:700;text-transform:uppercase;line-height:normal;margin:5px 0 5px -5px;padding:5px 0 0 40px;}
+.comment_ico_title{float:left;line-height:normal;clear:both;width:300px;margin:0 0 0 10px;}
+.col_sub a{color:#5E5B5B;width:100%;line-height:22px;display:block;padding:4px;}
+.col_sub li{width:100%;background:none;float:none;text-align:left;height:auto;min-height:30px;border-bottom:1px solid #ccc;margin-top:-12px;padding:0;}
+.vbv2_itemHotSmall{background:url(img_homepage.png)/*tpa=http://www.thuviengiaoduc.org/images/home/img_homepage.png*/ -242px -262px no-repeat;width:35px;height:38px;position:absolute;top:1px;left:1px;}
+.vbv2_title_two{width:364px;height:40px;background:url(img_homepage.png)/*tpa=http://www.thuviengiaoduc.org/images/home/img_homepage.png*/ 0 0 no-repeat;font-size:14px;line-height:32px;position:relative;margin:8px 0 0;}
+.vbv2_tit_three{width:220px;height:30px;background:url(img_homepage.png)/*tpa=http://www.thuviengiaoduc.org/images/home/img_homepage.png*/ 0 -88px no-repeat;font-size:13px;padding-left:16px;line-height:28px;margin-bottom:10px;margin-top:12px;}
+.vbv2_line_abc{height:10px;border-bottom:1px dotted #ccc;width:740px;margin:0 auto 5px;}
+.input_reg_news{height:26px;line-height:26px;width:168px;border:0!important;float:left;font-size:11px;color:#818181;margin:1px;}
+#btn_regs{float:left;margin-left:-4px;height:28.8px;border:none;}
+.vbv2_icon_1{background: url(img_homepage.png)/*tpa=http://www.thuviengiaoduc.org/images/home/img_homepage.png*/ -242px -178px no-repeat;padding-left: 22px;padding-bottom: 2px;padding-top: 2px;_padding-top:0px;}
+.hld2_l2_item_tit {float:left; margin-top:6px;color:#4e4d4d; font-weight:bold;}
+.hld2_l2_item {width:350px;line-height: 22px; height:35px; float:left; margin-bottom:8px;background: url(/images/home/img_homepage.png) 0 -519px no-repeat; padding-left:8px; overflow:hidden;}
+.form-login-input{width: 90%;}
+.row-input{width: 100%;line-height: 28px;}
+.row-input ul li{width: 60px;}
+.input-lg input{line-height: 28px;}
+
+
+
+
+
+

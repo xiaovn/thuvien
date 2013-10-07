@@ -1,0 +1,18 @@
+.hidd{ width:15px; visibility:hidden; float:left}	
+	 p{ padding-left:20px;}
+	.input_text{border:0px;border-bottom:1px dotted #aeaeae;padding 5px; color:#FF6633; text-align:center; width:100px;}	
+	.dang3{ width:720px; margin:0 auto; display:block;border:1px solid #D6E4F1; border:1px solid #C6C6C6; font-family:Arial, Helvetica, sans-serif; font-size:12px; padding-bottom:20px;}
+	.music_title{ background:#EEEEEE; margin:0 auto; width:710px; border-bottom:1px solid #C6C6C6; color:#171717; font-weight:bold; min-height:29px; line-height:29px; padding-left:10px;}
+	.dang3_main{ margin-top:10px; margin:10px 10px;}
+	ul{ padding:0px; margin:0px; margin-left:-1px; position:relative; bottom:-1px;}
+	ul li{ float:left; list-style:none; text-align:center; line-height:24px; font-weight:bold; cursor:pointer}
+	.active{ background:url(active.png)/*tpa=http://www.thuviengiaoduc.org/file/music/common/active.png*/ no-repeat;width:101px; height:24px}
+	.active1{ background:url(active1.png)/*tpa=http://www.thuviengiaoduc.org/file/music/common/active1.png*/ no-repeat;width:100px; height:24px; color:#fff;}
+	.index{ display:none;}	
+	.cmd{background:url(buton.png)/*tpa=http://www.thuviengiaoduc.org/file/music/common/buton.png*/ no-repeat; border:0px; height:24px; width:60px; cursor:pointer; font-weight:bold; font-size:12px; float:right; color:#fff; margin-right:25px; margin-top:25px;}
+	.dang3_box{width:670px; display:none; border:1px solid #cfcfcf;border-radius:0px 8px 0px 0px; padding-left:20px; padding-top:20px}	
+	.dang3_cau{margin-bottom:10px; border:1px solid #D7DEE4; display:inline-block;  padding:10px; width:630px;}
+	.index_ques{ float:left;font-weight:bold; font-size:15px;  color:#F45000}
+	.nd_ques{ float:left; margin-left:15px;width:590px}
+	.ans_ques{ clear:both;color:#0000CC; padding:10px 20px; display:none}
+

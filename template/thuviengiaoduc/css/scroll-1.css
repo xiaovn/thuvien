@@ -1,0 +1,17 @@
+/* Tiny Scrollbar */
+.scroll_outline { width: 100%; margin:0;}
+.scroll_outline .viewport { width: 665px; height: 300px; overflow: hidden; position: relative; }
+.scroll_outline .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0;width:100%; }
+.scroll_outline .scrollbar{ position: relative; background-position: 0 0; float: right; width: 10px; }
+.scroll_outline .track { background: #dddddd; height: 100%; width:10px; position: relative; padding:0; border-radius:5px; box-shadow: inset 2px 1px 1px #a1a1a1; }
+.scroll_outline .thumb { background:#ef7f03; height: 20px; width: 10px; cursor: pointer; overflow: hidden; position: absolute; top: 0; border-radius:5px;}
+.scroll_outline .disable { display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+
+
+.viewport { width: 692px; height: 326px; overflow: hidden; position: relative; }
+.overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0;width:100%; }
+ .scrollbar{ position: relative; background-position: 0 0; float: right; width: 10px; }
+.track { background: #dddddd; height: 100%; width:10px; position: relative; padding:0; border-radius:5px; box-shadow: inset 2px 1px 1px #a1a1a1; }
+.thumb { background:#ef7f03; height: 20px; width: 10px; cursor: pointer; overflow: hidden; position: absolute; top: 0; border-radius:5px;}
+.disable { display: none; }

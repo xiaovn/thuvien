@@ -1,0 +1,70 @@
+	.result_content{
+		margin:0px;
+		padding:0px!important;
+		/*padding-left:50px!important;*/
+		}
+	.result_level_name{
+		background-color: #ffc000;
+		color: #0E6ECE!important;
+		font-size: 15px!important;
+		}
+	.result_header, .name_game, .time_game, .score_game, .star_game, .review_game{
+		background-color: #92d050;
+		color: #fcfd06;
+		font-size: 15px;
+		display:block;
+		margin:0px;
+		overflow: hidden;
+		border: 1px solid #000;
+		border-left: 1px solid #000;
+		}
+	.result_header{
+		border-left: transparent;
+		border-top: 1px solid #000;
+		}
+	.result_header{
+		border-left: 1px solid black;
+		text-align: left;
+		padding-left: 5px;
+		height: 35px;
+		line-height: 35px;
+        margin-left: 50px;
+		}
+	.name_game, .time_game, .score_game, .star_game, .review_game{
+		background-color: #fff;
+		color: #000;
+		height:35px;
+		line-height: 35px;
+		float: left;
+		padding-left: 5px;
+		padding-right: 5px;
+		overflow: hidden;
+        text-align: center;
+        font-weight: bold;
+	}
+	.name_game{
+		width: 194px;
+		}
+	.score_game{
+		width: 82px;
+		}
+	.time_game{
+		width: 79px;
+		}	
+	.star_game{
+		width: 180px;
+		text-align: center;
+		}
+	.review_game{
+		width: 87px;
+		}
+	.img_star{
+		position:relative;
+		margin-right:-5px;
+		width: 25px;
+		margin-top: 5px;
+		}
+	.data_are{
+	   margin-left: 50px;
+	}
+	

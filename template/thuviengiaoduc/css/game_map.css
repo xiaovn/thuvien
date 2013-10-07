@@ -1,0 +1,139 @@
+#home-screen-content, #rating-screen{
+		background: url(bg_body.gif)/*tpa=http://www.thuviengiaoduc.org/file/learn/child/olympic/home/game_map/imgs/bg_body.gif*/ repeat-x left top;
+	}
+
+.clound{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width: 1571px;;
+	height: 300px;
+	background:url(bg_clouds.png)/*tpa=http://www.thuviengiaoduc.org/file/learn/child/olympic/home/game_map/imgs/bg_clouds.png*/ repeat-x scroll left  top;
+	}
+ #wrap_level_1{
+	width: 227px;
+    height: 227px;
+    top: 205px;
+    left: 0px;
+    position: absolute;
+    cursor: pointer;
+	}
+#wrap_level_3{
+	width: 227px;
+    height: 227px;
+    top: 129px;
+    left: 257px;
+    position: absolute;
+    cursor: pointer;
+	}
+#wrap_level_2{
+	width: 227px;
+    height: 227px;
+    top: 205px;
+    left: 507px;
+    position: absolute;
+    cursor: pointer;
+	}
+#are_level_1{
+	position: absolute;
+    top: 78px;
+    left: 38px;
+	}
+	
+#are_level_2{
+	position: absolute;
+    top: 76px;
+    left: 66px;
+	}
+#are_level_3{
+	position: absolute;
+    top: 71px;
+    left: 64px;
+}
+#popup_game_play, #popup_game_finish, .popup_replay, #popup_game_not_open, #popup_deadline{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.popup_replay > *{
+    position: absolute;
+    top: 0px;
+    left: 0px;    
+}
+#wrap_popup_game_play{
+    position: relative;
+    width: 360px;
+    height: 247px;
+    left: 190px;
+    top: 147px;    
+}
+#wrap_arrow_1{
+    top: 203px;
+    position: absolute;
+    left: 129px;
+}
+#wrap_arrow_2{
+    top: 133px;
+    position: absolute;
+    left: 455px;
+}
+#wrap_arrow_3{
+    top: 210px;
+    position: absolute;
+    left: 673px;
+}
+.arrow_level, .parent_arrow{
+    position: absolute;
+    top:0px;
+    left: 0px;
+}
+#date_line{
+    position: absolute;
+    left: 169px;
+    margin-top: 16px;
+    color: red;
+    font-size: 17px;
+}
+.icon_replay_game{
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#title_game_played{
+    margin-top: 15px;
+    height: auto!important;
+}
+/*
+#wrap_arrow_2, #wrap_arrow_3{
+    display:  none;
+}
+*/
+#close_popup_game_not_open{
+    top: 96px!important;
+    left: 500px!important;
+}
+#title_game_played{
+    font-family: Tahoma;
+    font-size: 15px!important;
+}
+#close_popup_play_btn{
+    top: -20px!important;
+    left: 333px!important;
+    cursor: pointer;
+}
+.timeleft{
+    color: #fc116a;
+    font-size: 20px;
+}
+.timeleft2{
+    color: pink;
+}
+.dl{
+    color: #fff;   
+}
+.dl2{
+  color: yellow 
+}

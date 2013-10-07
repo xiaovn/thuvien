@@ -1,0 +1,41 @@
+@font-face { 
+    font-family:Cheri;
+	src: url("Cheri-3.eot")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/fonts/Cheri.eot*/;
+	src: url("Cheri-3.eot-#iefix")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/fonts/Cheri.eot?#iefix*/ format('embedded-opentype'),
+	url("Cheri-3.ttf")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/fonts/Cheri.ttf*/ format('truetype');
+}
+
+@font-face { 
+    font-family:Coasbl;
+	src: url("Coasbl-3.eot")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/fonts/Coasbl.eot*/;
+	src: url("Coasbl-3.eot-#iefix")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/fonts/Coasbl.eot?#iefix*/ format('embedded-opentype'),
+	url("Coasbl-3.ttf")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/fonts/Coasbl.ttf*/ format('truetype');
+}
+
+@font-face { 
+    font-family:Coobpl;
+	src: url("Coobpl-3.eot")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/fonts/Coobpl.eot*/;
+	src: url('Coobpl.eot?#iefix') format('embedded-opentype'),
+	url('Coobpl.ttf') format('truetype');
+}
+
+@font-face { 
+    font-family:Gettysburg;
+	src: url('Gettysburg.eot');
+	src: url('Gettysburg.eot?#iefix') format('embedded-opentype'),
+	url('Gettysburg.ttf') format('truetype');
+}
+
+@font-face { 
+    font-family:BLATANT;
+	src: url('BLATANT.eot');
+	src: url('BLATANT.eot?#iefix') format('embedded-opentype'),
+	url('BLATANT.ttf') format('truetype');
+}
+
+@font-face { 
+    font-family: comic;
+	src: url('COMIC.eot');
+	src: url('COMIC.eot?#iefix') format('embedded-opentype'),
+	url('COMIC.ttf') format('truetype');
+}

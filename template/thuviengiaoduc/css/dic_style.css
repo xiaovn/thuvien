@@ -1,0 +1,47 @@
+.vcab_detail{ width:98%; float:left; margin-left:1%; margin-top:0px}
+vcab_detail ul{ padding:0px; margin:0px;}
+.vcab_detail table{width:100%;border-collapse: collapse;font-size: 12px;}
+.vcab_detail table td{padding-left: 6px;height: 45px; padding-right:6px;}
+.vcab_detail th,.vcab_detail td{border: 1px solid #DDDDDD;}
+.first_tr{height: 45px;background: #4B7D1C !important;color: white;font-size: 14px;}
+.first_tr td{color:white;}
+.td_first{font-weight: bold;}
+.vcab_noidung {width:100%; margin:5px auto; float:left;}
+.vcab_note {width:100%; float:left; text-align:left; margin-bottom:20px;}
+.vcab_unit {width:100%; float:left;  font-size:20px; font-weight:bold; text-align:left; margin:12px 0; display:none;}
+.vcab_viptit {width:100%; float:left; height:28px; background:url(vcab_title.jpg)/*tpa=http://www.thuviengiaoduc.org/file/baihoc/vocabulary/common/images/vcab_title.jpg*/ top left no-repeat; margin-bottom:15px; padding-bottom:15px; border-bottom:1px solid #DCDCDC}
+.vcab_hr {width:100%; float:left; height:1px; background:#dcdcdc;}
+.vcab_vocab {width:100%; float:left; font-size:18px; font-weight:bold; text-align:left; color:#767676; margin:10px 0;}
+.vcab_vocab.vcab_name {color:#d56d00;}
+.vcab_vocab.vcab_green {color:#4a7d1b;}
+.vcab_content {width:100%; float:left; text-align:left;}
+.vcab_trans {width:40%; margin:10px auto;color:#d56d00;}
+.vcab_content .details {padding:0;}
+.vcab_content .details table {width:100%; font-size:15px;}
+.vcab_first {font-size:16px; font-weight:bold;}
+.vcab_3 span{border-bottom:1px dashed #c0c0c0;}
+.vcab_space20 {width:100%; clear:both; height:20px;}
+.vcab_space10 {width:100%; clear:both; height:10px;}
+.vcab_other_title {width:95%; padding-left:5%;font-size:18px; font-weight:bold; text-align:left; color:#767676; height:26px; line-height:26px;background:url(vcab_book.png)/*tpa=http://www.thuviengiaoduc.org/file/baihoc/vocabulary/common/images/vcab_book.png*/ top left no-repeat; margin:15px 0 5px;color:#d56d00;}
+.vcab_other_content {width:95%; font-size:14px; line-height:22px;}
+.vcab_other_content a {color:#3680a0;} .vcab_other_content a:hover { text-decoration:underline;}
+.vcab_first {font-size:16px; font-weight:bold;}
+.vcab_3 span{border-bottom:1px dashed #c0c0c0;}
+.vcab_3 {position:relative; cursor:pointer;}
+.vcab_space20 {width:100%; clear:both; height:20px;}
+.vcab_space10 {width:100%; clear:both; height:10px;}
+.vcab_other_title {width:95%; padding-left:5%;font-size:18px; font-weight:bold; text-align:left; color:#767676; height:26px; line-height:26px;background:url(vcab_book.png)/*tpa=http://www.thuviengiaoduc.org/file/baihoc/vocabulary/common/images/vcab_book.png*/ top left no-repeat; margin:15px 0 5px;color:#d56d00;}
+.vcab_other_content {width:95%; font-size:14px; line-height:22px;}
+.vcab_other_content a {color:#3680a0;} .vcab_other_content a:hover { text-decoration:underline;}
+.vcab_3box {width:190px; display:none; position:absolute; z-index:1; float:left; margin-top:2px;}
+.vcab_3box_content {width:158px;border:1px solid #bbbbbb; background:#fff; min-height:100px; margin-top:-1px; z-index:2; position:relative; padding:15px; font-size:13px;}
+.vcab_3box_content a{color:#3680a0;}
+.vcab_3box_content a:hover {text-decoration:underline;}
+.vcab_3box_arrow {width:18px; height:9px; margin-left:12px; z-index:3; background:url(vcab_arrup.png)/*tpa=http://www.thuviengiaoduc.org/file/baihoc/vocabulary/common/images/vcab_arrup.png*/ left top no-repeat; position:relative;}
+#translate{ margin-bottom:20px;}	
+#show_mes { text-align:center; margin-bottom:10px;}	
+#ticker{ width:240px;}
+.vcab_detail p{ padding-top:0px; margin-top:0px;}
+#ticker td{ border:none;}
+
+	

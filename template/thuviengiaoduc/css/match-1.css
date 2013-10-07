@@ -1,0 +1,229 @@
+.class_match_picture{
+    width: 684px;
+    overflow: hidden;
+    display: block;
+    min-height: 514px;
+    padding: 24px;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.class_match_picture #header{
+    
+}
+.class_match_picture #header_menu{
+   background: #ff898c;
+    /*width: 665px;*/
+    height: 30px;
+    padding-left: 20px;
+    line-height: 30px; 
+}
+.class_match_picture #name_lession{
+  color: white;  
+}
+.class_match_picture #header_title{
+    font-size: 25px;
+    margin: 20px 30px;
+    font-weight: bold;
+}
+
+.class_match_picture .lesstion{
+    position: relative;
+    top: 15px;
+    left: 0px;
+    display: none;
+    padding-left: 36px;
+}
+
+.class_match_picture #out_line_btn{
+    position: absolute;
+    top: 482px;
+    left: 30px;
+    cursor: pointer;
+    display: none;
+}
+.class_match_picture .change_ques_btn{
+    /*z-index: 10;*/
+}
+.class_match_picture #next_btn{
+    position: absolute;
+    top: 482px;
+    left: 503px;
+    cursor: pointer;
+    display: none;
+}
+
+.class_match_picture #back_btn{
+    position: absolute;
+    top: 482px;
+    left: 298px;
+    display: none;
+    cursor: pointer;
+}
+.class_match_picture #submit_btn, .class_match_picture #result_btn{
+    position: absolute;
+    top: 482px;
+    left: 500px;
+    cursor: pointer;
+    display: none;
+}
+.class_match_picture #list_lesstion{
+    width: 80%;
+    height: 400px;
+    position: absolute;
+    top: 9%;
+    left: 6%;
+    background-size: 100% 398px;
+}
+.class_match_picture #list_lestion_header{
+    padding-left: 10px;
+    height: 34px;
+    line-height: 34px;
+}
+.class_match_picture #close_list_less_btn{
+    float: right;
+    margin-top: 6px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.class_match_picture #header_cat{
+    padding-left: 66px;
+    height: 23px;
+    line-height: 21px;
+}
+.class_match_picture .menu_lession{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 38px;
+    cursor: pointer; 
+}
+.class_match_picture .menu_lession:hover{
+    border: 1px solid #cbccd0;
+    border-radius: 10px;
+    background-color: #b8bbc2;
+    color: white;
+}
+.class_match_picture .menu_active{
+    border: 1px solid #cbccd0;
+    border-radius: 10px;
+    background-color: #b8bbc2;
+    color: white;
+}
+.class_match_picture #list_lesstion_content{
+    padding: 10px 0px 0px 15px;
+    overflow: hidden;
+    width: 565px;
+    overflow-y: auto;
+}
+.class_match_picture #start_screen{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.class_match_picture #instruction_img_start{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+}
+.class_match_picture #start_btn{
+    display: block;
+    margin: auto;
+    margin-top: 32px;
+    cursor: pointer;
+}
+.class_match_picture .wrap_instruction_img img{
+    display: block;
+}
+.class_match_picture .word_answer{
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+.class_match_picture #practice_intruction{
+    display: none;
+    color: #0F0FFF;
+    font-size: 20px;
+    padding-left: 60px;
+    margin-top: 10px;
+}
+.class_match_picture .form_instruction{
+   color: #F60;
+    font-size: 20px;
+    margin: 20px 10px 10px 60px; 
+}
+.class_match_picture .form_answer_correct{
+    display: none;
+}
+.class_match_picture .wrap_form_enter_answer{
+    width: 397px;
+    margin-top: 10px;
+    }
+.class_match_picture .wrap_icon_result{
+    width: 20px;
+    float: left;
+    height: 40px;
+}
+.class_match_picture .wrap_icon_result .icon_result{
+    margin-top: 15px;
+    display: none;
+}
+.class_match_picture #wrap_congratulation{
+    width: 547px;
+    min-height: 296px;
+    margin: auto;
+    position: relative;
+    margin-top: 140px;
+    background-repeat: no-repeat;
+}
+.class_match_picture .wrap_drop{
+    float: left;
+}
+.class_match_picture .wrap_drag{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    margin-left: -35px;
+}
+.class_match_picture .drop{
+       display: block;
+        width: 282px;
+        height: 80px;
+        margin-bottom: 10px;
+        padding: 5px 40px 5px 5px;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        }
+.class_match_picture .drag{
+    display: block;
+    width: 306px;
+    height: 80px;
+    margin-bottom: 10px;
+    padding: 5px 0px 5px 50px;
+    /*position: relative;*/
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+.class_match_picture .drop img{
+   width: 270px;
+   height: 75px;
+}
+.class_match_picture .drag img{
+    width: 270px;
+    height: 79px;
+}
+.class_match_picture .result_screen{
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    color: #ff07ff;
+    font-size: 30px;
+    display: none;
+}
+.class_match_picture .drag .tick, .class_match_picture .drag .cross{
+    width: auto;
+    height: auto;
+    vertical-align: top;
+    margin-left: 5px;
+}

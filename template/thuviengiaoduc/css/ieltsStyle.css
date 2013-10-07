@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+a {text-decoration:none}
+input {font-family:Arial, Helvetica, sans-serif;}
+.iets_box {font-family:Arial, Helvetica, sans-serif; font-size:13px; width:920px; background:#f4f4f4; min-height:100px; border-radius:4px; border:1px solid #dedede; margin:0 auto;}
+.iets_box_shadow {width:922px; height:22px; margin:0 auto; background:url(bg_box_shadow-1.png)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-ielts/common/images/bg_box_shadow.png*/ no-repeat;}
+.iets_title {width:100%; float:left; height:41px; line-height:41px; border-bottom:1px solid #dedede; background:url(iel_bg_title-1.jpg)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-ielts/common/images/iel_bg_title.jpg*/ repeat-x; font-size:14px; font-weight:bold; color:#64a56b;}
+.iets_title_content {padding-left:45px; background:url(iel_icon_title-1.png)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-ielts/common/images/iel_icon_title.png*/ 11px 12px no-repeat;}
+.iets_bottom {width:100%; height:45px; background:url(bg_bottom-1.jpg)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-ielts/common/images/bg_bottom.jpg*/ repeat-x; float:left; text-align:center;}
+.iets_control {margin:0 auto;width:225px; margin-top:8px;}
+.ietl_ctrl_pagi {width:57px; float:left; text-align:center; font-size:17px; font-weight:bold; margin-top:3px; color:#767676;}
+.bt_button {width:81px; height:29px;float:left;}
+.bt_prev {background:url(button_control-1.png)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-ielts/common/images/button_control.png*/ 0px -60px no-repeat; cursor:pointer}
+.bt_next {background:url(button_control-1.png)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-ielts/common/images/button_control.png*/ 0px -90px no-repeat;cursor:pointer}
+.bt_prev_dis {background:url(button_control-1.png)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-ielts/common/images/button_control.png*/ 0px -30px no-repeat;}
+.bt_next_dis {background:url(button_control-1.png)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-ielts/common/images/button_control.png*/ 0px 0px no-repeat;}
+.iets_content {width:900px;display:none; margin:9px; float:left; background:#fffae7; border:1px solid #dedede; box-shadow: inset 0 0 5px #e0ddce;}
+.box_active{ display:block;}
+.iets_content_title {float:left; margin:10px 5px; font-size:14px; color:#fff; width:90%;}
+.iets_cnt_tit_l {width:9px; height:34px; float:left; background:url(bg_title_content-1.png)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-ielts/common/images/bg_title_content.png*/ 0px 0px no-repeat;}
+.iets_cnt_tit_c {float:left; padding:0 15px 0 5px; background:url(bg_title_content-1.png)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-ielts/common/images/bg_title_content.png*/ 0px -34px repeat-x; height:34px; line-height:34px; }
+.iets_cnt_tit_r {width:9px; height:34px; float:left; background:url(bg_title_content-1.png)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-ielts/common/images/bg_title_content.png*/ 0px -68px no-repeat;}
+.iets_box_slide {width:880px; float:left; margin:10px; text-align:justify;}
+.iets_note_b {width:850px; float:left;color:#0053b1; margin:10px 15px 0 ; font-style:italic}
+.iets_control_bt {width:80%; float:right; height:50px; margin:8px 0; margin-right:20px; display:block;}
+.iets_bt_global {float:right; margin-left:10px; height:30px; line-height:30px; color:#fff; font-weight:bold; border-radius:4px; padding:0 15px; border:none; background:url(bt_submit-3.jpg)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-ielts/common/images/bt_submit.jpg*/ 0px 0px repeat-x; font-family:Arial, Helvetica, sans-serif; cursor:pointer;}
+.iets_bt_global:hover {background:url(bt_submit-3.jpg)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-ielts/common/images/bt_submit.jpg*/ 0px -30px repeat-x;}
+
+/*Dang 1*/
+.iets_s1_item {width:850px; min-height:20px; background:#fff; float:left; box-shadow:inset 0px 0px 5px #ededed; padding:15px; margin-bottom:10px;}
+.iets_part_content{background: none repeat scroll 0 0 #FFFFFF;
+    float: left;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 860px;}
+.iets_s1_i_stt {width:20px;float:left; color:#414141; font-size:14px; font-weight:bold;}
+.iets_s1_i_content {float:left;width:830px;}
+.stt_blank{color:#7a5f46; border:none; border-bottom:1px dashed #e2e2e2;}
+.part_drag{ position:relative;}
+.stt_drag{ position:absolute;}
+
+/*Dang 2*/
+.iets_s2_item {width:850px; float:left; min-height:100px; margin:15px;}
+.iets_s2_bottom {width:850px; height:34px; background:url(s2_bottom-1.png)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-ielts/common/images/s2_bottom.png*/ no-repeat; float:left}
+.iets_s2_top {width:850px; height:34px; background:url(s2_top-1.png)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-ielts/common/images/s2_top.png*/ no-repeat; float:left;}
+.iets_s2_middle {width:810px; min-height:50px; background:url(s2_middle-1.png)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-ielts/common/images/s2_middle.png*/ repeat-y; float:left; padding:20px;}
+.iets_area {width:810px; height:168px; background:url(bg_area_h24-1.jpg)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-ielts/common/images/bg_area_h24.jpg*/ top left; resize:none; border:none; line-height:24px; font-family:Arial, Helvetica, sans-serif; font-size:13px;}
+
+/*Dang 3*/
+.iets_s3_item {width:878px; background:#fff; float:left; border:1px solid #dedede; border-radius:4px; margin-bottom:6px;}
+.iets_s3_number {width:22px; height:23px;float:left; margin:10px 15px; background:url(s3_number-1.png)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-ielts/common/images/s3_number.png*/ no-repeat; line-height:22px; text-align:center; font-size:16px; font-weight:bold; color:#fff;}
+.iets_s3_right {width:816px; float:left; margin:10px 0;}
+.iets_s3_right_tit {width:100%; float:left; font-weight:bold; margin-bottom:7px;}
+.iets_s3_right_input {width:800px; border:1px solid #d9d9d9; border-radius:3px; box-shadow:inset 2px 1px 2px #f0f0f0; padding:0 7px; height:22px; line-height:22px; color:#3456f0;}
+
+/*Dang 41*/
+
+.iets_s4_left {width:580px; float:left;}
+.iets_s4_right {width:270px; float:left; padding: 12px 15px;}
+.iets_s4_left_item {width:100%; float:left; padding:8px 0; border-bottom:1px solid #d8d4c5;}
+.iets_s4_text {width:247px; padding-left:28px; float: left; line-height:16px; background:url(s4_star-1.png)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-ielts/common/images/s4_star.png*/ 2px 0px no-repeat; margin-right:10px;}
+.iets_s4_box_blank {float:left; height:33px; border:1px solid #dddddd; border-radius:2px; box-shadow:inset 0 0 4px #eaeaea; background:#fff;}
+.iets_s4_box_blank_glow { border-radius:4px; border:1px solid #eeede6; padding:4px; box-shadow: inset 0 0 3px #f2f3e4; float:left; width:370px;}
+.iets_s4_box_blank_short {width:254px;}
+.iets_s4_box_move {float:left;  border:1px solid #8b937f; border-radius:2px; min-height:18px; background:url(bg_item_ui-1.jpg)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-ielts/common/images/bg_item_ui.jpg*/ bottom repeat-x #f3fee4; padding:9px 15px 6px 15px; cursor:pointer; margin-bottom:5px; line-height:14px; text-align:justify;}
+.iets_s4_box_move_short {width:224px;}
+
+/*Dang 42*/
+.iets_s4_left2 {width:430px; float:left;}
+.iets_s4_right2 {width:390px; float:left; padding: 12px 0px 0px 25px;}
+.iets_s4_text2 {width:400px; padding-left:28px; height:31px; float: left; line-height:16px; background:url(s4_star-1.png)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-ielts/common/images/s4_star.png*/ 2px 0px no-repeat; margin-bottom:8px;}
+.iets_s4_box_blank_long {width:368px;}
+.iets_s4_box_move_long {width:338px;}
+.iets_s4_tf{width:18px; height:18px;  float:left; margin-top:12px;}
+/*Dang 5*/
+
+.iets_s5_item {width:860px; background:url(bg_s5-1.jpg)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-ielts/common/images/bg_s5.jpg*/ bottom repeat-x; margin:10px; padding-bottom:15px; float:left}
+.iets_s5_number {width:35px; font-weight:bold; color:#ef4900; float:left;}
+.iets_s5_right {float:left; width:815px;}
+.iets_s5_right_item {width:100%; text-align:justify; float:left;height:35px;}
+.iets_s5_box_move {float:left;  border:1px solid #8b937f; border-radius:2px; min-height:18px; background:url(bg_item_ui-1.jpg)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-ielts/common/images/bg_item_ui.jpg*/ bottom repeat-x #f3fee4; padding:9px 15px 6px 15px; cursor:pointer;line-height:14px; text-align:justify; width:530px;}
+.iets_s5_check {width:18px; height:18px; border-radius:18px; margin-top:8px; float:left; line-height:18px;text-align:center; color:#fff; font-size:14px; font-weight:bold;}
+.iets_s5_check.iets_s5_true { background:#2db336;}
+.iets_s5_check.iets_s5_false { background:red;}
+.stt_page_type{ display:none}
+.stt_tbao{width:200px; border:1px solid #d1d1d1;-moz-border-radius:5px; -webkit-border-radius:5px ; border-radius:5px ;position:relative; background:#fff; bottom:83px; z-index:210; box-shadow:5px 5px 5px #e8e8e8;display:none; text-align:justify; padding:15px 10px; float:left; margin-left:-225px;}  
+.stt_tf{ float:left; width:15px;}
+.iets_stt_tf{ float:left; width:30px;}
+.ielts_sort_drag{ position:absolute;}
+.ielts_sort_drop{border-radius: 3px 3px 3px 3px; box-shadow: 1px 1px 3px #C5C5C5 inset;float: left;height: 33px;margin-bottom: 16px;width: 560px;}
+.iets_sequence{float:left; width:100%; position:relative; }
+.iets_sequence_index{float: left;text-align: center; width: 45px;}
+.iets_sequence_index_item{color: #8C8B8B;float: left;font-size: 16px; height: 46px;margin-top: 5px;text-align: center; width: 40px;}
+.iets_sequence_content{ width:600px; float:left; position:relative;}
+
+.iets_title_ques{ width:100%; margin-bottom:10px; float:left; }
+.stt_col_4{ width:25%; float:left;}
+.stt_col_2{ width:50%; float:left; margin-bottom:10px;}
+.stt_col_3{ width:33%; float:left;}
+.stt_col_1{ width:100%; float:left; margin-bottom:10px;}
+lable{ margin-left:10px;}
+.iets_hidden,.iets_sum{ float:left; width:90%; display:none; font-style:italic; color:#0694f8; margin:10px 0px;}
+.iets_clear{ height:10px; clear:both; width:100%;}
+.drag-hover {border: 1px solid #F93;}
+.iets_seq_left{float: left;text-align: center;width: 45px;}
+.iets_sequence_content{ float:left; position:relative; width:600px;}
+.iets_error{ border: 1px solid #F33; padding:10px 15px;}
+.iets_box_content,.iets_sequence{width:850px; min-height:20px; background:#fff; float:left; box-shadow:inset 0px 0px 5px #ededed; padding:15px; margin-bottom:10px;}
+.tf_checkbox,.tf_sequence{ float:left; width:95%; margin:15px; font-style:italic;}
+.selectedText { background:yellow;}
+.stt_text_row{ width:90%; margin:10px; font-style:italic; color:blue}
+.stt_text{ font-style:italic; color:blue; margin-left:8px; margin-right:8px; }
+.iets_index_sort{ visibility:hidden}
+.iets_drag_index{ width:8px; float:right; font-weight:bold; font-size:15px; color:blue; margin-top:10px; visibility:hidden}
+.iets_show_ans{ display:none;}
+.stt_mark{ font-style:italic; color:#005782;}
+.iets_result{ margin:10px 20px; width:90%; float:left; font-style:italic; color:#F40000; }
+.iets_translate{ margin:5px; text-align:center;}
+.show_mes_trans{ color:#EE7600; margin:10px auto;}
+.iel_translate_button{ background: url("http://data.thuviengiaoduc.org/images/v2/bt_open_trans.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #646464;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    height: 28px;
+    padding-left: 25px;
+    width: 133px;
+}

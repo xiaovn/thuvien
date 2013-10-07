@@ -1,0 +1,51 @@
+.khung-home-chi img {border:none;}
+
+.khung-home-chi #rating-screen img{
+		position:absolute;
+	}
+.khung-home-chi button{
+		position:absolute;
+	}
+.leb_active{
+		position:absolute;
+		top: 0px;
+		left: 0px;
+		width: 18px;
+	}
+.chi-home-popup{
+	width:735px;
+	margin-top:20px;
+	}
+
+
+.khung-home-chi tr{
+	margin:0px;
+	padding:0px;
+	}
+.khung-home-chi td{
+	margin: 0px;
+	padding: 0px;
+	}
+.description{
+	display: block;
+	width:100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+    font-weight: bold;
+	}
+.content_description{
+	width: 85%;
+	margin: auto;
+	text-align:center;
+	}
+
+.popup{
+	z-index: 1;
+	display: block;
+	border: 1px groove #808080;
+	font-size: 14px;
+	padding: 5px;
+	background-color: #eaffee;
+	color: #9d0000;
+	white-space:nowrap;
+	}

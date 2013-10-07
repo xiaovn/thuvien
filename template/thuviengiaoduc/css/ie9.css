@@ -1,0 +1,35 @@
+/* VinhHQ, 05032013*/
+.numss{
+  margin: 17px 0 0 5px;      
+}
+.nums{
+  margin: 10px 8px 0 3px;     
+}
+.info_cont_one{
+    margin-left: 10px
+}
+.repass
+{
+	padding-left: 19px;
+}
+.red1
+{
+	padding-left: -2px;
+}
+.green
+{
+	padding-left: -2px;
+}
+.action	
+{
+	margin-top: 10px;
+}
+.action_fromLoginHome LI
+{
+    margin-left: 0px;
+}
+
+.col_sub
+{
+	z-index: 9999;
+}

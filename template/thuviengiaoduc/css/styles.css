@@ -1,0 +1,47 @@
+
+#fallback {
+	display: none;
+}
+
+.uba_audioButton {
+	background: url("btn-1.png")/*tpa=http://www.thuviengiaoduc.org/file/dungchung/audioPlayer/ubanplayer/img/btn.png*/ no-repeat 0px 0px;
+	display: block;
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+	width:21px;
+	height:21px;
+	
+}
+
+.uba_hideAudio {
+    background: none !important;
+    padding: 0px !important;
+    width:100% !important;
+	height:auto !important;
+	text-align:center;
+    
+}
+.stt_par_hideaudio{ vertical-align:top; background:url(bg_speaker.png)/*tpa=http://www.thuviengiaoduc.org/file/dungchung/audioPlayer/ubanplayer/img/bg_speaker.png*/; padding:4px 3px 0; margin-left:-26px; position:absolute }
+
+.uba_audioButton:hover {
+	background-position: 0 -40px;
+}
+
+.uba_audioButton.playing {
+	background-position: 0 -80px;
+}
+
+.uba_audioButton.playing:hover {
+	background-position: 0 -120px;
+}
+
+.uba_audioButton.loading,
+.uba_audioButton.loading:hover {
+	background: url("../img/loading.gif") no-repeat 0px 0px;
+	text-indent: 0!important;
+}
+
+#player {
+	display: none;
+}

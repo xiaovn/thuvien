@@ -1,0 +1,36 @@
+#mcslfsl{font-family: Arial; overflow: hidden;}
+.blueButton{background-repeat: no-repeat;width: 96px; height: 28px;display: inline-block; margin: 0 4px;margin-left: auto;margin-right: auto;cursor: pointer;}
+#mcslcsl .blueButton{height: 30px;line-height: 27px;}
+.blueButton:active, .slmcicon:active{position:relative;bottom:0px;}
+.ab{position: absolute;top: 0px;left: 0px;}
+#mcslcsl{width: 320px;height: 27px; text-align: center;margin-top: 5px;margin: auto;margin-top: -49px;position: relative;}
+/*outline*/
+#slmcsol{z-index: 1;}
+#slmcato{background: #ef7f03; height: 40px; left: 20px; top: 40px; font-size: 14px; color: white;}
+#slmcocl{background: #d2edf7;}
+#slmcoll, #slmcor, #slmcos{top: 11px;}
+#slmcoll{left: 19px;}
+#slmcor{left: 505px;}
+#slmcos{left: 586px;}
+#slmcocl{width: 30px; height: 30px; border-radius: 5px; cursor: pointer; vertical-align: middle; text-align: center;  float: right; margin: 5px;}
+#slmcotb{left: 20px; top: 80px; background: white; padding: 10px 20px 10px 15px; max-height: 60%; overflow-y: scroll;}
+.slmcowrow{border-top: 1px solid #dddddd; margin-bottom: 5px; cursor: pointer;}
+.slmcorow{font-size: 12px; height: 18px; margin-top: 4px; padding: 7px 10px 7px 10px;}
+.slmcorowAct, .slmcorow:hover{background: #d2edf8;}
+.slmcon,.slmcoq,.slmcors,.slmcosc{float: left;}
+.slmcon{font-weight: bold; width: 26px;}
+.slmcoq{width: 358px;}
+.slmcors{width: 50px; text-align: center;}
+.slmcosc{margin-left: 29px; width: 40px; text-align: center;}
+#mcslcbtnb{background-image: url("back-8.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/dungchung/lib_new_en/libslmachine/back.png*/;}
+#mcslcbtnb:hover{background-position: -97px 0px;}
+#mcslcbtnb:active{background-position: -194px 0px;}
+#mcslcbtnoutline{width: 97px; background-image: url("outline-8.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/dungchung/lib_new_en/libslmachine/outline.png*/;}
+#mcslcbtnoutline:hover{background-position: -96px 0px;}
+#mcslcbtnoutline:active{background-position: -192px 0px;}
+#mcslcbtnn{background-image: url("next-14.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/dungchung/lib_new_en/libslmachine/next.png*/;}
+#mcslcbtnn:hover{background-position: -96px 0px;}
+#mcslcbtnn:active{background-position: -192px 0px;}
+#mcslcbtnh{float: right; background-image: url('home.png'); display: none;}
+#mcslcbtnh:hover{background-position: -97px 0px;}
+#mcslcbtnh:active{background-position: -194px 0px;}

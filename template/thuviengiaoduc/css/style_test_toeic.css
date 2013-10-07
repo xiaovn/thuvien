@@ -1,0 +1,445 @@
+.next:hover {
+	cursor: pointer;
+	cursor: hand;
+}
+.back:hover {
+	cursor: pointer;
+	cursor: hand;
+}
+.toeic_box {
+	width: 722px;
+	margin-left: 1px;
+	border-left: 1px solid #EDD0B2;
+	border-right: 1px solid #EDD0B2;
+	border-bottom: 1px solid #EDD0B2;
+}
+.page_question {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	width: 730px;
+}
+.tbao {
+	display: none
+}
+.segment1 {
+	width: 720px;
+}
+.audio {
+	margin: 20px auto;
+	margin-left: 160px;
+	display: none;
+}
+.page_toeic {
+	display: none;
+}
+.page_toeic {
+	width: 730px;
+	margin: 0 auto;
+	padding: 0px;
+}
+.back {
+	cursor: pointer
+}
+.au {
+	display: none
+}
+.next {
+	cursor: pointer
+}
+.segment1 {
+	margin: 0 auto;
+	padding-left: 10px;
+	text-align: justify;
+	width: 690px;
+	display: none;
+}
+.pos {
+	position: relative;
+	left: 150px;
+	top: 20px;
+	z-index: 999;
+	background: white;
+	width: 165px;
+	height: 50px;
+	opacity: 0.1;
+}
+.played {
+	position: relative;
+	z-index: 888;
+	background: url(bg_opacity_none_toeic.gif)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-toeic/common/css/bg_opacity_none_toeic.gif*/;
+	width: 200px;
+	height: 37px;
+	display: none;
+	margin-top: -6px;
+	cursor: pointer;
+	left: 80px;
+}
+.page_listen, .page_read {
+	display: none;
+	-moz-border-radius: 10px 8px 8px 10px;
+}
+.text_ {
+	color: #E14900;
+	font-weight: bold;
+	width: 600px;
+	border: 1px dotted gray;
+	margin-bottom: 15px;
+}
+.gioi_thieu {
+	border: 1px solid #D6E4F1;
+	padding: 3px;
+	-moz-border-radius: 10px 8px 8px 10px;
+}
+.test_s1 {
+	display: none;
+	border: 2px solid #006697;
+	padding: 20px;
+	width: 400px;
+	margin-left: 20px;
+	margin-bottom: 20px
+}
+.title_toeic {
+	width: 719px;
+	background: #FF7E00;
+	-moz-border-radius: 10px 8px 8px 10px;
+	height: 36px;
+	border: 1px solid #FF7E00;
+	color: #ffffff;
+	line-height: 36px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#start {
+	background: url(start.jpg.png)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-toeic/bai6/start.jpg*/ no-repeat;
+	border: 0px;
+	height: 49px;
+	width: 122px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+.parrt {
+	float: left;
+	width: 230px;
+	ursor: pointer;
+	padding-left: 5px;
+	height: 32px;
+	padding-right: 50px;
+	background: url(bg_part.jpg)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-toeic/bai6/bg_part.jpg*/ repeat;
+	border: 1px solid #DBDBDB;
+	font-family: arial;
+	padding-top: 3px;
+	border: 1px solid #D6E4F1;
+	-moz-border-radius: 5px 5px 5px 5px;
+	margin-right: 10px;
+	cursor: pointer;
+	margin-top: 15px;
+}
+.part {
+	border-radius: 7px;
+	float: left;
+	width: 100px;
+	margin-left: 50px;
+	padding: 3px;
+	font-size: 12px;
+	text-align: center;
+	cursor: pointer
+}
+.part_listen {
+	width: 670px;
+	font-weight: bold;
+	margin-left: 18px;
+	padding: 3px;
+	border: 1px solid #DDDAD3;
+	color: #8F8F91;
+	-moz-border-radius: 20px 20px 20px 20px;
+	display: none;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	padding-bottom: 20px;
+}
+.listen {
+	float: left;
+	background: url(bg_part_0.jpg)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-toeic/bai6/bg_part_0.jpg*/ no-repeat scroll 0% 0% transparent;
+	line-height: 38px;
+	padding-left: 12px;
+	width: 355px;
+	cursor: pointer;
+}
+.read {
+	float: left;
+	background: url(bg_part_0.jpg)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-toeic/bai6/bg_part_0.jpg*/ repeat scroll 0% 0% transparent;
+	height: 37px;
+	line-height: 38px;
+	padding-left: 12px;
+	width: 351px;
+	cursor: pointer
+}
+.horizontal_question {
+	text-align: center;
+	border: 1px solid #DEE7D4;
+	width: 100%;
+	margin-bottom: 10px;
+	display: inline-block;
+	height: auto;
+}
+.horizontal_question .ss_input {
+	width: 100px;
+	float: left;
+	margin-left: 20px;
+	padding-botom: 10px;
+	padding-top: 10px
+}
+.ss_index_1 {
+	background: none repeat scroll 0 0 #F7F7F7;
+	float: left;
+	font-size: 15px;
+	font-weight: bold;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	width: 50px;
+}
+.ss_quess {
+	border: 1px solid #DEE7D4;
+	display: inline-block;
+	width: 680px;
+	margin-bottom: 20px;
+}
+.ss_index {
+	background: none repeat scroll 0 0 #F7F7F7;
+	float: left;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 295px;
+	text-align: center;
+	width: 50px;
+}
+.ss_img {
+	border: 1px solid #1499FE;
+	float: left;
+	height: 270px;
+	margin: 10px 50px;
+	padding: 1px;
+	width: 295px;
+}
+.ss_img img {
+	width: 295px;
+	height: 270px;
+}
+.ss_select {
+	float: left;
+	background: #F7F7F7;
+	width: 204px;
+	height: 263px;
+	margin: 5px;
+	border: 1px solid #E6E6E6;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+.toeic_result {display: none;}
+.ss_select input {
+	margin-bottom: 20px;
+	color: #2890FF
+}
+.ss_control {
+	background: none repeat scroll 0 0 #F8F5EC;
+	border: 1px solid #E7E4DB;
+	float: left;
+	display: none;
+	margin: 10px 0px;
+	padding-right: 10px;
+	text-align: right;
+	width: 710px;
+	margin-left: 0px;
+}
+.toeic_cmd {
+	background: url(submit.jpg.png)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-toeic/common/submit.jpg*/ no-repeat;
+	border: 0px;
+	width: 131px;
+	height: 43px;
+	cursor: pointer;
+}
+.col2_ques {
+	border: 1px solid #DEE7D4;
+	display: inline-block;
+	height: 110px;
+	margin-bottom: 15px;
+	text-align: center;
+	width: 100%;
+}
+.ss_index_2 {
+	background: none repeat scroll 0 0 #F7F7F7;
+	float: left;
+	font-size: 15px;
+	font-weight: bold;
+	height: 110px;
+	line-height: 110px;
+	text-align: center;
+	width: 50px;
+}
+.ss_ques1 {
+	display: block;
+}
+.title_ques1 {
+	line-height: 19px;
+	width: 610px;
+	padding-top: 5px;
+	padding-left: 80px;
+	text-align: left;
+	font-weight: bold;
+	color: #001F3E;
+}
+.ss_option {
+	width: 285px;
+	text-align: left;
+	margin-left: 25px;
+	margin-top: 10px;
+	float: left
+}
+#container {
+	background: url("bg_clock_toeic.png")/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-toeic/bai6/bg_clock_toeic.png*/ no-repeat scroll 0 0 transparent;
+	height: 39px;
+	width: 199px;
+	margin-left: 257px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	padding-left: 83px;
+	font-size: 35px;
+	color: #1e1e1e;
+	padding-top: 14px;
+	font-weight: bold;
+	color: #454545;
+}
+.alert_listen {
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 5px 0;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #DDDAD3;
+	font-size: 14px;
+}
+.jplayer_common {
+	float: left;
+	margin-left: 20px;
+}
+.box_curr {
+	display: block;
+}
+.toeic_ctrl {width: 47px;height: 42px;border: none; cursor:pointer;}
+.toeic_back {
+	background: url(back.gif)/*tpa=http://www.thuviengiaoduc.org/file/dungchung/back.gif*/ no-repeat;
+	float: right;
+	display: none;
+}
+.toeic_next {
+	background: url(next.gif)/*tpa=http://www.thuviengiaoduc.org/file/dungchung/next.gif*/ no-repeat;
+	float: right
+}
+.toeic_to {
+	width: 722px;
+	margin-left: 1px;
+	border-left: 1px solid #EDD0B2;
+	border-right: 1px solid #EDD0B2;
+	border-bottom: 1px solid #EDD0B2;
+}
+.status_submit {
+	display: none;
+	text-align: center;
+	color: #005151;
+	font-size: 15px;
+}
+.alert_toeic {
+	margin: 15px 0px;
+}
+.d_toeic {
+	width: 160px;
+	float: left;
+}
+.dd_toeic {
+	float: left;
+	font-weight: bold;
+	color: #F00
+}
+.toeic_save {
+	display: none;
+	cursor: pointer
+}
+.toeic_save_er,.toeic_save_er1 {
+	text-align: center;
+	font-size: 15px;
+	color: red;
+}
+
+.toeic_cmd1 {
+	display: none;
+	margin: 20px 0px;
+}
+.curr_time {
+	font-size: 15px;
+	color: red;
+}
+@charset "utf-8";
+/* CSS Document */
+.toeic_ques{border: 1px solid #DEE7D4;display: inline-block;width:730px;margin-bottom: 20px; margin-top:10px; margin-left:8px;}
+.toeic_index {background: none repeat scroll 0 0 #F7F7F7;float: left;font-size: 15px;font-weight: bold;line-height: 295px;text-align: center;width: 50px;}
+.toeic_pig {border: 1px solid #1499FE;float: left;	height: 270px;margin: 10px 50px;padding: 1px;width: 300px;}
+.toeic_pig img {width: 300px;height: 270px;}
+.toeic_pig_radio { background: none repeat scroll 0 0 #F7F7F7;border: 1px solid #E6E6E6;float: left; height: 256px;margin: 5px;padding-left: 10px;padding-top: 20px;width: 222px;}
+.toeic_pig_radio input { color: #2890FF; margin-bottom: 20px;}
+.toeic_title{ background: url(bg_title-4.jpg)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-toeic/common/bg_title.jpg*/ repeat scroll 0 0 transparent; border-bottom: 1px solid #9DB0BC;font-weight: bold; padding-left: 5px; line-height:26px; height:29px;}
+.toeic_text{background: none repeat scroll 0 0 #EEEEEE; border-bottom: 1px solid #CFCFCF; border-top: 1px solid #CFCFCF; padding:5px; width:100%; margin:20px 0px; clear:both;}
+.segment{width: 95%; margin:0 auto; display:none}
+.giai_thich{ display:none; color:#FF6600; font-style:italic; float:left;width:95%; text-align:justify; margin-bottom:30px;}
+.tapescript{ display:none;}
+.toeic_tbao{ background: none repeat scroll 0 0 #DBF2FF; text-align:center; border: 1px solid #A9CCDE;color: #008000;font-weight: bold;padding: 20px; display:none; margin-top:20px; width:710px; clear:both;}
+.box_current{ display:block;}
+.toeic_control{background: none repeat scroll 0 0 #F8F5EC;border: 1px solid #E7E4DB;float: left;margin: 10px 0px; padding-top:5px;padding-right: 10px;text-align: right;width: 740px;}
+.toeic_button{ width:48px; height:48px; cursor:pointer; border:none}
+.toeic_prev{ background:url(back-1.jpg.png)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-toeic/common/back.jpg*/ no-repeat; display:none;}
+.toeic_next{ background:url(next-1.jpg.png)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-toeic/common/next.jpg*/ no-repeat}
+.toeic_cmd{background: url(submit.jpg.png)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-toeic/common/submit.jpg*/ no-repeat scroll 0 0 transparent;border: 0 none;height: 43px;left: 189px; margin-top:10px;width: 138px; cursor:pointer;}
+.stt_tf{ float:left; width:20px;}
+.toeic_radio{ float:left; margin-right:5px;}
+lable{ float:left;}
+.toeic_col_1,.toeic_col_{ float:left; width:100%;}
+.toeic_col_2{float:left; width:50%;}
+.toeic_col_3{float:left; width:33%;}
+.toeic_col_4{float:left; width:25%;}
+.toeic_clear{clear:both; height:10px;}
+.toeic_pic{ width:220px; float:left; margin-right:50px;}
+#button_hidden_text_1{ cursor:pointer;}
+.jquery_jplayer_long { height: 35px;text-align: center;margin: 20px auto; width: 300px;}
+.horizontal_question .ss_input {float: left; margin-left: 40px; padding-top: 10px; width: 330px;}
+.ss_option{ width:610px;}
+.title_ques1{ width:620px; padding-left:64px;}
+.text_{ border:none;}
+.hidden_1 { display: none; } 
+#show_text_1{  text-align:center; margin:10px auto; display:none;}
+ul {margin:0;}
+ul li {padding:0; list-style:none; }
+.toda_box {width:730px; margin:10px 5px; float:left;}
+.toda_ketqua_box {width:100%; min-height:200px;border-radius:6px; background:#ffffff; overflow:hidden; box-shadow:1px 2px 4px #9a9a9a; margin-top:20px;}
+.toda_ketqua_title {width:100%; height:33px; line-height:33px; background:url(toda_img_title.jpg)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-toeic/common/images/toda_img_title.jpg*/ left top repeat-x; font-size:16px; text-align:center;font-weight:bold;}
+.toda_ketqua_content {margin:15px auto; width:470px;}
+.toda_ketqua_ct_left {width: 280px; float:left;}
+.toda_ketqua_ct_right {width:160px; float:right;}
+.toda_left_row {width:100%; line-height:33px;height:33px; float:left; border-bottom:1px solid #ebebeb;}
+.toda_left_row_l {width:60%; margin-left:10%; float:left; text-align:left}
+.toda_left_row_r {width:20%; margin-right:10%; float:right; text-align:right; font-weight:bold;}
+.toda_bt_save {width:124px; height:32px; line-height:32px; color:#fff; cursor:pointer; font-size:16px; font-weight:bold; padding-left:34px; border:1px solid #f78e0a; background:url(toda_bt_bg.png)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-toeic/common/images/toda_bt_bg.png*/ left top no-repeat; text-align:center; border-radius:4px; margin-bottom:10px;}
+.toda_bt_saved { background:url(toda_bt_bg.png)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-toeic/common/images/toda_bt_bg.png*/ left bottom no-repeat; color:#5a5a5a;  border:1px solid #b8b8b8; display:none;}
+.toda_bt_view {width:158px; background:url(toda_bt_bg.png)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-toeic/common/images/toda_bt_bg.png*/ right bottom no-repeat; color:#5a5a5a;  border:1px solid #b8b8b8; padding:0;}
+.toda_vip {width:100%;height:40px;line-height:40px; text-align:center; font-size:15px; color:red; margin:0 auto; float:left;}
+.toda_vip a {font-weight:bold; color:#0099b2;}
+.toda_tran_box {width:100%; float:left; text-align:center; margin:20px 0; line-height:12px; font-size:14px; font-weight:bold;}
+.toda_test_box {width:728px; float:left;  border:1px solid #e6e6e6; border-radius:4px; margin:10px 0 15px 0;}
+.toda_test_title {width:100%; height:48px; line-height:48px; border-bottom:1px solid #009999; font-size:16px; font-weight:bold; text-align:center; color:#ee7600; text-transform:uppercase;}
+.toda_part_box {width:100%; height:37px; line-height:37px;background:url(../images/toda_bg_title_part.jpg) 0px 0px repeat-x; border-bottom:1px solid #d6d6d6;}
+.toda_part_box ul {float:left; padding:0; margin-left:20px;}
+.toda_part_box li {float:left; width:70px;font-weight:bold; text-align:center; height:37px; font-size:13px; color:#797979; cursor:pointer;}
+.toda_part_content {width:90%; margin:15px 5%; float:left; line-height:22px; display:none;}
+.toda_part_active{ display:block;}
+.toeic_tab_active{width:68px; border-bottom:1px solid #fff; border-left:1px solid #d6d6d6;border-right:1px solid #d6d6d6;  background:url(../images/toda_bg_title_part2.jpg) 0px 0px repeat-x; color:#009999;}
+.toeic_yes,.toeic_no{ cursor:pointer; padding:10px 20px; font-weight:bold;}

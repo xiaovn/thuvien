@@ -1,0 +1,1324 @@
+#box_chat_123 {
+    background: none repeat scroll 0 0 white;
+    border: 1px solid #BEBEBE;
+    border-radius: 5px 5px 0 0;
+    bottom: 0;
+    color: red;
+    display: block;
+    min-height: 20px;
+    position: fixed;
+    right: 170px;
+    width: 229px;
+    z-index: 1000;
+}
+
+#box_chat_123 .box_chat_head {
+    background: url("head_boxchat.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/head_boxchat.png*/ no-repeat scroll -3px -3px transparent;
+    cursor: pointer;
+    float: left;
+    height: 30px;
+    position: relative;
+    width: 100%;
+}
+
+#box_chat_123 .box_chat_head .title_box {
+    float: left;
+    padding: 7px 5px 5px;
+    width: 150px;
+}
+
+#box_chat_123 .box_chat_head .title_box span.title {
+    color: #393939;
+    display: block;
+    float: right;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#box_chat_123 .box_chat_head .title_box span.title #total_mess {
+    font-weight: normal;
+}
+
+#box_chat_123 .box_chat_head .title_box span#box_count_online {
+    background: url("mess_quantity.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/mess_quantity.png*/ no-repeat scroll 0 0 transparent;
+    color: white;
+    display: none;
+    font-size: 11px;
+    height: 14px;
+    left: 10px;
+    position: absolute;
+    text-align: center;
+    top: 8px;
+    width: 25px;
+}
+
+#box_chat_123 .box_chat_head .control_box {
+    background: url("chat_on.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/chat_on.png*/ no-repeat scroll 0 0 transparent;
+    color: white;
+    cursor: pointer;
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+    padding-top: 3px;
+    text-align: center;
+    width: 53px;
+}
+
+#box_chat_123 .box_chat_head .control_box.control_box_off {
+    background: url("chat_off.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/chat_off.png*/ no-repeat scroll 0 0 transparent;
+    margin-top: 7px;
+    padding-top: 1px;
+}
+
+#box_chat_123 .box_chat_head .control_box span.title {
+    color: white;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 3px;
+    text-align: center;
+    width: 55px;
+}
+
+#box_chat_123 .box_chat_content {
+    float: left;
+    width: 100%;
+}
+
+.clear_fix {
+    clear: both;
+}
+
+.box_chat_part {
+    float: left;
+    max-height: 300px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.box_chat_search {
+    background: none repeat scroll 0 0 white;
+    border-bottom: 1px solid #C8C8C8;
+    border-top: 1px solid #C8C8C8;
+    bottom: 0;
+    float: left;
+    width: 229px;
+}
+
+.box_chat_search .search_more {
+    background: url("option_chat.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/option_chat.png*/ no-repeat scroll 6px 5px transparent;
+    float: left;
+    height: 26px;
+    position: relative;
+    width: 28px;
+}
+
+.box_chat_search .search_more ul.settings {
+    background: none repeat scroll 0 0 #EEFCFF;
+    bottom: 25px;
+    box-shadow: 0 0 6px #D4D4D4;
+    display: none;
+    height: auto;
+    left: -151px;
+    margin: 0;
+    padding: 0 5px;
+    position: absolute;
+    width: 170px;
+    z-index: 1000;
+}
+
+.box_chat_search .search_more:hover ul.settings {
+    display: block;
+}
+
+.box_chat_search .search_more ul.settings li {
+    border-bottom: 1px solid #ADD7E3;
+    padding: 5px;
+}
+
+.box_chat_search .search_more ul.settings li a {
+    color: #6F7376;
+    display: block;
+    font-family: arial;
+    font-size: 12px;
+    width: 100%;
+}
+
+.box_chat_search .search_more ul.settings li a:hover {
+    color: #EC1831;
+}
+
+.box_chat_search .search_friend {
+    background: none repeat scroll 0 0 white;
+    border-right: 1px solid #C8C8C8;
+    float: left;
+}
+
+.box_chat_search input {
+    background: none repeat scroll 0 0 white;
+    border: medium none;
+    color: #5A5A5A;
+    float: left;
+    font-family: arial;
+    font-size: 12px;
+    height: 25px;
+    padding-left: 5px;
+    width: 170px;
+}
+
+.box_chat_search img {
+    background: none repeat scroll 0 0 white;
+    cursor: pointer;
+    float: left;
+    height: 23px;
+    margin-top: 4px;
+    padding: 0;
+}
+
+.box_chat_part .box_part_header {
+}
+
+.box_chat_part .box_part_content {
+}
+
+.box_chat_part .box_part_content.nano {
+    height: 295px;
+}
+
+.box_chat_part .nano > .pane {
+    right: 5px;
+}
+
+.wrapper_box_chat_user .box_user_content.nano > .pane {
+    right: 5px;
+
+}
+
+.box_chat_part .box_part_header {
+}
+
+.box_chat_part .box_part_header span.title {
+    display: block;
+    padding: 3px 10px;
+}
+
+.box_chat_part .box_part_content ul {
+    margin: 0;
+    padding: 0;
+}
+
+.box_chat_part .box_part_content ul li {
+    border-bottom: 1px solid #DEDEDE;
+    cursor: pointer;
+    height: 46px;
+    margin-bottom: 0;
+    position: relative;
+    width: 100%;
+}
+
+.box_chat_part .box_part_content ul li:hover {
+    background: none repeat scroll 0 0 #E8F5FD !important;
+}
+
+.box_chat_part .box_part_content ul li.user_selected {
+    background: none repeat scroll 0 0 #E8F5FD !important;
+}
+
+.box_chat_part .box_part_content ul li img {
+    float: left;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 8px;
+    width: 30px;
+}
+
+.box_chat_part .box_part_content ul li .name_chat {
+    color: #454545;
+    float: left;
+    font-size: 12px;
+    left: 45px;
+    margin-top: 8px;
+    overflow: hidden;
+    padding: 6px 10px;
+    position: absolute;
+    width: 110px;
+}
+
+.box_chat_part .box_part_content ul li .status_online {
+    background: url("status_online.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/status_online.png*/ no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 15px;
+    margin-right: 10px;
+    margin-top: 14px;
+    width: 16px;
+}
+
+.box_chat_part .box_part_content ul li .status_offline {
+    background: url("status_offline.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/status_offline.png*/ no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 15px;
+    margin-right: 10px;
+    margin-top: 14px;
+    width: 16px;
+}
+
+.box_chat_part .box_part_content ul li .count_cmt {
+    background: url("mess_quantity.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/mess_quantity.png*/ no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 14px;
+    margin-top: 14px;
+    position: absolute;
+    right: 30px;
+    text-align: center;
+    width: 25px;
+}
+
+.box_chat_part .box_part_content ul li .count_cmt.count_cmt_offline {
+    background: url("mess_quantity_offline.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/mess_quantity_offline.png*/ no-repeat scroll 3px 0 transparent;
+}
+
+.box_chat_part .box_part_content ul li .count_cmt span.quantity {
+    color: white;
+    display: block;
+    font-size: 11px;
+    text-align: center;
+    width: 100%;
+}
+
+.chat_item_123 {
+    background: none repeat scroll 0 0 #F5F5F5;
+    bottom: 0;
+    max-height: 360px;
+    position: fixed;
+    right: 190px;
+    width: 260px;
+    z-index: 9999;
+}
+
+.wrapper_box_chat_user {
+}
+
+.wrapper_box_chat_user .box_user_head {
+    background: url("box_user.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/box_user.png*/ no-repeat scroll 0 0 transparent;
+    border-bottom: 1px solid lawngreen;
+    color: blue;
+    height: 30px;
+    cursor: pointer;
+}
+
+.wrapper_box_chat_user .box_user_head .status_online {
+    background: url("status_online.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/status_online.png*/ no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 15px;
+    margin-left: 10px;
+    margin-top: 8px;
+    width: 16px;
+}
+
+.wrapper_box_chat_user .box_user_head .status_offline {
+    background: url("status_offline.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/status_offline.png*/ no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 15px;
+    margin-left: 10px;
+    margin-top: 8px;
+    width: 16px;
+}
+
+.wrapper_box_chat_user .box_user_head .user_control {
+    float: right;
+    margin-top: 5px;
+}
+
+.wrapper_box_chat_user .box_user_head .user_control .settings_user {
+    position: relative;
+}
+
+.wrapper_box_chat_user .box_user_head .user_control .settings_user ul.settings {
+    background: none repeat scroll 0 0 WHITE;
+    box-shadow: 0 0 6px #BFBFBF;
+    display: none;
+    height: auto;
+    left: 5px;
+    margin: 0;
+    padding: 0 5px;
+    position: absolute;
+    top: 18px;
+    width: 173px;
+    z-index: 9999;
+}
+
+.wrapper_box_chat_user .box_user_head .user_control .settings_user:hover ul.settings {
+    display: block;
+}
+
+.wrapper_box_chat_user .box_user_head .user_control .settings_user ul.settings li {
+    border-bottom: 1px solid #C8E2EA;
+    padding: 5px;
+}
+
+.wrapper_box_chat_user .box_user_head .user_control .settings_user ul.settings li a {
+    color: #6F7376;
+    font-family: arial;
+    font-size: 12px;
+}
+
+.wrapper_box_chat_user .box_user_head .user_control .settings_user ul.settings li a:hover {
+    color: #EC1831;
+}
+
+.wrapper_box_chat_user .box_user_head .user_control .add_friend {
+    background: url("addfriend.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/addfriend.png*/ no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 20px;
+    margin-right: 5px;
+    margin-top: 2px;
+    width: 32px;
+}
+
+.wrapper_box_chat_user .box_user_head .user_control .add_friend:hover {
+    background: url("addfriend-hover.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/addfriend-hover.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.wrapper_box_chat_user .box_user_head .user_control .settings {
+    background: url("settings.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/settings.png*/ no-repeat scroll -7px 1px transparent;
+    float: left;
+    height: 18px;
+    margin-right: 5px;
+    margin-top: 2px;
+    width: 20px;
+}
+
+.wrapper_box_chat_user .box_user_head .user_control .settings:hover {
+    background: url("settings-hover.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/settings-hover.png*/ no-repeat scroll -7px 1px transparent;
+}
+
+.wrapper_box_chat_user .box_user_head .user_control .control_box {
+    background: url("close.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/close.png*/ no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 17px;
+    margin-right: 7px;
+    margin-top: 3px;
+    padding: 0;
+    width: 17px;
+}
+
+.wrapper_box_chat_user .box_user_head .user_control .control_box:hover {
+    background: url("close-hover.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/close-hover.png*/ no-repeat scroll -6px 1px transparent;
+}
+
+.wrapper_box_chat_user .box_user_head span.name_user {
+    color: white;
+    display: block;
+    float: left;
+    font-size: 12px;
+    padding: 7px 5px 0;
+}
+
+.wrapper_box_chat_user .box_user_head span.name_user a {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.wrapper_box_chat_user .box_user_head .control_box {
+    cursor: pointer;
+    display: block;
+    float: right;
+    padding: 3px 10px;
+}
+
+.wrapper_box_chat_user .box_user_content {
+    border-left: 1px solid #C7C7C7;
+    border-right: 1px solid #C7C7C7;
+    max-height: 220px;
+    min-height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.wrapper_box_chat_user .box_user_content.nano {
+    width: auto !important;
+}
+
+.wrapper_box_chat_user .box_user_content ul.mes {
+    height: auto;
+}
+
+.wrapper_box_chat_user .box_user_content ul.mes li {
+    cursor: auto;
+    margin-top: 17px;
+    padding-left: 5px;
+    width: 100%;
+}
+
+.wrapper_box_chat_user .box_user_content ul.mes li.visitor .user_message_wrap:hover .message_time {
+    display: block;
+}
+
+.wrapper_box_chat_user .box_user_content ul.mes li .user_message_wrap:hover .message_time {
+    display: block;
+}
+
+.wrapper_box_chat_user .box_user_content ul.mes li img {
+    margin-top: 5px;
+}
+
+.wrapper_box_chat_user .box_user_content ul.mes li img.message_is_red {
+    float: left !important;
+    height: 10px;
+    margin-left: 15px;
+    margin-top: 15px !important;
+    width: 10px;
+}
+
+.wrapper_box_chat_user .box_user_content ul.mes li .user_message_wrap {
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 0 0 5px #C5C5C5;
+    color: #606060;
+    float: left;
+    font-size: 12px;
+    margin-left: 12px;
+    margin-top: 5px;
+    padding: 6px 5px;
+    position: relative;
+    width: 184px;
+}
+
+.wrapper_box_chat_user .box_user_content ul.mes li .user_message_wrap .message_time {
+    bottom: -18px;
+    display: none;
+    font-size: 10px;
+    position: absolute;
+    right: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.wrapper_box_chat_user .box_user_content ul.mes li .user_message_wrap .narrow_message {
+    background: url("l.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/l.png*/ no-repeat scroll 0 -1px transparent;
+    height: 17px;
+    left: -9px;
+    position: absolute;
+    top: 4px;
+    width: 10px;
+}
+
+.wrapper_box_chat_user .box_user_content ul.mes li.visitor {
+    cursor: default;
+    margin-top: 17px;
+    padding-left: 0;
+    padding-right: 5px;
+    width: 100%;
+}
+
+.wrapper_box_chat_user .box_user_content ul.mes li.visitor img {
+    float: right;
+    margin-top: 5px;
+}
+
+.wrapper_box_chat_user .box_user_content ul.mes li.visitor .user_message_wrap {
+    background: none repeat scroll 0 0 #D4FEFF;
+    box-shadow: 0 0 5px #C5C5C5;
+    float: right;
+    line-height: 16px;
+    margin-right: 21px;
+    margin-top: 5px;
+    padding: 6px 5px;
+    position: relative;
+    width: 184px;
+}
+
+.wrapper_box_chat_user .box_user_content ul.mes li.visitor .user_message_wrap .narrow_message {
+    background: url("r.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/r.png*/ no-repeat scroll -2px 0 transparent;
+    height: 17px;
+    left: 194px;
+    position: absolute;
+    top: 4px;
+    width: 10px;
+}
+
+.wrapper_box_chat_user .box_user_content ul.mes li.visitor .user_message_wrap .message_time {
+    bottom: -18px;
+    color: #787878;
+    display: none;
+    font-size: 10px;
+    left: 3px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.box_user_content ul.mes li .user_message_wrap .user_message_item {
+    cursor: auto;
+    width: 180px;
+    word-wrap: break-word;
+}
+
+.wrapper_box_chat_user .box_user_input {
+    background: none repeat scroll 0 0 white;
+    border-color: #C8C8C8 #C7C7C7 #C7C7C7;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 10px;
+}
+
+.wrapper_box_chat_user .box_user_input input {
+    background: none repeat scroll 0 0 white;
+    border: medium none;
+    color: #A7A7A7;
+    float: left;
+    font-family: arial;
+    font-size: 12px;
+    height: 18px;
+    padding-top: 3px;
+    width: 90%;
+}
+
+.wrapper_box_chat_user .box_user_input textarea {
+    background: none repeat scroll 0 0 white;
+    border: medium none;
+    color: #5A5A5A;
+    float: left;
+    font-family: arial;
+    font-size: 12px;
+    height: 20px;
+    overflow: hidden;
+    padding-top: 5px;
+    width: 90%;
+}
+
+.wrapper_box_chat_user .box_user_input .emotions {
+    background: url("emotions.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions.png*/ no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 21px;
+    margin-top: 3px;
+    position: relative;
+    width: 20px;
+}
+
+.wrapper_box_chat_user .box_user_input .show_emotions {
+    background: none repeat scroll 0 0 red;
+    bottom: 30px;
+    display: none;
+    position: absolute;
+    right: 0;
+    width: 260px;
+}
+
+.show_emotions #div_emotions {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 white;
+    border-color: #BEBEBE #BEBEBE -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    bottom: 20px;
+    float: left;
+    height: 165px;
+    overflow: auto;
+    width: 258px;
+}
+
+.show_emotions #div_emotions #tb_emotion {
+}
+
+.show_emotions #div_emotions #tb_emotion tr {
+}
+
+.show_emotions #div_emotions #tb_emotion tr td {
+}
+
+.show_emotions #div_emotions #tb_emotion tr td img {
+    cursor: pointer;
+    margin: 0;
+}
+
+#box_chatting_123 .wrapper_box_chat_user .box_chatting_footer {
+    background: none repeat scroll 0 0 orange;
+    border-top: 1px solid lawngreen;
+}
+
+#box_chatting_123 .wrapper_box_chat_user .box_chatting_footer .current_chatting {
+    border-right: 1px solid lightgray;
+    float: left;
+    vertical-align: top;
+}
+
+#box_chatting_123 .wrapper_box_chat_user .box_chatting_footer .current_chatting span.quantity {
+    color: white;
+    float: left;
+    font-weight: bold;
+    margin-top: 0;
+    padding: 2px 5px;
+}
+
+#box_chatting_123 .wrapper_box_chat_user .box_chatting_footer .current_chatting img {
+    float: left;
+    margin: 0 5px;
+    width: 20px;
+}
+
+#box_chatting_123 .wrapper_box_chat_user .box_chatting_footer .control_chatting {
+    float: right;
+}
+
+#box_chatting_123 .wrapper_box_chat_user .box_chatting_footer .control_chatting span.tittle {
+    color: blue;
+    display: block;
+    font-size: 12px;
+    padding: 3px 10px;
+}
+
+.wrapper_box_chat_user .box_user_content ul {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper_box_chat_user .box_user_content ul li {
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding: 0 0 0 10px;
+}
+
+.wrapper_box_chat_user .box_user_content ul li img {
+    float: left;
+    height: 30px;
+    width: 30px;
+}
+
+.wrapper_box_chat_user .box_user_content ul li .name_chat {
+    float: left;
+    padding: 3px 10px;
+}
+
+.img_loading {
+    height: 20px;
+    margin: 5px 115px;
+}
+
+#confirm_close_boxchat {
+    background: none repeat scroll 0 0 #F5F5F5;
+    border-radius: 5px 5px 5px 5px;
+    display: none;
+    position: absolute;
+    top: -88px;
+    width: 100%;
+}
+
+#confirm_close_boxchat .content_confirm {
+    color: #B94E00;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px;
+    text-align: center;
+}
+
+#confirm_close_boxchat .control_button {
+    padding-bottom: 11px;
+    text-align: center;
+}
+
+#confirm_close_boxchat .control_button #confirm_cancel {
+    background: url("box_off.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/box_off.png*/ no-repeat scroll 0 0 transparent;
+    color: #2A2A2A;
+    display: block;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 25px;
+    padding: 5px 0;
+    width: 86px;
+}
+
+#confirm_close_boxchat .control_button #confirm_cancel:hover {
+}
+
+#confirm_close_boxchat .control_button #confirm_agree {
+    background: url("box_on.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/box_on.png*/ no-repeat scroll 0 0 transparent;
+    color: white;
+    display: block;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 7px;
+    padding: 5px 0;
+    width: 86px;
+}
+
+#confirm_close_boxchat .control_button #confirm_agree:hover {
+}
+
+.emotion_chat {
+    display: inline-block;
+    height: 19px;
+    width: 19px;
+}
+
+.emotion_angel {
+    background: url("angel.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/angel.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_angry {
+    background: url("angry.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/angry.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_bear {
+    background: url("bear.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/bear.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_bigsmile {
+    background: url("bigsmile.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/bigsmile.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_blush {
+    background: url("blush.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/blush.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_bow {
+    background: url("bow.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/bow.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_call {
+    background: url("call.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/call.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_cash {
+    background: url("cash.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/cash.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_clapping {
+    background: url("clapping.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/clapping.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_cool {
+    background: url("cool.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/cool.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_crying {
+    background: url("crying.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/crying.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_devil {
+    background: url("devil.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/devil.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_doh {
+    background: url("doh.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/doh.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_dull {
+    background: url("dull.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/dull.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_emo {
+    background: url("emo.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/emo.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_envy {
+    background: url("envy.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/envy.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_evilgrin {
+    background: url("evilgrin.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/evilgrin.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_giggle {
+    background: url("giggle.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/giggle.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_handshake {
+    background: url("handshake.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/handshake.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_happy {
+    background: url("happy.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/happy.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_heart {
+    background: url("heart.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/heart.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_hi {
+    background: url("hi.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/hi.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_inlove {
+    background: url("inlove.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/inlove.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_itwasntme {
+    background: url("itwasntme.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/itwasntme.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_kiss {
+    background: url("kiss.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/kiss.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_lipssealed {
+    background: url("lipssealed.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/lipssealed.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_makeup {
+    background: url("makeup.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/makeup.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_mmm {
+    background: url("mmm.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/mmm.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_muscle {
+    background: url("muscle.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/muscle.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_nerd {
+    background: url("nerd.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/nerd.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_no {
+    background: url("no.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/no.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_nod {
+    background: url("nod.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/nod.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_party {
+    background: url("party.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/party.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_puke {
+    background: url("puke.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/puke.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_punch {
+    background: url("punch.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/punch.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_rofl {
+    background: url("rofl.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/rofl.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_sadsmile {
+    background: url("sadsmile.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/sadsmile.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_shake {
+    background: url("shake.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/shake.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_sleepy {
+    background: url("sleepy.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/sleepy.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smile {
+    background: url("smile.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smile.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smirk {
+    background: url("smirk.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smirk.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_speechless {
+    background: url("speechless.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/speechless.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_surprised {
+    background: url("surprised.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/surprised.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_sweating {
+    background: url("sweating.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/sweating.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_talking {
+    background: url("talking.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/talking.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_thinking {
+    background: url("thinking.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/thinking.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_tongueout {
+    background: url("tongueout.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/tongueout.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_wait {
+    background: url("wait.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/wait.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_whew {
+    background: url("whew.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/whew.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_wink {
+    background: url("wink.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/wink.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_wondering {
+    background: url("wondering.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/wondering.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_worried {
+    background: url("worried.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/worried.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_yawn {
+    background: url("yawn.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/yawn.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_yes {
+    background: url("yes.png")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/yes.png*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_01 {
+    background: url("smh_01.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_01.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_02 {
+    background: url("smh_02.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_02.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_03 {
+    background: url("smh_03.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_03.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_04 {
+    background: url("smh_04.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_04.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_05 {
+    background: url("smh_05.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_05.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_06 {
+    background: url("smh_06.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_06.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_07 {
+    background: url("smh_07.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_07.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_08 {
+    background: url("smh_08.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_08.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_09 {
+    background: url("smh_09.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_09.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_10 {
+    background: url("smh_10.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_10.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_11 {
+    background: url("smh_11.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_11.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_12 {
+    background: url("smh_12.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_12.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_13 {
+    background: url("smh_13.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_13.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_14 {
+    background: url("smh_14.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_14.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_15 {
+    background: url("smh_15.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_15.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_16 {
+    background: url("smh_17.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_17.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_17 {
+    background: url("smh_17.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_17.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_18 {
+    background: url("smh_18.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_18.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_19 {
+    background: url("smh_19.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_19.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_20 {
+    background: url("smh_20.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_20.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_21 {
+    background: url("smh_21.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_21.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_22 {
+    background: url("smh_22.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_22.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_23 {
+    background: url("smh_23.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_23.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_24 {
+    background: url("smh_24.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_24.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_25 {
+    background: url("smh_25.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_25.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_26 {
+    background: url("smh_26.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_26.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_27 {
+    background: url("smh_27.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_27.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_28 {
+    background: url("smh_29.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_29.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_29 {
+    background: url("smh_29.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_29.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_30 {
+    background: url("smh_30.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_30.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_31 {
+    background: url("smh_31.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_31.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_32 {
+    background: url("smh_32.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_32.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_33 {
+    background: url("smh_33.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_33.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_34 {
+    background: url("smh_34.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_34.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_35 {
+    background: url("smh_35.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_35.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_36 {
+    background: url("smh_36.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_36.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_37 {
+    background: url("smh_37.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_37.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_38 {
+    background: url("smh_38.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_38.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_39 {
+    background: url("smh_39.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_39.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_40 {
+    background: url("smh_40.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_40.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_41 {
+    background: url("smh_41.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_41.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_42 {
+    background: url("smh_42.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_42.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_43 {
+    background: url("smh_43.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_43.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_44 {
+    background: url("smh_44.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_44.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_45 {
+    background: url("smh_45.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_45.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_46 {
+    background: url("smh_46.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_46.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_47 {
+    background: url("smh_47.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_47.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_48 {
+    background: url("smh_48.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_48.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_49 {
+    background: url("smh_49.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_49.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_50 {
+    background: url("smh_50.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_50.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_51 {
+    background: url("smh_51.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_51.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_52 {
+    background: url("smh_52.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_52.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_53 {
+    background: url("smh_53.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_53.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_54 {
+    background: url("smh_54.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_54.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_55 {
+    background: url("smh_55.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_55.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_56 {
+    background: url("smh_56.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_56.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_57 {
+    background: url("smh_57.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_57.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_58 {
+    background: url("smh_58.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_58.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_59 {
+    background: url("smh_59.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_59.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_60 {
+    background: url("smh_60.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_60.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_61 {
+    background: url("smh_61.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_61.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_62 {
+    background: url("smh_62.gif")/*tpa=http://chat.thuviengiaoduc.org/assets/images/emotions/smh_62.gif*/ no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_63 {
+    background: url("http://chat.thuviengiaoduc.org/assets/images/emotions/smh_63.gif") no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_64 {
+    background: url("http://chat.thuviengiaoduc.org/assets/images/emotions/smh_64.gif") no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_65 {
+    background: url("http://chat.thuviengiaoduc.org/assets/images/emotions/smh_65.gif") no-repeat scroll 0 0 transparent;
+}
+
+.emotion_smh_66 {
+    background: url("http://chat.thuviengiaoduc.org/assets/images/emotions/smh_66.gif") no-repeat scroll 0 0 transparent;
+}
+
+#close_emotion_table {
+    background: url("http://chat.thuviengiaoduc.org/assets/images/close_emotion.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    float: right;
+    height: 24px;
+    width: 24px;
+    z-index: 100;
+}
+
+.user_friend_offline {
+    display: none;
+}
+
+.chat_group {
+    background: url("http://chat.thuviengiaoduc.org/assets/images/bg_group_chat.png") repeat-x scroll 0 0 transparent;
+    height: 22px;
+}
+
+.chat_group .g_wrap {
+    cursor: pointer;
+    padding: 4px 10px;
+}
+
+.chat_group .g_wrap span.title_group {
+    color: white;
+    display: block;
+    float: left;
+    font-size: 12px;
+}
+
+.chat_group .g_wrap span.narrow {
+    background: url("http://chat.thuviengiaoduc.org/assets/images/narrow_group_1.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 8px;
+    margin-top: 3px;
+    width: 8px;
+}
+
+.chat_group .g_wrap span.narrow_open {
+    background: url("http://chat.thuviengiaoduc.org/assets/images/narrow_group_2.png") no-repeat scroll 0 0 transparent !important;
+}
+
+.action_customer #btn_chat {
+    background: url("http://chat.thuviengiaoduc.org/assets/images/chat_w1.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: block;
+    height: 31px;
+    margin-bottom: -25px;
+    margin-left: 7px;
+    margin-top: 40px;
+}
+
+.action_customer #btn_chat span.title {
+    display: block;
+    float: left;
+    font-size: 12px;
+    margin-left: 54px;
+    margin-top: 8px;
+}
+
+#waiting_box_friend {
+    padding: 10px;
+    text-align: center;
+}
+
+#waiting_box_friend img {
+}
+
+.chat_have_no_friend {
+
+}
+
+.chat_have_no_friend span {
+    background: none repeat scroll 0 0 wheat;
+    border-bottom: 1px solid orange;
+    color: slateblue;
+    display: block;
+    padding: 7px 17px;
+    text-align: center;
+}

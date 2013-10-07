@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+	.stt_tbao{ width:660px;text-align:center; display:none; padding:20px;border:1px solid #AEAEAE; box-shadow:1px 1px 4px #AEAEAE; margin:20px auto}
+	.question{ display:block; padding-left:25px;}
+	.div_page{margin:10px; display:none; text-align:justify; position:relative; width:700px; margin:10px 20px; padding:0px;}	
+	#close{ margin-left:0px; color:red;}
+	.stt_ques{ width:700px; display:block; margin-top:15px;}	
+	.gt{ text-align:center; width:650px; margin:100px 26px; padding:20px; border:1px solid #DDDDDD; box-shadow:1px 1px 4px #aeaeae;}
+	.giai_thich{ color:#0072D3; padding:10px; display:none}
+	.start{cursor:pointer; background:url(start.png)/*tpa=http://www.thuviengiaoduc.org/file/dungchung/button_img/start.png*/ no-repeat; height:49px; width:122px; margin-bottom:20px; border:none; color:#FFFFFF; font-weight:bold; line-height:49px; text-align:center; font-size:18px; padding-right:35px;}
+	.clock{ display:none;}
+	.stt_bold{ font-weight:bold;}	
+	#container { line-height:53px; background: url(bg_clock_toeic.png)/*tpa=http://www.thuviengiaoduc.org/file/luyen-thi-toeic/bai6/bg_clock_toeic.png*/ no-repeat scroll 0 0 transparent;
+    color: #454545; font-size: 35px; font-weight: bold;height: 53px;margin-bottom: 30px;margin-left: 210px;padding-left: 65px;
+  	 width: 199px;border:none;}
+   .input_text{width: 100px; text-align:center;margin-left:10px; margin-right:10px;background:url(blank2.png)/*tpa=http://www.thuviengiaoduc.org/file/phothong/common/images/blank2.png*/ repeat-x bottom; padding-bottom:8px; border:none;}
+	
+	.stt_blank .input_text{ width:500px; text-align:left;}
+#cmd{
+     background: url(bg_submit.png)/*tpa=http://www.thuviengiaoduc.org/file/phothong/common/images/bg_submit.png*/ no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    height: 44px;
+    width: 139px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    padding-right:37px;
+	margin-top:30px;
+   
+	cursor:pointer;
+	padding-bottom:3px;
+}
+	.stt_col_1{ width:650px; margin-left:10px;}
+	.stt_col_2{ width:300px; float:left;}
+	.stt_col_3{ width:220px; float:left;}
+	.stt_col_4{ width:160px; float:left;}
+	.stt_tf{ float:left; width:15px;}
+	#thpt_close{ color:#007F9F; font-weight:bold; font-size:15px; padding:4px;}
+/* CSS Document */
+.stt_cl_q{ color:#0072D3; margin-left:30px;}
+.stt_cl_p{margin-left: 5px; margin-right: 5px;}
+
+

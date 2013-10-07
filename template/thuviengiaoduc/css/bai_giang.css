@@ -1,0 +1,299 @@
+/* CSS Document */
+/*-------------------------font------------------------------*/
+@font-face { 
+    font-family:Cheri;
+	src: url("Cheri-11.eot")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/new-english-3/bai1/baigiang/fonts/Cheri.eot*/;
+	src: url("Cheri-11.eot-#iefix")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/new-english-3/bai1/baigiang/fonts/Cheri.eot?#iefix*/ format('embedded-opentype'),
+	url("Cheri-11.ttf")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/new-english-3/bai1/baigiang/fonts/Cheri.ttf*/ format('truetype');
+}
+
+@font-face { 
+    font-family:Coasbl;
+	src: url("Coasbl-11.eot")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/new-english-3/bai1/baigiang/fonts/Coasbl.eot*/;
+	src: url("Coasbl-11.eot-#iefix")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/new-english-3/bai1/baigiang/fonts/Coasbl.eot?#iefix*/ format('embedded-opentype'),
+	url("Coasbl-11.ttf")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/new-english-3/bai1/baigiang/fonts/Coasbl.ttf*/ format('truetype');
+}
+
+@font-face { 
+    font-family:Coobpl;
+	src: url("Coobpl-11.eot")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/new-english-3/bai1/baigiang/fonts/Coobpl.eot*/;
+	src: url("Coobpl.eot-#iefix")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/new-english-3/bai1/baigiang/fonts/Coobpl.eot?#iefix*/ format('embedded-opentype'),
+	url("Coobpl.ttf")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/new-english-3/bai1/baigiang/fonts/Coobpl.ttf*/ format('truetype');
+}
+
+@font-face { 
+    font-family:Gettysburg;
+	src: url("Gettysburg.eot")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/new-english-3/bai1/baigiang/fonts/Gettysburg.eot*/;
+	src: url("Gettysburg.eot-#iefix")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/new-english-3/bai1/baigiang/fonts/Gettysburg.eot?#iefix*/ format('embedded-opentype'),
+	url("Gettysburg.ttf")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/new-english-3/bai1/baigiang/fonts/Gettysburg.ttf*/ format('truetype');
+}
+
+@font-face { 
+    font-family:Calibri;
+	src: url("Calibri.eot")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/new-english-3/bai1/baigiang/fonts/Calibri.eot*/;
+	src: url("Calibri.eot-#iefix")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/new-english-3/bai1/baigiang/fonts/Calibri.eot?#iefix*/ format('embedded-opentype'),
+	url("Calibri.ttf")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/new-english-3/bai1/baigiang/fonts/Calibri.ttf*/ format('truetype');
+}
+#slide_order, .bai_enjoin{
+	font-family: Calibri;
+	color: white;
+	font-size: 19px;
+	}
+#value_answer{
+	font-family: Calibri;
+	font-size: 14px;
+	}
+.question{
+	font-size: 17px;
+	}
+/*------------------------slide-----------------------------*/
+#scienkids_bai2{
+	width: 719px;
+	height: auto;
+	text-align: left;
+}
+#scienkids_bai2 .loibh{
+	font-size: 16px;
+	margin-left: 5px;
+	padding: 5px;
+	height: 300px;
+	line-height: 150%;
+	overflow-y: scroll;
+	margin-top: 12px;
+}
+#scienkids_bai2 .info{ font-size:12px; padding:5px; border:1px solid #d9d9d9; height:200px; width:390px; line-height:150%; overflow-y:scroll; }
+#scienkids_bai2 .tab{ padding:5px; background:#efefef; font-weight:bold; }
+#scienkids_bai2 .side{ border-bottom:1px solid #efefef; height:5px; }
+#scienkids_bai2 .youtube{ display:block; }
+#scienkids_bai2 .server_vn{ display:none; }
+	
+#scienkids_bai2 .scienkids1_khung_enjoin{
+	width: 702px;
+	height: 47px;
+	background-repeat: no-repeat;
+	/*background-size: contain;*/
+	background-size: 702px 47px;
+	}
+#scienkids_bai2 .scienkids1_khung_enjoin, #scienkids_bai2 .scienkids1_number{
+	width: 75px;
+	height: 47px;
+	display: block;
+	text-align: center;
+	line-height: 98px;
+	font-size: 76px;
+	color: #9FC132;
+	float: left;
+	}
+#scienkids_bai2 .scienkids1_khung_enjoin, #scienkids_bai2 .scienkids1_text{
+	width: 590px;
+	height: 36px;
+	display: block;
+	float: left;
+	padding: 8px 0px 0px 0px;
+	font-size: 16px;
+}
+
+#scienkids_bai2 .vietnamese{
+	margin:0px;
+	}
+#scienkids_bai2 .question{
+	color: #f2f8f9;
+	}
+#scienkids_bai2 .video{
+	width: 420px;
+	margin-right: 8px;
+	border: 3px solid #FFA953;
+	/*border-radius: 10px;*/
+	height:330px;
+	float: left;
+	}
+#scienkids_bai2 .scienkids1_dich{
+	border: 3px solid #FFA953;
+	border-radius: 10px;
+	width: 260px;
+	margin-left: 10px;
+	height: 330px;
+	line-height: 150%;
+	overflow-y: hidden;
+	}
+#scienkids_bai2 #wrap_enjoin{
+	width: 719px;
+	height: 346px;
+	position: relative;
+	background-image:url(khung-Enjoy-8.png)/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/new-english-3/bai1/baigiang/slide/images/khung-Enjoy.png*/;
+	}
+#scienkids_bai2 .style1{
+	color: blue;
+	display:block;
+	}
+#scienkids_bai2 .img_title{
+    margin: 15px 0px 10px 0px;
+	}
+#scienkids_bai2 #form_cift_box{
+	width: 677px;
+	min-height: 100px;
+	padding: 0px 18px 0px 18px;
+	border: 3px solid #ef6910;
+	border-radius: 10px;
+	font-size: 16px;
+	color: #03C;"
+	}
+#scienkids_bai2 .bai_enjoin{
+	width: 195px;
+	height: 255px;
+	top: 70px;
+	left: 24px;
+	position: absolute;
+	}
+#scienkids_bai2 .enjoin_btn{
+	position: absolute;
+	top: 305px;
+	cursor: pointer;
+	}
+#scienkids_bai2 #enjoin_pre_btn{
+	left: 240px;
+	}
+#scienkids_bai2 #enjoin_pre_btn:active{
+	left: 235px;
+	}
+#scienkids_bai2 #enjoin_next_btn{
+	left: 330px;
+	}
+#scienkids_bai2 #enjoin_next_btn:active{
+	left: 335px;
+	}
+#scienkids_bai2 .imager_enjoin{
+	width: 468px;
+	height: 300px;
+	top: 19px;
+	position: absolute;
+	left: 243px;
+	z-index: 0;
+	}
+#scienkids_bai2 #slide_order{
+	width: 60px;
+	height: 32px;
+	position: absolute;
+	top: 305px;
+	left: 272px;
+	text-align:center;
+	}
+
+#ticker{
+	z-index: 10!important;
+	}
+#tickerbg{
+	z-index: 10!important;
+	}
+.bai_enjoin p span{
+	background-color: transparent!important;
+	}
+.question_choose #question_title{
+	line-height: 30px;
+	}
+.question_choose label{
+	line-height: 25px;
+	}
+	/*
+#scienkids_bai2 #across p{
+	margin: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	}
+#scienkids_bai2 #wrap_enjoin >*{
+	z-index:1;
+}*/
+/*-----------------------------------------*/
+/*
+#scienkids_bai2 .mess {
+	width: 490px;
+	padding: 5px;
+	height: 100px;
+	border: 1px solid #D6E4F2;
+}
+*/
+
+/*---------------------------------------game---------------------------*/
+.khung_game_choose{
+	background-color: #FBFDBF;
+	border: 5px solid blue;
+	border-radius: 20px;
+}
+.khung_game_choose div{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	}
+.khung_game_choose img{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	}
+.khung_game_choose .wrap_frame_game{
+	width: 100%;
+	height: 100%;
+	top:0px;
+	left: 0px;
+	display: none;
+	}
+.khung_game_choose .play_btn{
+	top: 55px;
+	left: 325px;
+	cursor: pointer;
+	}
+.khung_game_choose .left_answer_btn{
+	top: 195px;
+	left: 85px;
+	width: 160px;
+	height: 160px;
+	border: 3px solid green;
+	}
+.khung_game_choose .right_answer_btn{
+	top: 195px;
+	left: 409px;
+	width: 160px;
+	height: 160px;
+	border: 3px solid green;
+	}
+.khung_game_choose .bottom_btn{
+	top: 450px;
+	left: 595px;
+	display: none;
+	}
+.khung_game_choose .result{
+	display: none;
+	}
+.khung_game_choose #review_btn{
+    left: 480px;
+	}
+
+	#button_bar_game{
+		width: 300px;
+		position: relative;
+		top: -68px;
+		height: 30px;
+		display: block;
+		left: 189px;
+	}
+	#change_question_btn_game{
+		cursor: pointer;
+		width: 300px;
+		text-align: center;
+		margin: auto;
+		display: none;
+		font-size: 30px;
+	}
+	#slide_order_game{
+		width: 60px;
+		height: 32px;
+		text-align: center;
+		top: -11px;
+		position: relative;
+		color:black;
+	}
+    .bai_text{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: none;
+    }

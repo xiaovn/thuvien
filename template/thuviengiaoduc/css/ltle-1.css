@@ -1,0 +1,196 @@
+#lelr{
+    opacity: 0.99;
+    width: 680px;
+    height: 520px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+#lelr *{
+    opacity: 0.99;
+}
+.ab{
+   position: absolute;
+   top: 0px;
+   left: 0px; 
+}
+.screen{
+    width: 680px;
+    height: 520px;
+    position: absolute;
+    display: none;
+    top: 0px;
+    left: 0px;
+}
+#lelrwimg{
+    width: 308px;
+    height: 224px;
+    left: 187px;
+    top: 54px;
+}
+#area_word, #area_answer_word,#ltlrh{
+    text-align: center;
+    width: 680px;
+}
+#area_answer_word{
+    top: 400px;
+}
+#area_word{
+    top: 450px;
+}
+#ltlrh {
+    top: 278px;
+    background: white;
+    border: 1px solid black;
+    padding: 5px;
+    width: 634px;
+    left: 17px;
+    display: none;
+}
+.an_btn, .que_btn, .hbtn,.hbtnspace{
+    display: inline-block;
+    margin: 0px 1px;
+    width: 40px;
+    height: 40px;
+    background-size: 100% 100%;
+    position: relative;
+    color: #500F05;
+    font-family: Arial;
+}
+#lelrsp{
+    left: 305px;
+    top: 337px;
+    cursor: pointer;
+}
+.lelrbtn{
+    width: 100px;
+    height: 30px;
+    cursor: pointer;  
+    background-repeat: no-repeat;  
+}
+#lelrcheck{
+    left: 510px;
+    top: 196px;
+}
+#lelrhint{
+    left: 510px;
+    top: 142px;
+}
+#lelrredo{
+    left: 510px;
+    top: 92px;
+    width: 116px;
+    height: 30px;
+}
+#lelrnext{
+    left: 510px;
+    top: 252px;
+    display: none;
+}
+.lelrw,.lelrh{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 30px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    background-size: 100% 100%;
+}
+.lelrh{
+    display: none;
+}
+#lelrwimg img{
+    width: 308px;
+    height: 224px;
+    display: none
+}
+#lelrwimg img:first-child{
+    display: block
+}
+.lelrrs{
+    color: #9a3401;
+    left: 201px;
+    top: 149px;
+    font-size: 57px;
+    font-weight: bold;
+    background: #f1fafe;
+    text-align: center;
+    width: 280px;   
+    display: none; 
+    height: 50px;
+    line-height: 50px;
+}
+.lelrrsActive{
+    color: red;
+}
+#lelrcor{
+   font-size: 53px; 
+}
+#lelrinco{
+    
+}
+#ltlrrp{
+    width: 116px;
+    height: 30px;
+    cursor: pointer;
+    left: 285px;
+    top: 215px;
+}
+#ltlrrstb{
+    width: 275px;
+    height: 166px;
+    padding: 5px;
+    left: 198px;
+    top: 76px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+}
+#lelr{
+    background-image: url("bg-34.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/learn_through_movies/dungchung/gamevocab/img/bg.png*/;
+}
+.que_btn{
+    background-image: url("bg_q-1.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/learn_through_movies/dungchung/gamevocab/img/bg_q.png*/ ;
+}
+.an_btn,.lelrh{
+    background-image: url("bg_answer-1.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/learn_through_movies/dungchung/gamevocab/img/bg_answer.png*/;
+}
+#lelrcheck{
+    background-image: url("check-1.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/learn_through_movies/dungchung/gamevocab/img/check.png*/;
+}
+#lelrcheck:hover{
+     background-image: url("check2-1.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/learn_through_movies/dungchung/gamevocab/img/check2.png*/;
+}
+#lelrhint{
+    background-image: url("img/hint.png");
+}
+#lelrhint:hover{
+    background-image: url("img/hint2.png");
+}
+#lelrredo{
+    background-image: url("img/redo.png");
+}
+#lelrredo:hover{
+    background-image: url("img/redo2.png");
+}
+#lelrnext{
+    background-image: url("img/next.png");
+}
+#lelrnext:hover{
+    background-image: url("img/next2.png");
+}
+#ltlrrp{
+    background-image: url("img/replay1.png");
+}
+#ltlrrp:hover{
+    background-image: url("img/replay2.png");
+}
+#ltlrrstb{
+    background-image: url("img/bgresult.png");
+}

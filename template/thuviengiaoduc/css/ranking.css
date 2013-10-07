@@ -1,0 +1,54 @@
+.level-btn{
+	background-color: #FEEED0;
+	color: #094eff;
+	border: 7px solid;
+	border-color: #3a984a;
+	border-radius: 9px;
+	font-size: 15px;
+	width:110px;
+	height:50px;
+	}
+.level-btn-active{
+	border-color: #FF6905;
+	color:#ff0000;
+	}
+ .ranking_number{
+	background-image: url(bg_number_ranking.png)/*tpa=http://www.thuviengiaoduc.org/file/learn/child/olympic/home/ranking/imgs/bg_number_ranking.png*/;
+    width: 32px;
+    text-align: center;
+    height: 26px;
+    background-repeat: no-repeat;
+    color: blue;
+	}
+.ranking_name{
+	width: 205px;
+    padding-left: 15px!important;
+    height: 26px;
+	}
+.ranking_time{
+	height: 26px;
+    width: 70px;
+    text-align: center;
+	}
+.ranking_score{
+	height: 26px;
+    text-align: center;
+    padding-left: 0px!important;
+    width: 90px;
+    padding-right: 32px!important;
+	}
+.table_ranking{
+	border-spacing: 0px;
+    display:none;
+	}
+.table_ranking tr{
+	margin-top:2px;
+    font-weight: bold;
+	}
+.your_ranking{
+	background-color:#FF9;
+	color:#F00;
+	}
+ #play_rating_btn{
+    cursor: pointer;
+ }	    

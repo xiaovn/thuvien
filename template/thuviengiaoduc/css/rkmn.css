@@ -1,0 +1,22 @@
+.ab{position: absolute; top: 0px; left: 0px;}
+#rkmn{width: 750px; height: 547px; position: relative;}
+#rkmn *{opacity: 0.99;}
+#rkmntt{background-image: url("title.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/rocket_to_english_1/menu/img/title.png*/; width: 0px; height: 50px; left: 54px; top: 206px;}
+#rkmnrk{left: -231px; top: 109px;}
+#rkmnrkct{background-image: url("rocket.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/rocket_to_english_1/menu/img/rocket.png*/;}
+#rkmn{cursor: pointer;}
+#rkmntr{left: 173px; top: 318px; height: 216px; width: 216px; opacity: 0;}
+.rkmnapp{width: 0px; height: 0px; background-image: url("apple.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/rocket_to_english_1/menu/img/apple.png*/; line-height: 0px; text-align: center; color: #fff; font-family: Arial; font-weight: bold; background-size: 100% 100%; margin: 0px 0px 0px 31px; font-size: 0px; cursor: pointer;}
+#rkmntbsl{width: 688px; height: 208px; left: 29px; top: 340px; background-image: url("frame.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/rocket_to_english_1/menu/img/frame.png*/; display: none;}
+#rkmncltbsl{width: 40px; height: 40px; cursor: pointer; left: 646px; top: 2px; cursor: pointer;}
+.rkmnsl{width: 160px; height: 157px; cursor: pointer; display: inline-block;}
+.rkmnslicon{width: 160px; height: 157px; cursor: pointer;}
+.rkmnsl:hover{background-image: url("hover.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/rocket_to_english_1/menu/img/hover.png*/;}
+#rkmnslct{top: 40px; left: 20px;}
+#rkmnslicon1{width: 137px; height: 126px; background-image: url("bgsl1.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/rocket_to_english_1/menu/img/bgsl1.png*/; margin: auto; margin-top: 0px;}
+#rkmnslicon2{width: 123px; height: 95px; background-image: url("img/bgsl2.png"); margin: auto; margin-top: 32px;}
+#rkmnslicon3{width: 110px; height: 108px; background-image: url("img/bgsl3.png"); margin: auto; margin-top: 20px;}
+#rkmnslicon4{width: 87px; height: 112px; background-image: url("img/bgsl4.png"); margin: auto; margin-top: 18px;}
+#rkmnttsl{font-size: 16px; left: 406px; top: 11px; font-weight: bold;text-align: center;width: 240px;}
+#rkmntt2{height: 0px; width: 0px; left: 650px; top: 23px;}
+.rkmnsltt{text-align: center; margin-top: 10px;}

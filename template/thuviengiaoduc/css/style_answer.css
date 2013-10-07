@@ -1,0 +1,38 @@
+.wrme{
+    width: 505px;
+    overflow: hidden;
+}
+.letter{        
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    line-height: 20px;
+    width: 385px;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 67px 50px 50px 50px;
+        
+}
+#letter1{
+    min-height: 300px;   
+}
+#form_sendd #send_post, #form_sendd #reset{
+    text-decoration: none;
+    padding: 5px 7px;
+    color: white;
+    border: 1px solid gray;
+    background: #3282C2;
+    border-radius: 8px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, .5);
+    -moz-border-radius: 8px;
+    -moz-box-shadow: 3px 3px 4px rgba(0,0,0,.5);
+    background: -moz-linear-gradient(center top,#A4CCEC,#72A6D4 25%,#3282C2 45%,#357CBD 85%,#72A6D4);
+    -webkit-border-radius: 5px;
+    -webkit-box-shadow: 3px 3px 4px rgba(0, 0, 0, .5);
+    background: -webkit-gradient(linear,center top,center bottom,from(#A4CCEC),color-stop(25%,#72A6D4),color-stop(45%,#3282C2),color-stop(85%,#357CBD),to(#72A6D4));
+    line-height: 20px;
+    font-family: comic;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}

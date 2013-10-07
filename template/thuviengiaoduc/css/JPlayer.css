@@ -1,0 +1,254 @@
+.wplayer{
+    position: relative;
+}
+/*audio*/
+div.jp-audio {
+    width: 203px;
+    height: 26px;
+    position: relative;
+    font-size: 1.25em;
+    font-family: Verdana, Arial, sans-serif;
+    line-height: 1.6;
+    color: #666;
+}
+.jp-audio ul li{margin: 0px;}
+div.jp-audio div.jp-interface {
+    height: 26px;
+    position: relative;
+    width: 100%;
+    background-image: url("nen.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/dungchung/lib_new_en/JPlayer/nen.png*/;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+div.jp-audio div.jp-interface ul.jp-controls {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+div.jp-audio div.jp-interface ul.jp-controls li {
+    display: inline;
+    float: left;
+}
+div.jp-audio div.jp-interface ul.jp-controls a {
+    display: block;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+div.jp-audio a.jp-play {
+    background: url("play1.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/dungchung/lib_new_en/JPlayer/play1.png*/no-repeat;
+}
+div.jp-audio a.jp-pause {
+    background: url("pause1.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/dungchung/lib_new_en/JPlayer/pause1.png*/no-repeat;
+    display: none;
+}
+div.jp-audio a.jp-play, div.jp-audio a.jp-pause {
+    width: 13px;
+    height: 14px;
+    top: 5px;
+    position: absolute;
+    left: 8px;
+}
+div.jp-audio .jp-border {
+    width: 1px;
+    height: 20px;
+    background-image: url("ngan.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/dungchung/lib_new_en/JPlayer/ngan.png*/;
+    position: absolute;
+    left: 27px;
+    top: 3px;
+}
+div.jp-audio .jp-progress-slide {
+    position: absolute;
+    top: 10px;
+    height: 6px;
+    width: 107px;
+    border: 0px;
+    left: 45px;
+    background: url("sk1.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/dungchung/lib_new_en/JPlayer/sk1.png*/ no-repeat;
+}
+div.jp-audio div.ui-slider-range {
+    background: url("sk2.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/dungchung/lib_new_en/JPlayer/sk2.png*/ no-repeat;
+    z-index: 0;
+}
+div.jp-audio .ui-state-default {
+    width: 17px;
+    height: 18px;
+    background: url("point.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/dungchung/lib_new_en/JPlayer/point.png*/;
+    border: 0px;
+    cursor: pointer;
+    z-index: 0;
+}
+
+div.jp-audio div.jp-time-holder {
+    position: absolute;
+    top: 3px;
+    left: 159px;
+}
+div.jp-audio div.jp-current-time {
+     float: left;
+    display: inline;
+    width: 40px;
+	font-size: .64em;
+	font-style:oblique;
+}
+div.jp-audio .jp-no-solution {
+    padding: 5px;
+    font-size: .8em;
+    background-color: #eee;
+    border: 2px solid #009be3;
+    color: #000;
+    display: none;
+}
+/*audio circle*/
+div.jpcircle div.jp-type-single div.jp-circle {
+    background: url("bgcr.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/dungchung/lib_new_en/JPlayer/bgcr.png*/ no-repeat;
+}
+div.jpcircle, div.jp-audio div.jp-type-single div.jp-circle{
+    width: 25px;
+    height: 25px;
+    background-size: 100%;
+}
+div.jp-circle a.jp-pause {
+    width: 7px;
+    height: 9px;
+    top: 7px;
+    position: absolute;
+    left: 9px;
+    background-size: 100%;
+}
+div.jp-circle a.jp-play{
+    width: 10px;
+    height: 10px;
+    top: 7px;
+    position: absolute;
+    left: 9px;
+    background-size: 100%;
+}
+/*video*/
+div.jp-video {
+    font-size: 1.25em;
+    font-family: Verdana, Arial, sans-serif;
+    line-height: 1.6;
+    color: #666;
+}
+div.jp-video div.jp-video-270p div.jp-video-play {
+    margin-top: -270px;
+    height: 270px;
+}
+div.jp-video a.jp-video-play-icon{
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin-left: -26px;
+    margin-top: -37px;
+    left: 50%;
+    top: 50%;
+    background: url("videoplay1.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/dungchung/lib_new_en/JPlayer/videoplay1.png*/ 0 0 no-repeat;
+    background-size: 100% 100%;
+    text-indent: -9999px;
+}
+div.jp-video a.jp-video-play-icon:hover{
+    background: url("videoplay2.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/dungchung/lib_new_en/JPlayer/videoplay2.png*/ 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+div.jp-video div.jp-video-play {
+    width: 100%;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0);
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+div.jp-video div.jp-interface{  
+    height: 26px;
+    background-image: url("bgvideo.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/dungchung/lib_new_en/JPlayer/bgvideo.png*/;
+    position: relative;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+div.jp-video ul.jp-controls {
+    width: 78px;
+    margin-left: 200px;
+    display: inline;
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+div.jp-video ul.jp-controls li {display: inline;float: left;margin: auto;padding: 0px;position: static;}
+div.jp-video ul.jp-controls a {
+    display: block;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+div.jp-video a.jp-play, div.jp-video a.jp-pause {
+    width: 13px;
+    height: 14px;
+    top: 6px;
+    position: absolute;
+    left: 9px;
+}
+div.jp-video a.jp-pause {
+    background: url("pause1.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/dungchung/lib_new_en/JPlayer/pause1.png*/no-repeat;
+    display: none;
+}
+div.jp-video a.jp-play {
+    background: url("play1.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/dungchung/lib_new_en/JPlayer/play1.png*/no-repeat;
+}
+div.jp-video .jp-border {
+    width: 1px;
+    height: 20px;
+    background-image: url("ngan.png");
+    position: absolute;
+    left: 27px;
+    top: 3px;
+}
+div.jp-video .jp-progress-slide {
+    position: absolute;
+    top: 10px;
+    height: 6px;
+    width: 100%;
+    border: 0px;
+    left: 45px;
+    background: url("sk11.png");
+}
+div.jp-video .ui-slider-horizontal .ui-slider-range-min {
+    left: 0;
+}
+div.jp-video .ui-slider-horizontal .ui-slider-range {
+    top: 0;
+    height: 100%;
+}
+div.jp-video .ui-slider .ui-slider-range {
+    position: absolute;
+    z-index: 0;
+    font-size: .7em;
+    display: block;
+    border: 0;
+    background-position: 0 0;
+    background-color: #ff9000;
+}
+div.jp-video .ui-state-default{
+    width: 17px;
+    height: 18px;
+    background: url("point.png");
+    border: 0px;
+    cursor: pointer;
+    z-index: 0;
+}
+div.jp-video div.jp-current-time{
+    width: 40px;
+    font-size: .64em;
+    font-style: oblique;
+    margin-top: 3px;
+    float: left;
+    display: inline;    
+}
+ div.jp-video div.jp-gui {width: 100%; position: none!important;}   

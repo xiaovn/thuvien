@@ -1,0 +1,207 @@
+/*************************** PLAYER WRAPPER */
+.PKL_wrapper{
+	left:0px;
+	top:0px;
+	width:190px;
+	float:left;
+	position:relative;
+	z-index:1;
+	display:block;
+	height:26px;
+}
+
+/*************************** CONTROLS BKGD */
+.PKL_controlsBkgd{
+	background:url(bg_audio_long-1.png)/*tpa=http://www.thuviengiaoduc.org/static/js/audioPlayer/pickle/skins/plastic_player/bg_audio_long.png*/ 0px 0px no-repeat;
+	left:0px;
+	background-repeat:no-repeat;
+	top:0px;
+	width:190px;
+	font-size:0px;
+	float:left;
+	position:absolute;
+	z-index:6;
+	display:block;
+	height:26px;
+}
+
+/*************************** PLAY */
+.PKL_playpause, .PKL_play{
+	background:url(bg_audio_long-1.png)/*tpa=http://www.thuviengiaoduc.org/static/js/audioPlayer/pickle/skins/plastic_player/bg_audio_long.png*/ -78px -53px no-repeat;
+	left:3px;
+	background-repeat:no-repeat;
+	top:1px;
+	cursor:pointer;
+	width:39px;
+	font-size:0px;
+	float:left;
+	position:absolute;
+	z-index:6;
+	display:block;
+	height:21px;
+}
+div.PKL_playpause:hover, div.PKL_play:hover{
+	background:url(bg_audio_long-1.png)/*tpa=http://www.thuviengiaoduc.org/static/js/audioPlayer/pickle/skins/plastic_player/bg_audio_long.png*/ -117px -53px no-repeat;
+}
+div.PKL_playpause:active, div.PKL_play:active{
+	background:url(bg_audio_long-1.png)/*tpa=http://www.thuviengiaoduc.org/static/js/audioPlayer/pickle/skins/plastic_player/bg_audio_long.png*/ -117px -53px no-repeat;
+}
+div.PKL_playpause.pause, div.PKL_play.pause{
+	background:url(bg_audio_long-1.png)/*tpa=http://www.thuviengiaoduc.org/static/js/audioPlayer/pickle/skins/plastic_player/bg_audio_long.png*/ 0px -53px no-repeat;
+}
+div.PKL_playpause.pause:hover, div.PKL_play.pause:hover{
+	background:url(bg_audio_long-1.png)/*tpa=http://www.thuviengiaoduc.org/static/js/audioPlayer/pickle/skins/plastic_player/bg_audio_long.png*/ -40px -53px no-repeat;
+}
+div.PKL_playpause.pause:active, div.PKL_play.pause:active{
+	background:url(bg_audio_long-1.png)/*tpa=http://www.thuviengiaoduc.org/static/js/audioPlayer/pickle/skins/plastic_player/bg_audio_long.png*/ -40px -53px no-repeat;
+}
+
+/*************************** MUTE */
+.PKL_mute{
+	background-image:url("b_mute-1.png")/*tpa=http://www.thuviengiaoduc.org/static/js/audioPlayer/pickle/skins/plastic_player/b_mute.png*/;
+	left:240px;
+	background-repeat:no-repeat;
+	top:1px;
+	cursor:pointer;
+	width:30px;
+	font-size:0px;
+	float:left;
+	position:absolute;
+	z-index:5;
+	display:block;
+	height:21px;
+}
+div.PKL_mute:hover{
+	background-image:url("b_mute_over-1.png")/*tpa=http://www.thuviengiaoduc.org/static/js/audioPlayer/pickle/skins/plastic_player/b_mute_over.png*/;
+}
+div.PKL_mute:active{
+	background-image:url("b_mute_down-1.png")/*tpa=http://www.thuviengiaoduc.org/static/js/audioPlayer/pickle/skins/plastic_player/b_mute_down.png*/;
+}
+div.PKL_mute.on{
+	background-image:url("b_mute_down-1.png")/*tpa=http://www.thuviengiaoduc.org/static/js/audioPlayer/pickle/skins/plastic_player/b_mute_down.png*/;
+}
+div.PKL_mute.on:hover{
+	background-image:url("b_mute_over-1.png")/*tpa=http://www.thuviengiaoduc.org/static/js/audioPlayer/pickle/skins/plastic_player/b_mute_over.png*/;
+}
+div.PKL_mute.on:active{
+	background-image:url("b_mute-1.png")/*tpa=http://www.thuviengiaoduc.org/static/js/audioPlayer/pickle/skins/plastic_player/b_mute.png*/;
+}
+
+/*************************** TIME */
+.PKL_time{
+	color:#767676;
+	left:156px;
+	vertical-align:middle;
+	text-align:center;
+	font-family:Arial;
+	top:7px;
+	white-space:nowrap;
+	font-size:11px;
+	font-weight:normal;
+	position:absolute;
+	z-index:6;
+	display:block;
+	overflow:hidden;
+	height:17px;
+	line-height:normal !important;
+}
+
+/*************************** SCRUB BKGD */
+.PKL_scrubBkgd{
+	background:#d7d7d7;
+	left:44px;
+	background-repeat:no-repeat;
+	top:10px;
+	cursor:pointer;
+	width:104px;
+	font-size:0px;
+	float:left;
+	position:absolute;
+	z-index:5;
+	display:block;
+	height:4px;
+	border:1px solid #bababa;
+	border-radius:4px;
+}
+
+/*************************** SCRUB BAR */
+.PKL_scrubBar{
+	background:#ff9000;
+	overflow:hidden;
+	left:-1px;
+	background-repeat:no-repeat;
+	top:-1px;
+	cursor:pointer;
+	width:26px;
+	font-size:0px;
+	float:left;
+	position:absolute;
+	z-index:1;
+	display:block;
+	height:6px;
+	border-radius:6px;
+}
+
+/*************************** LOADING */
+.PKL_loading{
+	background-image:url("g_scrubLoading-1.png")/*tpa=http://www.thuviengiaoduc.org/static/js/audioPlayer/pickle/skins/plastic_player/g_scrubLoading.png*/;
+	overflow:hidden;
+	left:0px;
+	background-repeat:no-repeat;
+	top:0px;
+	width:26px;
+	font-size:0px;
+	float:right;
+	position:relative;
+	background-position:right;
+	z-index:1;
+	display:block;
+	height:11px;
+}
+
+/*************************** SCRUB HANDLE */
+.PKL_scrubHandle{
+	background:url(bg_audio_long.png) 0px -33px no-repeat;
+	left:0px;
+	background-repeat:no-repeat;
+	top:-6px;
+	cursor:pointer;
+	width:17px;
+	font-size:0px;
+	float:left;
+	position:absolute;
+	z-index:6;
+	display:block;
+	height:17px;
+}
+div.PKL_scrubHandle:hover{
+	background:url(bg_audio_long.png) -40px -33px no-repeat;
+}
+div.PKL_scrubHandle:active{
+	background:url(bg_audio_long.png) -40px -33px no-repeat;
+}
+
+/*************************** THINKER */
+.PKL_thinker{
+	
+	left:163px;
+	background-repeat:no-repeat;
+	top:3px;
+	width:17px;
+	font-size:0px;
+	position:absolute;
+	z-index:10;
+	display:block;
+	height:18px;
+}
+div.PKL_thinker.off{
+	background-image:none;
+}
+
+.PKL_preloader{
+	width:1px;
+	height:1px;
+	background-repeat:no-repeat;
+	background-image:url("b_play_over.png#b_play_down.png#b_pause.png#b_pause_over.png#b_pause_down.png#b_scrubHandle_over.png#b_scrubHandle_down.png#b_mute_over.png#b_mute_down.png#b_mute_down.png#b_mute_over.png#b_mute.png#background-image:none#b_scrubHandle_over.png#b_scrubHandle_down.png");
+	display:none;
+}

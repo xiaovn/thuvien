@@ -1,0 +1,11 @@
+.adl_box {width:190px; height:26px; border:none; background:url(bg_audio_long.png)/*tpa=http://www.thuviengiaoduc.org/static/js/audioPlayer/jplayer/css/images/bg_audio_long.png*/ 0px 0px no-repeat; padding:0; display:block; position:inherit}
+.adl_play {width:34px !important; height:26px !important; float:left; padding:0 !important; margin:0 !important; border:none !important;  background:url(bg_audio_long.png)/*tpa=http://www.thuviengiaoduc.org/static/js/audioPlayer/jplayer/css/images/bg_audio_long.png*/ -78px -53px no-repeat !important;}
+.adl_play_in {background:none !important}
+.adl_pause {width:34px !important; height:26px !important; float:left; padding:0 !important; margin:0 !important; border:none !important;  background:url(bg_audio_long.png)/*tpa=http://www.thuviengiaoduc.org/static/js/audioPlayer/jplayer/css/images/bg_audio_long.png*/ 0px -53px no-repeat !important;}
+.adl_pause:hover	{ background:url(bg_audio_long.png)/*tpa=http://www.thuviengiaoduc.org/static/js/audioPlayer/jplayer/css/images/bg_audio_long.png*/ -40px -53px no-repeat !important;}
+.adl_play:hover { background:url(bg_audio_long.png)/*tpa=http://www.thuviengiaoduc.org/static/js/audioPlayer/jplayer/css/images/bg_audio_long.png*/ -117px -53px no-repeat !important;}
+.adl_slider {height:4px; width:92px; border:none; float:left; background:#c3c2c1; top:11px; left:12px; border-radius:4px; position:relative;}
+.adl_time {font-size:11px; font-family:Arial, Helvetica, sans-serif; float:left; line-height:normal; top:7px; left:25px;position:relative}
+.adl_icon {width:17px !important; height:17px !important; background:url(images/bg_audio_long.png) 0px -33px no-repeat !important; border:none  !important; margin-left:-6px  !important; top:-6px !important;position:relative;   z-index: 2; }
+.adl_icon:hover { background:url(images/bg_audio_long.png) -40px -33px no-repeat !important;}
+.adl_sl {height:4px; border-radius:4px; background:#ff9000;position:relative;}

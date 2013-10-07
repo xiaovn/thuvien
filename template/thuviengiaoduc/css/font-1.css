@@ -1,0 +1,10 @@
+@font-face { 
+    font-family:Comic;
+	src: url("Comic.eot")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/olympic/home/fonts/Comic.eot*/;
+	src: url("Comic.eot-#iefix")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/olympic/home/fonts/Comic.eot?#iefix*/ format('embedded-opentype'),
+	url('Comic.ttf') format('truetype');
+}
+
+.khung-home-chi *{
+	font-family: Comic;
+}

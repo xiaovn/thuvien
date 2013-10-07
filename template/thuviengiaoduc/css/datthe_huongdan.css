@@ -1,0 +1,291 @@
+.vb_bold{font-weight: bold;}
+.vb_orange{color: #F07D00;}
+.vb_orange-1{color: #C46400;}
+.vb_orange-2{color: #AE6405;}
+.vb_orange-3{color: #AB2B28;}
+.vb_green{color: #68A502;}
+.vb_green-1{color: #567915;}
+.vb_blue-1{color: #37819E;}
+.vb_quyen-loi-thanh-vien{margin: 0;width: 746px;margin-left: -10px;font-family: Arial;color: #474545;font-size: 14px;line-height: normal;}
+/*.vb_banner img{width: 100%;} */
+.vb_title-1{background: url(1_soc_red_11.jpg)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/1_soc_red_11.jpg*/ no-repeat 0 bottom;height: 57px;line-height: 57px;font-size: 28px;margin: 0;}
+.vb_contents-descript{margin: 5px 0 10px;margin-right: 1px;}
+.vb_box-1{line-height: 24px;margin: 10px 0;text-align: justify;}
+.vb_title-2{font-size: 16px;font-weight: bold;margin: 35px 0 15px 0;}
+.vb_box-2,.vb_box-3,.vb_box-4{float: left;margin-bottom: 20px;width: 100%;}
+.vb_box-2 a{color: #37819E;text-decoration: none;font-weight: bold;}
+.vb_box-2 a:hover{color: #FE7B07;text-decoration: underline;}
+.vb_right-margin17{margin-right: 17px;}
+.vb_right-margin26{margin-right: 26px;}
+.vb_giaithuong{float: left;border: 1px solid #D7D7D7;height: 122px;width: 339px;border-radius:5px;background:#fcfcfc url(1_start_sao_khue.png)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/1_start_sao_khue.png*/ no-repeat 0 0;}
+.vb_saokhue{width: 92%;height: 99px;background: url(1_Cup_sao_khue.jpg)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/1_Cup_sao_khue.jpg*/ no-repeat right center;margin: 12px 0 0 0;}
+.vb_textsaokhue{float: right;margin: 26px 56px 0 39px;width: 67%;text-align: right;}
+.vb_top50{width: 99%;height: 99px;background: url(1_top100.jpg)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/1_top100.jpg*/ no-repeat right center;margin: 12px 0 0 0;}
+.vb_texttop50{float: right;margin: 26px 105px 0 39px;width: 56%;text-align: right;}
+.vb_box-left{width: 49%;height: 224px;float: left;}
+.vb_border-right{border-right: 1px dotted #D7D7D7;}
+.vb_border-bottom{border-bottom: 1px dashed #D7D7D7;}
+.vb_box-3-item1{width: 95%;height: 113px;background: url(1_motvai_1.jpg)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/1_motvai_1.jpg*/ no-repeat 40px center;}
+.vb_box-3-item-ct{width: 66%;float: right;text-align: justify;background: url(1_motvai_soc.gif)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/1_motvai_soc.gif*/ no-repeat 0 center;height: 110px;}
+.vb_box-3-item-ct-text{margin: 20px 0 0 20px;}
+.vb_box-3-item2{width: 95%;height: 113px;background: url(1_motvai_80.jpg)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/1_motvai_80.jpg*/ no-repeat 22px center;}
+.vb_box-3-item3{width: 95%;height: 113px;background: url(1_motvai_200.jpg)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/1_motvai_200.jpg*/ no-repeat 12px center;margin-left: 15px;}
+.vb_box-3-item4{width: 95%;height: 113px;background: url(1_motvai_1trieu.jpg)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/1_motvai_1trieu.jpg*/ no-repeat 22px center;margin-left: 15px;}
+.vb_box-4{margin: 20px 0;}
+.vb_box-4-item{float: left;}
+.vb_box-4-item{width: 36%;text-align: justify;padding-left: 85px;font-size: 13px;}
+.vb_box-4 h3{margin: 0;margin-bottom: 5px;font-size: 13px;}
+.vb_bg-dolla{background: url(2_chiphithap_1.gif)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/2_chiphithap_1.gif*/ no-repeat  0 center;}
+.vb_bg-clock{background: url(2_chiphithap_dong_ho.gif)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/2_chiphithap_dong_ho.gif*/ no-repeat  0 center;}
+.vb_bg-play{background: url(2_chiphithap_play.gif)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/2_chiphithap_play.gif*/ no-repeat  0 center;}
+.vb_bg-pen{background: url(2_chiphithap_pen.gif)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/2_chiphithap_pen.gif*/ no-repeat  0 center;}
+.vb_bg-star{background: url(2_chiphithap_start.gif)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/2_chiphithap_start.gif*/ no-repeat  0 center;}
+.vb_bg-peple{background: url(2_chiphithap_people.gif)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/2_chiphithap_people.gif*/ no-repeat  0 center;}
+.vb_quyenloithanhvien{width: 91%;margin: 20px auto 25px auto;text-align: center;font-size: 21px;border-bottom: 1px dashed #D7D7D7;line-height: 28px;padding-bottom: 20px;float: left;}
+.vb_box-5,.vb_box-6{float: left;}
+.vb_box-5 a,.vb_box-6 a{color: #37819E;text-decoration: none;font-weight: bold;}
+.vb_box-5 a:hover,.vb_box-6 a:hover{color: #FE7B07;text-decoration: underline;}
+.vb_box-5{text-align: justify;}
+.vb_box-5-item{margin-left: 330px;}
+.vb_title_step1{background: url(3_batdauhoc_text.gif)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/3_batdauhoc_text.gif*/ no-repeat  0 0;padding-top: 95px;}
+.vb_box-6{margin-bottom: 25px;}
+.vb_title_step2{background: url(4_giaotiep_text.gif)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/4_giaotiep_text.gif*/ no-repeat  0 0;}
+.vb_box-6-item-1{padding-top: 60px;margin-right: 330px;text-align: justify;margin-top: 30px;}
+.vb_box-5-step1{background: url(3_batdauhoc_picture.jpg)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/3_batdauhoc_picture.jpg*/ no-repeat  60px 40px;}
+.vb_box-6-step2{background:#FBFBFB url(4_giaotiep_picture.jpg)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/4_giaotiep_picture.jpg*/ no-repeat  470px 22px;}
+.vb_box-5-step3{background: url(5_chapdiem_picture.jpg)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/5_chapdiem_picture.jpg*/ no-repeat  4px 22px;}
+.vb_title_step3{background: url(5_chamdiem_text.gif)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/5_chamdiem_text.gif*/ no-repeat  0 0;padding-top: 95px;}
+.vb_box-6-step4{background:#FBFBFB url(6_phothong_picture.jpg)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/6_phothong_picture.jpg*/ no-repeat  470px 22px;}
+.vb_title_step4{background: url(6_phothong_text.gif)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/6_phothong_text.gif*/ no-repeat  0 0;padding-top: 90px;}
+.vb_box-5-step4{background: url(7_toeic_picture.jpg)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/7_toeic_picture.jpg*/ no-repeat  4px 22px;}
+.vb_title_step5{background: url(7_toeic_picture.gif)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/7_toeic_picture.gif*/ no-repeat  0 0;padding-top: 60px;}
+.vb_box-6-step5{background:#FBFBFB url(8_hocnoi_picture.jpg)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/8_hocnoi_picture.jpg*/ no-repeat  470px 22px;}
+.vb_title_step6{background: url(8_hocnoi_text.gif)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/8_hocnoi_text.gif*/ no-repeat  0 0;padding-top: 60px;}
+.vb_box-5-step6{background: url(9_tuvung_picture.jpg)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/9_tuvung_picture.jpg*/ no-repeat  30px 22px;}
+.vb_title_step7{background: url(9_tuvung_text.gif)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/9_tuvung_text.gif*/ no-repeat  0 0;padding-top: 60px;}
+.vb_box-6-step7{background:#FBFBFB url(11_luyennghe_picture.jpg)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/11_luyennghe_picture.jpg*/ no-repeat  410px 22px;}
+.vb_title_step8{background: url(11_luyennghe_text.gif)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/11_luyennghe_text.gif*/ no-repeat  0 0;padding-top: 60px;}
+.vb_box-5-step8{background: url(12_voa_bcc_cnn_1_03.jpg)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/12_voa_bcc_cnn_1_03.jpg*/ no-repeat  30px 0px;}
+.vb_title_step9{background: url(12_cnn_text.gif)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/12_cnn_text.gif*/ no-repeat  0 0;padding-top: 80px;margin-bottom: 26px;}
+.vb_box-6-step9{background:#FBFBFB url(13_nguoinoitieng_picture.jpg)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/13_nguoinoitieng_picture.jpg*/ no-repeat  437px 22px;}
+.vb_title_step10{background: url(13_nguoinoitieng_text.gif)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/13_nguoinoitieng_text.gif*/ no-repeat  0 0;padding-top: 60px;}
+.vb_box-5-step10{background: url(14_truyencuoi_picture.jpg)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/14_truyencuoi_picture.jpg*/ no-repeat  30px 0px;}
+.vb_title_step11{background: url(14_truyencuoi_picture.gif)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/14_truyencuoi_picture.gif*/ no-repeat  0 0;padding-top: 80px;margin-bottom: 26px;}
+.vb_box-6-step11{background:#FBFBFB url(15_hocquadich_picture.jpg)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/15_hocquadich_picture.jpg*/ no-repeat  437px 22px;}
+.vb_title_step12{background: url(15_hocquadich_text.gif)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/15_hocquadich_text.gif*/ no-repeat  0 0;padding-top: 60px;}
+.vb_slide_hocvien{background: url(VIP_landing-page-PSD.jpg)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/VIP_landing-page-PSD.jpg*/ no-repeat  0 0;width: 723px;margin: 20px 0 0 -9px;float: left;}
+.vb_slide_content,.vb_slide_avata,.vb_slide_nhanxet{float: left;}
+.vb_slide_avata{margin: 66px 0 0 23px;}
+.vb_slide_nhanxet{width: 75%;height: 188px; margin-left: 28px;font-size: 13px;line-height: 21px;margin-top: 70px;text-align: justify;}
+.vb_address{clear: both;}
+.vb_address h3{margin: 20px 0 2px 0;font-size: 14px;}
+.vb_address span{font-size: 12px;}
+.vb_pagging{position: relative;top: 20px;width: 255px;margin: 0 auto;}
+.vb_slide_pre,.vb_slide_next,.vb_slide_page,.vb_slide_page_active{cursor: pointer;}
+.vb_slide_content{display: none;}
+.vb_slide_pre{background: url(17_hocvien_noi_icon_back.png)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/17_hocvien_noi_icon_back.png*/ no-repeat  0 0;height: 21px;width: 17px;display: inline-table;}
+.vb_slide_next{background: url(17_hocvien_noi_icon_next.png)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/17_hocvien_noi_icon_next.png*/ no-repeat  0 0;height: 21px;width: 15px;display: inline-table;margin-left: 3px;}
+.vb_slide_page{background: url(17_hocvien_noi_icon_gray.png)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/17_hocvien_noi_icon_gray.png*/ no-repeat  0 0; height: 9px;width: 9px;display: inline-table;margin-left: 4px;margin-right: 4px;position: relative;top: -5px;overflow: hidden;}
+.vb_slide_page_active{background: url(17_hocvien_noi_icon_green.png)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/17_hocvien_noi_icon_green.png*/ no-repeat  0 0; height: 13px;width: 13px;display: inline-table;position: relative;top: -3px;}
+.vb_videobaochi{float: left;margin-top: 54px;}
+.vb_baochi,.vb_video_des,.vb_video_des1{float: left;}
+.vb_baochi{background: url(VIP_landing-page-PSD_06.jpg)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/VIP_landing-page-PSD_06.jpg*/ no-repeat  0 0; height: 353px;width: 723px;float: left;margin: 35px 0 0 -9px;}
+.vb_video_des{width: 47%;padding-left: 18px;font-size: 13px;}
+.vb_video_des span{margin-top: 15px;display: inline-block;margin-top: 4px;line-height: 19px;}
+.vb_video_des1{width: 44%;margin-left: 16px;font-size: 13px;}
+.vb_video_des1 ul{margin: 0;list-style: none;padding: 0;}
+.vb_video_des1 li{line-height: 20px;padding: 15px 0; padding-left: 55px;}
+.vb_video_des1_dantri{background: url(18_bao_chi_noi_icon_2.png)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/18_bao_chi_noi_icon_2.png*/ no-repeat  10px 15px;}
+.vb_video_des1_k14{background: url(18_bao_chi_noi_icon_3.png)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/18_bao_chi_noi_icon_3.png*/ no-repeat  10px 15px;}
+.vb_video_des1_geck{background: url(18_bao_chi_noi_icon_1.png)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/18_bao_chi_noi_icon_1.png*/ no-repeat  10px 19px;}
+.vb_baochi a{text-decoration: none;color: #37819E;}
+.vb_baochi a:hover{color: #FE7B07;text-decoration: underline;}
+.vb_tip{text-align: justify;font-size: 16px;width: 97%;margin: 20px auto 0 10px;float: left;}
+.vb_tip1{float: left;width: 100%;margin: 35px 0 10px 0;height: 189px;}
+.vb_tit_cachmuathe{margin: 0 auto;background:#F07D00 url(19_cach_mua_the_bg.gif)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/19_cach_mua_the_bg.gif*/ no-repeat  0 bottom;height: 68px;width: 586px;line-height: 54px;text-align: center;font-size: 21px;}
+.vb_tit_cachmuathe a{color: white;text-decoration: none;}
+.vb_tit_cachmuathe img{margin-top: 15px;}
+.vb_tip2{float: left;text-align: justify;line-height: 22px;font-size: 14px;}
+.vb_form_the{margin: 20px 0 20px 0;float: left;}
+.vb_box-7{width: 94%;margin: 0 auto;}
+.vb_form_the_title{font-size: 20px;color: #68A502;text-align: center;line-height: 30px;width: 99%;}
+.vb__form_dat_the{width: 662px;height: 100%; border: 1px solid #898686;border-radius:4px;overflow: hidden;}
+.vb__form_dat_the-1{width: 662px;border: 1px solid #898686;border-radius:4px;overflow: hidden;height: 100%;}
+.vb__row-1,.vb__field{float: left;}
+.vb__row-1 input,.vb__row-1 textarea{
+    -moz-box-shadow:    inset 0 1px 1px #D7D7D7;
+   -webkit-box-shadow: inset 0 1px 1px #D7D7D7;
+   box-shadow:         inset 0 1px 1px #D7D7D7;
+   border: none;
+   border: 1px solid #D7D7D7;
+   border-radius:4px ;padding: 0 10px;font-size: 15px;
+   resize:none;
+}
+.vb__row-1 textarea{padding-top: 10px;padding-bottom: 10px;}
+.vb__row-1 h4{margin: 0;height: 23px;}
+.vb__field input{width: 265px;height: 33px;font-size: 16px;}
+.vb__field_margin_right30{margin-right: 30px;}
+.vb__row-1{margin: 28px 0px 0px 28px;}
+.vb_action_submit{background: #F9F9F9;float: left;height: 80px;line-height: 83px; margin-top: 38px;width: 100%;text-align: center;border-top: 1px solid #D7D7D7 ;width: 662px;}
+.vb_action_submit input{margin-top: 15px;}
+/*.vb_action_submit input:hover{background: url(http://data.thuviengiaoduc.org/images/quyenloithanhvien/20_Dat_mua_the_hover.gif) no-repeat  0 0;}*/
+.vb_note_card{float: left; background: url(VIP_landing-page-PSD_09.jpg)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/VIP_landing-page-PSD_09.jpg*/ no-repeat  0 0;width: 664px;height: 291px;margin: 16px 0 0 0;}
+.vb__content_note{margin-left: 197px;margin-top:22px ;font-size: 13px;line-height: 18px;text-align: justify;width: 67%;}
+.vb_title-12{float: left;margin: 0;background: url("1_soc_red_11.jpg")/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/1_soc_red_11.jpg*/ no-repeat scroll 0 bottom transparent;
+    font-size: 23px;
+    height: 57px;
+    line-height: 57px;}
+.vb_slide_2{float: left;width: 97%;margin-left: 12px;}
+.vb_slide_2 ul{padding: 0;margin: 0;list-style: none;}
+.vb_slide_2 ul li{cursor: pointer; padding: 18px 10px; padding-left: 65px;border-top: 1px solid #D7D7D7;background: url(22_cat_jpg_236.png)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/22_cat_jpg_236.png*/ no-repeat  8px 12px;color: #37819E;}
+.vb_slide_2_content{width: 92%;color: #474545;margin-top: 18px;cursor: default;display: none;background:url(daunhay.png)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/daunhay.png*/ no-repeat;padding-left: 30px;font-size: 13px;}
+.vb_slide_acti_hover{background:#F8F8F8 url(22_cat_jpg_232.png)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/22_cat_jpg_232.png*/ no-repeat  8px 12px !important ;}
+
+.vb_slide_arrow_noacti_down{background: url(22_cat_jpg_239.png)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/22_cat_jpg_239.png*/ no-repeat  right center;width: 100%;display: inline-block;}
+.vb_slide_arrow_acti_down{background:url(22_cat_jpg_243.png)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/22_cat_jpg_243.png*/ no-repeat right center;width: 100%;display: inline-block;}
+.vb_slide_arrow_noacti_up{background: url(22_cat_jpg_239_up.png)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/22_cat_jpg_239_up.png*/ no-repeat  right center;width: 100%;display: inline-block;}
+.vb_slide_arrow_acti_up{background:url(22_cat_jpg_243_up.png)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/22_cat_jpg_243_up.png*/ no-repeat right center;width: 100%;display: inline-block;}
+.vb__hotline{background: url(girl.jpg)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/girl.jpg*/ no-repeat 0 0;padding-left: 107px;display: inline-block;
+    margin-top: 20px;font-size: 16px;line-height: 29px;}
+.vb__hotline .vb___other{line-height: normal;font-size: 13px;}
+.vb__hotline img{display: inline-block;}
+.vb__end{width: 664px;height: 109px;background: url(23_cat_jpg_250.gif)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/23_cat_jpg_250.gif*/ no-repeat 0 0;margin-top: 25px;}
+
+
+/*Message*/
+.vb__thongbao{width: 664px;font-family: Arial;color: #474545;font-size: 14px;display: inline-block;margin-left: 45px;}
+.vb__thongbao h3{font-size: 17px;color: #68A502;}
+.vb__thongbao h4{font-weight: normal;line-height: normal;}
+.vb__thongbao_error{color: red !important;}
+.vb__info_order{background: url(2-DAT-THE-THANH-CONG.jpg)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/2-DAT-THE-THANH-CONG.jpg*/ no-repeat 0 0; width: 664px;height: 252px;}
+.vb__info_order h3{color:#474545 ;display: inline-block;
+    margin: 14px 0 0 26px;}
+.vb__info_order table{margin: 20px 0 0 25px;line-height: 20px;}
+.vb__return_order{background: url(button_return.jpg)/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/button_return.jpg*/ no-repeat 0 0; width: 256px;height: 46px;display: block;margin-left: 196px;}
+.vb_contents-descript-child{margin: 0 20px 0 20px;clear: both;}
+.vb_contents-descript-child-2{margin: 0 20px 0 20px;border-bottom: 1px dashed #D7D7D7;padding-bottom: 35px;}
+
+/*Trang dat the vip*/
+
+.vb__row-2{margin: 5px 28px -10px;float: left;}
+.vb__row-2 h5{padding: 0;margin: 0;margin-bottom: 2px;}
+.desc_card{text-align: justify;line-height: 22px;}
+.desc_card a{color: #37819E;}
+.desc_card a:hover{color: #F07D00;}
+.quyen-loi-thanh-vien{margin: 25px 0;float: left;}
+.quyen-loi-thanh-vien div{width: 330px;padding-top: 180px;float: left;text-align: center;}
+.quyen-loi-thanh-vien div span{font-size: 12px;}
+.quyen-loi-thanh-vien div a{display: block;font-size: 12px;color: #37819E;margin-top: 10px;font-weight: bold;}
+.quyen-loi-thanh-vien div h3{margin-bottom: 0;padding-bottom: 0;margin-top: 15px;color: #6c8800;}
+.quyen-loi-thanh-vien .ql_vip{background: url(vip_card.jpg)/*tpa=http://data.thuviengiaoduc.org/images/vip_card.jpg*/ no-repeat 20px 5px;}
+.quyen-loi-thanh-vien .ql_kid{background: url(kid_card.jpg)/*tpa=http://data.thuviengiaoduc.org/images/kid_card.jpg*/ no-repeat 36px 5px;}
+.b_left{border-right: 1px solid black;}
+.vb_note_km{line-height: 24px;font-style: italic;color: #d0590a;}
+.vb_itemkm{padding: 0;margin: 0;color: #575757;margin-bottom: 25px;} 
+.vb_itemkm li{background: url(dt_ar_green.png)/*tpa=http://data.thuviengiaoduc.org/images/dt_ar_green.png*/ no-repeat left center;font-size: 18px;
+    padding-left: 13px;font-weight: bold;line-height: 28px;}
+.vb_hdmtv{font-size: 22px;}
+.vb_form_the_title_1{font-size: 14px;text-align: center;}
+.vb_golden_title{font-size: 21px;line-height: normal;margin-top: 30px;
+    padding-bottom: 7px;}
+.vb_bg-dolla-g {
+  background: url("lpte_icon_sm1.png")/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/lpte_icon_sm1.png*/ no-repeat scroll 0 center transparent;
+}
+.vb_bg-clock-g {
+  background: url("lpte_icon_sm6.png")/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/lpte_icon_sm6.png*/ no-repeat scroll 0 center transparent;
+}
+.vb_bg-play-g {
+  background: url("lpte_icon_sm2.png")/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/lpte_icon_sm2.png*/ no-repeat scroll 0 center transparent;
+}
+.vb_bg-pen-g {
+  background: url("lpte_icon_sm3.png")/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/lpte_icon_sm3.png*/ no-repeat scroll 0 center transparent;
+}
+.vb_bg-star-g {
+  background: url("lpte_icon_sm4.png")/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/lpte_icon_sm4.png*/ no-repeat scroll 0 center transparent;
+}
+.vb_bg-peple-g {
+  background: url("lpte_icon_sm5.png")/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/lpte_icon_sm5.png*/ no-repeat scroll 0 center transparent;
+}
+.vb_golden_title-1{margin: 0;
+    padding: 0;
+    text-align: left;}
+.vb_title_step1-g {
+  background: url("lpte_tit1.png")/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/lpte_tit1.png*/ no-repeat scroll 0 0 transparent;
+  padding-top: 66px;
+}
+.vb_box-5-step1-g {
+  background: url("lpte_img_modul1.png")/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/lpte_img_modul1.png*/ no-repeat scroll 16px 22px transparent;
+}
+.vb_title_step2-g {
+  background: url("lpte_tit2.png")/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/lpte_tit2.png*/ no-repeat scroll 0 0 transparent;
+}
+.vb_box-6-step2-g {
+  background: url("lpte_img_modul2.png")/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/lpte_img_modul2.png*/ no-repeat scroll 431px 0px #FBFBFB;
+}
+.vb_title_step3-g {
+  background: url("lpte_tit3.png")/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/lpte_tit3.png*/ no-repeat scroll 0 0 transparent;
+  padding-top: 66px;
+    margin-bottom: 104px;
+}
+.vb_box-5-step3-g {
+  background: url("lpte_img_modul3.png")/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/lpte_img_modul3.png*/ no-repeat scroll 4px 22px transparent;
+}
+.vb_title_step4-g {
+  background: url("lpte_tit4.png")/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/lpte_tit4.png*/ no-repeat scroll 0 0 transparent;
+  padding-top: 67px;
+}
+.vb_box-6-step4-g {
+  background: url("lpte_img_modul4.png")/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/lpte_img_modul4.png*/ no-repeat scroll 413px 13px #FBFBFB;
+}
+.vb_title_step5-g {
+  background: url("lpte_tit5.png")/*tpa=http://data.thuviengiaoduc.org/images/quyenloithanhvien/lpte_tit5.png*/ no-repeat scroll 0 0 transparent;
+  padding-top: 60px;
+  margin-bottom: 36px;
+}
+.vb_box-5-step4-g {
+  background: url("http://data.thuviengiaoduc.org/images/quyenloithanhvien/lpte_img_modul5.png") no-repeat scroll 4px -16px transparent;
+}
+.vb_title_step6-g {
+  background: url("http://data.thuviengiaoduc.org/images/quyenloithanhvien/lpte_tit6.png") no-repeat scroll 0 0 transparent;
+  padding-top: 60px;
+}
+.vb_box-6-step5-g {
+  background: url("http://data.thuviengiaoduc.org/images/quyenloithanhvien/lpte_img_modul6.png") no-repeat scroll 433px -10px #FBFBFB;
+}
+.vb_title_step7-g {
+  background: url("http://data.thuviengiaoduc.org/images/quyenloithanhvien/lpte_tit7.png") no-repeat scroll 0 0 transparent;
+  padding-top: 60px;
+  margin-bottom: 67px;
+}
+.vb_box-5-step6-g {
+  background: url("http://data.thuviengiaoduc.org/images/quyenloithanhvien/lpte_img_modul7.png") no-repeat scroll 28px -27px transparent;
+}
+.vb_title-2-g{
+    text-align: center;
+    padding-top: 33px;
+    font-weight: normal;
+    font-size: 19px;
+}
+.vb_title-2-g a{color: #37819E;}
+.vb_title-2-g a:hover {
+  color: #FE7B07;
+  text-decoration: underline;
+}
+.vb_cds{margin: 0;padding: 0;margin-left: 23px;}
+.vb_cds a{color: white;}
+.vb_cds li {float: left;width: 195px;text-align: center;font-size: 12px;margin-right: 37px;}
+.vb_cds li div{width: 83%;display: block;margin: 0 auto;}
+.vb_cd1{background: url("http://data.thuviengiaoduc.org/images/quyenloithanhvien/lpte_level_img1.png") no-repeat 0 0; padding-top: 208px;
+    height: 75px;}
+.vb_cd2{background: url("http://data.thuviengiaoduc.org/images/quyenloithanhvien/lpte_level_img2.png") no-repeat 0 0; padding-top: 208px;
+    height: 75px;}
+.vb_cd3{background: url("http://data.thuviengiaoduc.org/images/quyenloithanhvien/lpte_level_img3.png") no-repeat 0 0; padding-top: 208px;
+    height: 75px;margin-right: 0px !important;}
+.vb_desc_cd{text-align: justify;margin: 20px 0;float: left;line-height: 24px;border-top:1px dashed #ccc;padding-top: 30px;}
+.vb_slide_hocvien-g {
+  background: url("http://data.thuviengiaoduc.org/images/quyenloithanhvien/lpte_stusay.jpg") no-repeat scroll 0 0 transparent;
+  float: left;
+  margin: 20px 0 0 -9px;
+  width: 723px;
+}
+.vb_size20{font-size: 20px;}

@@ -1,0 +1,46 @@
+@font-face { 
+    font-family:Cheri;
+	src: url("Cheri-8.eot")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/scienkids/bai3/fonts/Cheri.eot*/;
+	src: url("Cheri-8.eot-#iefix")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/scienkids/bai3/fonts/Cheri.eot?#iefix*/ format('embedded-opentype'),
+	url("Cheri-8.ttf")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/scienkids/bai3/fonts/Cheri.ttf*/ format('truetype');
+}
+
+@font-face { 
+    font-family:Coasbl;
+	src: url("Coasbl-8.eot")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/scienkids/bai3/fonts/Coasbl.eot*/;
+	src: url("Coasbl-8.eot-#iefix")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/scienkids/bai3/fonts/Coasbl.eot?#iefix*/ format('embedded-opentype'),
+	url("Coasbl-8.ttf")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/scienkids/bai3/fonts/Coasbl.ttf*/ format('truetype');
+}
+
+@font-face { 
+    font-family:Coobpl;
+	src: url("Coobpl-8.eot")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/scienkids/bai3/fonts/Coobpl.eot*/;
+	src: url('Coobpl.eot?#iefix') format('embedded-opentype'),
+	url('Coobpl.ttf') format('truetype');
+}
+
+@font-face { 
+    font-family:Gettysburg;
+	src: url('Gettysburg.eot');
+	src: url('Gettysburg.eot?#iefix') format('embedded-opentype'),
+	url('Gettysburg.ttf') format('truetype');
+}
+
+@font-face { 
+    font-family:Calibri;
+	src: url('Calibri.eot');
+	src: url('Calibri.eot?#iefix') format('embedded-opentype'),
+	url('Calibri.ttf') format('truetype');
+}
+#slide_order, .bai_enjoin{
+	font-family: Calibri;
+	color: white;
+	font-size: 19px;
+	}
+#value_answer{
+	font-family: Calibri;
+	font-size: 14px;
+	}
+.question{
+	font-size: 17px;
+	}

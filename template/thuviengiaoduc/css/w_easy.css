@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+	.loibh{ font-size:12px; margin-left:10px; padding-right:10px; margin-top:30px; padding-right:10px;height:395px; width:95%; line-height:150%; overflow-y:scroll; }
+	.w_easy_box{text-align:justify; width:99%;  float:left; margin:10px 0px; background:#fdfbe9; border: 1px solid #e4d4c1; box-shadow:#e4d4c1 0px 4px 4px}
+	.w_easy_100{ float:left; width:99%;}
+	.w_easy_old{ display:none; background:#fdfbe9; border:1px solid #c98f4a; border-radius:8px; width:97%; margin-left:10px; margin-top:-38px; position:relative; z-index:10; padding-bottom:10px;}
+	.w_easy_sh_bt{width:80%; position:relative; z-index:20; color:#fff; font-size:16px; cursor:pointer;line-height:35px; margin:0 auto; text-align:center;margin-bottom:20px; background:url(bg_sh.png)/*tpa=http://www.thuviengiaoduc.org/file/baihoc/writing/viet-qua-tranh-easy/common/bg_sh.png*/ repeat-x; border:none; height:35px; border-radius:8px; }
+	.w_easy_btt{ width:15px; background:url(bt_sh.png)/*tpa=http://www.thuviengiaoduc.org/file/baihoc/writing/viet-qua-tranh-easy/common/bt_sh.png*/ no-repeat; float:right; margin-right:15px; margin-top:10px; height:15px;}
+	.w_easy_btt_o{ width:15px; background:url(bt_sh_o.png)/*tpa=http://www.thuviengiaoduc.org/file/baihoc/writing/viet-qua-tranh-easy/common/bt_sh_o.png*/ no-repeat; float:right; margin-right:15px; margin-top:10px; height:15px;}
+	.w_easy_title{ padding-left:10px;  height:35px; border-bottom:1px solid #ece9d9; line-height:45px; color:#a05300; font-weight:bold; font-size:14px;}
+	.w_easy_content{ padding:10px; line-height:24px; color:#414141; float:left;}
+	.w_easy_link{ float:right; text-align:right; color:#3680a0}
+	.w_easy_link a{ color:#3680a0}
+	.w_easy_img{ text-align:center;}
+	.w_easy_word{ margin:15px auto; background:#ddfbd8; padding:15px; font-size:20px; border-radius:15px;}
+	.w_easy_word_prev_bg{ margin:15px auto; background:#ddfbd8; padding:15px; font-size:16px; border-radius:15px;}
+	.w_easy_word_curr{color:#a05300; font-weight:bold; font-size:20px;}
+	.w_easy_word_prev{color:#a05300; font-weight:bold; font-size:16px;}
+	.w_easy_comment{ font-weight:bold; font-size:15px;}
+	.w_easy_title_c{ color:#a05300; font-size:13px; font-weight:bold;}
+	

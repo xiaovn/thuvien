@@ -1,0 +1,128 @@
+/**** RESET ****/
+    html, body,  span, h1, h2, h3, h4, h5, h6, p,a, em, font, img,
+    strong, ol, ul, li { margin: 0;	padding: 0;	border: 0;	outline: 0; }   
+    a{text-decoration:none;}
+    img{border: none;}
+    .clear{clear: both;}
+    body{font-family:  arial, helvetica, sans-serif;font-size: 12px;}
+   
+    input{ border: none;} 
+/*** WRAPER ***/
+    #q_wrapper{ width: 688px; margin: 0px auto; background-color: white; overflow: hidden; padding: 15px 10px;}
+    #q_main_box{text-align: center; width: 100%; height: auto; border: 5px solid #d6d6d6; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; overflow: hidden; float: left;}
+    .q_header{text-align: center; color: white;  font-family:"Times New Roman", Times, serif; width: 100%; float: left; height: 49px; background: url("q_head_bg-2.jpg")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/sentengame/imgs/q_head_bg.jpg*/ repeat-x top left; -webkit-border-top-left-radius: 2px;-webkit-border-top-right-radius: 2px;-moz-border-radius-topleft: 2px;-moz-border-radius-topright: 2px;border-top-left-radius: 2px;border-top-right-radius: 2px; }
+    .q_header h3{margin-top: 5px; font-size: 26px; }
+    .q_content{min-height: 454px;color: #313131; margin-top: 2px; border-top: 1px silver solid; width: 100%; float: left; text-align: center; background: url("q_song-2.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/sentengame/imgs/q_song.png*/ repeat-x top left; padding-top: 15px; padding-bottom:0px;}
+    .q_con_title {width: 668px; padding-left: 10px; margin-bottom:15px ;background: url("q_pencel-2.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/sentengame/imgs/q_pencel.png*/ no-repeat left center; float: left; text-align:justify; padding-right:10px;}
+    .q_main_content{width: 100%; float: left; padding:0px; margin:0px;overflow: hidden;}
+    .q_lesson{float: left; border-bottom: 1px solid #e5e5e5; color: #b92300; margin-left: 26px; padding-bottom: 1px; width: 648px;}
+    .q_bold{font-weight: bold; }
+    .q_main_content p.q_space{margin-top: 6px; margin-bottom: 32px;}
+     .q_footer{display: none; bottom: 0px;  width: 100%; float: left; height:48px; background: url("q_bg_foot-2.jpg")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/sentengame/imgs/q_bg_foot.jpg*/ repeat-x center center; text-align: center; position:static;}
+    .q_back_top{width: 83px;height: 30px; background: url("q_back_top-2.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/sentengame/imgs/q_back_top.png*/ no-repeat center center; border: none; margin-top: 10px; float: left;}
+    .q_back{margin: 10px 10px;  width: 230px;height: 30px; background: url("q_back-2.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/sentengame/imgs/q_back.png*/ no-repeat right; border: none; float: left;}
+    .q_next{width: 83px;height: 30px; background: url("q_next-2.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/sentengame/imgs/q_next.png*/ no-repeat center center; border: none; margin: 10px 10px;float: left;}
+    .q_next_end{width: 83px;height: 30px; background: url("q_next_end-2.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/sentengame/imgs/q_next_end.png*/ no-repeat center center; border: none; margin-top: 10px;float: left;}
+    .q_foot_center{font-weight: bold; width: 60%; margin: 0px auto; color: #313131;} 
+     .sp_num{float: left; font-size: 16px; margin-top: 15px;}
+     .q_num_now{color: #b92300; }
+     .f_left{margin-left: 75px;}
+     
+     /*  button */
+     .main_but{position: relative;}
+     .sub_but{position: relative; margin-left: -92px !important;}
+     .box_but_1{ float: left; margin-bottom: 15px; text-align: center; width:95%; margin-top: 50px;}    
+     .box_but_2{ float: left;}
+     .box_q_button{overflow: hidden; width: 575px; min-height: 70px; margin: 0px auto; text-align: center; font-size: 13px; display:none }
+     .box_q_alert{ background: url(welldone-3.png)/*tpa=http://www.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/sentengame/imgs/welldone.png*/ no-repeat center center; position: relative; width: 249px; height: 102px; margin: 0px auto;margin-bottom:10px; display:none;}
+     .box_q_alert a{position: absolute; right: 5px; top: 4px; }
+     .button { min-height: 14px; font-weight: bold !important; display: inline-block; zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */*display: inline; vertical-align: baseline; margin: 5px 2px; outline: none; cursor: pointer;text-align: center; text-decoration: none; font: 14px/100% Arial, Helvetica, sans-serif; padding: .5em 1.5em .55em; -webkit-border-radius: .2em; -moz-border-radius: .2em; border-radius: .2em; width: 42px; color: #606060;  border: solid 1px #b7b7b7; background: #fff; background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed)); background: -moz-linear-gradient(top,  #fff,  #ededed); filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed'); }  
+     .white:hover {text-decoration: none; background: #ededed; background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc));  background: -moz-linear-gradient(top,  #fff,  #dcdcdc); filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc');} 
+	      .button:active {position: relative;top: 1px; }      
+    /* color styles  
+     /* white */  
+    .kids_white{color: #c2c2c2;background: url("math_white_bg-2.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/sentengame/imgs/math_white_bg.png*/ repeat-x top left;}
+    /* blue */
+   .kids_blue{color: white; background: url("math_blue_bg-1.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/sentengame/imgs/math_blue_bg.png*/ repeat-x top left; }
+     /* orange */
+   .kids_orange{color: white!important; background-color: orange!important; background-image: none!important; opacity: 1!important; border: transparent!important;}
+   .kids_gray{color: white;  background: url("math_sil_bg-1.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/sentengame/imgs/math_sil_bg.png*/ repeat-x top left; }
+   
+    /********************** Drag drop ************************/    
+    .dr_txt{ width: 50%; float: left; border: 0px solid silver; text-align: right; height: 225px;}
+    .dr_txt p{ background: url("dr_o_red-2.png")/*tpa=http://www.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/sentengame/imgs/dr_o_red.png*/ no-repeat right center; padding-right: 30px;float: left; width: 90%; font-size: 24pt; color: #0090c5; font-family: arial !important;}
+    .dr_imgs{ width: 50%; float: left; height: 225px;}	
+	.q_preview{ background:url(pre_but-2.jpg)/*tpa=http://www.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/sentengame/imgs/pre_but.jpg*/ no-repeat; width:112px; height:39px; margin:0 auto; margin-bottom:10px; margin-top:10px; cursor:pointer;}
+	/*start dang 2 : sentence reorganizing*/
+	.drag_static{ border:1px solid #d4d4d4;color: #6B6B6B; background:url(bg_static-1.png)/*tpa=http://www.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/sentengame/imgs/bg_static.png*/ repeat-x;-moz-border-radius:3px ; -webkit-border-radius:3px; border-radius:3px;float: left;font-weight: bold;text-align:center;position:relative;padding-left:3px;padding-right:3px;height:27px;line-height:27px;min-width:80px;_width:100px; margin-top:10px; margin-left:-90px; *margin-left:-100px }
+	.drag{ border:1px solid #0292d5; text-align:center;padding-left:4px; -moz-border-radius:3px ; -webkit-border-radius:3px; border-radius:3px; 
+	padding-right:3px;background:url(bg_drag-2.png)/*tpa=http://www.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/sentengame/imgs/bg_drag.png*/ repeat-x;color: #181818;cursor: pointer;float: left;font-weight: bold;position:relative;
+	line-height:27px;min-width:80px; _width:100px;z-index: 10; color:#fff;  margin-top:10px; margin-left:10px;}
+	.dropp{ border:1px solid #a8a8a8;-moz-border-radius:3px ; -webkit-border-radius:3px; border-radius:3px; background:url(drop-1.png)/*tpa=http://www.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/sentengame/imgs/drop.png*/ repeat; height:27px;_height:29px; min-width:86px; *width:100px; float:left; margin-left:10px; margin-top:10px; margin-bottom:10px;color:#fff; font-weight:bold; position:static;}
+	.drag-hover{ border:1px solid #3aa9d6}
+	.box_q_button_active{ display:block}
+	.q_submit_start{ width:190px; height:68px; background:url(../imgs/q_button.png) no-repeat; margin:auto; cursor:pointer; margin-top:10px;}
+   /*end dang 2 : sentence reorganizing*/
+    .q_main_start{ margin-top:10px; margin-bottom:15px; padding:10px 20px; text-align:justify}
+   .close{ cursor:pointer;} 
+    /*-----------------tiennv----------------------*/
+	#sentence_wrap_play_btn{
+		position: relative;
+		display: block;
+		top: 205px;
+		width: 100%;
+		height: 50px;
+		}
+	#sentence_wrap_play_btn > *{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		}
+    #sentence_wrap_play_btn #sentence_play_btn{
+        display: none;
+    }
+	#sentence_wrap_play_btn #sentence_play_btn, #sentence_wrap_play_btn #sentence_playing_btn{
+		left: 266px;
+		cursor: pointer;
+        top: 34px;
+		}
+	#sentence_wrap_play_btn #sentence_stream{
+		left: 320px;
+		top: 49px;
+		}
+.q_footer #redo_sentengame_btn{
+    margin-top: 2px;
+    margin-left: 80px;
+    display: none;
+}
+#sentengame_true{
+    width: 140px;
+    height: 150px;
+    position: absolute;
+    position: absolute;
+    top: 245px;
+    left: 496px;
+    display: none;
+}
+#sentengame_false{
+    width: 140px;
+    height: 150px;
+    position: absolute;
+    top: 240px;
+    left: 52px;
+    display: none;
+}
+#stg_img_start_screen{    
+    margin: auto;
+    display: block;   
+}
+
+/*v2*/
+.audio_sen{
+    width: 250px;
+    margin: auto;
+    margin-top: 10px;
+}
+.box_but_1{
+    margin-top: 10px;
+}

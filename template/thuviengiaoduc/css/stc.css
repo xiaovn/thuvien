@@ -1,0 +1,81 @@
+/*audio*/
+#stc div.jp-audio {margin: auto;height: 40px;}
+#stc {line-height: 100%;}
+#stc div.jp-audio div.jp-interface {background-image: url("nen-6.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/stcv2/img/nen.png*/; height: 49px;}
+#stc div.jp-audio {width: 220px;}
+#stc div.jp-audio div.jp-interface > *{margin-top: 10px;}
+#stc div.jp-audio a.jp-play {background: url("play1-3.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/stcv2/img/play1.png*/no-repeat;}
+#stc div.jp-audio a.jp-pause {background: url("pause1-3.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/stcv2/img/pause1.png*/no-repeat; display: none;}
+#stc div.jp-audio .jp-border {background-image: url("ngan-3.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/stcv2/img/ngan.png*/;}
+#stc div.jp-audio .jp-progress-slide {background: url("sk1-3.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/stcv2/img/sk1.png*/ no-repeat;}
+#stc div.jp-audio div.ui-slider-range {background: url("sk2-3.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/stcv2/img/sk2.png*/ no-repeat;}
+#stc div.jp-audio .ui-state-default {background: url("point-3.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/stcv2/img/point.png*/ no-repeat;}
+#stc div.jp-audio .ui-state-default:active{background: url("point2-2.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/stcv2/img/point2.png*/ no-repeat;}
+#stc div.jp-audio div.jp-time-holder {top: 12px;}
+#stc div.jp-audio .jp-border {top: 1px;}
+#stc div.jp-audio div.jp-interface ul.jp-controls a {margin-top: 9px;margin-left: 4px;}
+/*public*/
+#stc .ab{position:absolute;top:0px;left:0px;}
+.stcschd{display: none; width: 727px; height: 567px;position:absolute;top:0px;left:0px; background-size: 100% 100%;}
+#stc{position: relative; display: block; font-family: Arial;background-image: url("bg-6.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/stcv2/img/bg.png*/;}
+#stc .stcnq{color: #C6620A; left: 28px; top: 23px;}
+#stc .stct,#stc #stcrtt{left: 20px;top: 64px;color: #fefdfd;font-size: 14px;}
+/*instoduction*/
+#stc #stcsi{background-image: url("insbg.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/stcv2/img/insbg.png*/; display: block;}
+#stc .stcitn{color: #969896;left: 20px;top: 97px;font-style: italic; font-size: 14px;}
+#stc #stciav{width: 341px; height: 245px; left: 190px; top: 153px;}
+#stc #stcstart, #stcnx, #stcrrd{width: 136px; height: 32px; cursor: pointer; background-repeat: no-repeat;}
+#stc #stcstart{left: 295px; top: 420px; background-image: url("start-9.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/stcv2/img/start.png*/;}
+#stc #stcnx{left: 370px; top: 490px; background-image: url("next-9.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/stcv2/img/next.png*/; display: none;}
+#stc #stcstart:hover, #stcnx:hover, #stcrrd:hover{background-position: -136px 0px;}
+#stc #stcitq,#stcismax,#stcip,#stcismin{font-weight: bold;top: 247px; font-size: 20px;}
+#stc #stcitq{left: 77px;}
+#stc #stcismax{left: 220px;}
+#stc #stcip{left: 390px;}
+#stc #stcismin{left: 597px;}
+#stc #stcwarning{margin-left: 18px; color: red;}
+/*task screen*/
+#stc #stcat{width: 727px; height: 325px; top: 90px;}
+#stc .stcs{width: 727px; height: 325px;visibility: hidden;}
+#stc .stctrq{top: 18px; width: 700px; text-align: center; padding: 0px 10px; font-size: 18px;}
+#stc .stcsl{overflow: hidden; left: 452px; top: 33px; cursor: pointer;}
+#stc .stcsl > img{width: 223px; height: 193px;}
+#stc .stcslAca{border: 2px solid blue;}
+#stc .stcslr{left: 390px}
+#stc .stcwa{height: 40px;position: relative;margin: -10px 0px 0px 7px;top:0px; left: 0px;}
+#stc .stca{}
+/*#stcrs{left: 25px; top: 424px; font-size: 14px;}*/
+#stc #stcan{left: 43px; top: 453px; font-size: 14px;}
+#stc #stcbb{display: none; width: 80px; height: 28px; background-repeat: no-repeat; background-image: url("back-6.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/stcv2/img/back.png*/; cursor: pointer;left: 267px;top: 513px;}
+#stc #stcbb:hover{background-position: -80px 0px;}
+#stc #stcnb{width: 80px; height: 28px; left: 385px; top: 513px; background-image: url("next-9.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/stcv2/img/next.png*/; cursor: pointer; background-repeat: no-repeat;}
+#stc #stcnb:hover{background-position: -80px 0px;}
+#stc #stcnsmb{display: none;width: 80px;height: 28px;left: 385px; top: 513px;background-image: url("result-6.png")/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/stcv2/img/result.png*/;cursor: pointer;background-repeat: no-repeat;}
+#stc #stcnsmb:hover {background-position: -80px 0px;}
+#stc #stccor{top: 149px; left: 539px; display: none;}
+#stc #stcincor{top: 166px;left: 105px; display: none;}
+#stc #stcals{margin-top: 117px;position: relative;}
+#stc .stcls{text-align: center;font-size: 13px;visibility: hidden; z-index: -1;}
+#stc .stcls:nth-child(1){visibility: visible; z-index: 0;}
+#stc .box_but_1 {display: inline-block; width: 590px;}
+#stc .box_but_2 {display: inline-block; width: 590px; margin-top: 12px;}
+#stc .kids_orange {color: white!important;background-color: orange!important;background-image: none!important;opacity: 1!important;border: 1px solid transparent!important;}
+#stc .drag_static {border: 1px solid #d4d4d4;color: #6B6B6B;background: url(bg_static-2.png)/*tpa=http://goldenkids-data.thuviengiaoduc.org/file/learn/child/word-bag/dungchung/stcv2/img/bg_static.png*/ repeat-x;-moz-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;float: left;font-weight: bold;text-align: center;position: relative;padding-left: 3px;padding-right: 3px;height: 27px;line-height: 27px;min-width: 80px; margin-top: 5px;margin-left: -88px;}
+#stc .drag {border: 1px solid #0292d5;text-align: center;padding-left: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;padding-right: 3px;background: url(img/bg_drag.png) repeat-x;color: #181818;cursor: pointer;float: left;font-weight: bold;position: relative;line-height: 27px;min-width: 80px;z-index: 10;color: #fff;margin-top: 5px;margin-left: 5px;}
+#stc .dropp {border: 1px solid #a8a8a8;-moz-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;background: url(img/drop.png) repeat;height: 27px;min-width: 86px;float: left;margin-left: 5px;margin-top: 0px;margin-bottom: 5px;color: #fff;font-weight: bold;position: static;}
+#stc .stcpic{width: 200px;}
+
+/*result*/
+#stc #stcrs{background-image: url("img/rsbg.png");}
+#stc #stcrtq,#stcrsmax,#stcrp,#stcrsmin,#stcrys,#stcrt{font-weight: bold;top: 277px; font-size: 20px;}
+#stc #stcrtq{left: 134px;}
+#stc #stcrsmax{left: 257px;}
+#stc #stcrp{left: 355px;}
+#stc #stcrsmin{left: 467px;}
+#stc #stcrys{color: #FF0000; font-size: 25px; left: 583px; top: 277px;} 
+#stc #stcrt{left: 612px; width: 80px; height: 21px; font-weight: normal; font-size: 15px;}
+#stc #stcrol{left: 322px;top: 280px;font-size: 38px;font-weight: bold;color: red;}
+#stc #stcrrd{left: 284px; top: 348px; background-image: url("img/doagain.png");}
+#stc #stcrrt{top: 351px;width: 722px;text-align: center;padding: 0px 5px;font-size: 14px;}
+
+
