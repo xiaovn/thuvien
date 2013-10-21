@@ -135,7 +135,21 @@ Class viewController extends baseController
         $cat = $this->func->getid($para[1]);
         if($this->func->checkid($cat,"xiaob_cat","catid"))
         {
-            $this->view->show('category');
+            $spp = 10;
+            $page = 1;
+            if(isset($_GET['page']) && $_GET['page'] != "")
+            {
+                $page = $_GET['page'];
+            }
+            $cp = $page - 1;
+            $this->view->data['danhmuc']= $sodu_lieu = general::getInstance()->bookcount("bookcat = ".$cat);
+            $sotrang = $sodu_lieu/$spp;
+            $sql = "SELECT * FROM xiaob_book WHERE bookcat = '".$cat."' ORDER BY bookid DESC LIMIT ".$cp*$spp.",".$spp;
+            $this->view->data['listbook'] = $this->model->get('m3201Model')->bookquery($sql,false);
+            $this->view->data['cat'] = $cat;
+            $this->view->data['count'] = $sodu_lieu;
+            $this->view->data['sotrang'] = $sotrang;
+            $this->view->show('danhmuc');
         }
         else
         {
