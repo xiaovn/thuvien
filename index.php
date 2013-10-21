@@ -21,5 +21,4 @@ error_reporting(~E_ALL);
 
  /*** load the controller ***/
  $registry->router->loader();
-
 ?>

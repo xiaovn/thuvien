@@ -20,8 +20,9 @@ class Database{
 	}
     //Mở kết nối CSDL 
     function connect($address, $account, $pwd, $name) {
-        $this->connection = mysql_connect($address, $account, $pwd); 
-        if (!$this->connection){ 
+        $this->connection = mysql_connect($address, $account, $pwd);
+        mysql_query("set names 'utf8' ");
+        if (!$this->connection){
             die("Database connection failed: " . mysql_error()); 
         } 
         else{ 

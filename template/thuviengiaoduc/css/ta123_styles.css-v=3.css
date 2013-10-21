@@ -369,7 +369,7 @@ a:hover .box_dt_row  { color:#cf6b00;}
     float: left;
     height: 9px;
     width: 100%;
-    background: url(../images/home_new.png)/*tpa=http://data.thuviengiaoduc.org/images/v2/home/home_new.png*/ no-repeat; background-position: -15px -1003px;;
+    background: url(../images/home_new.png) no-repeat; background-position: -15px -1003px;;
     _margin-top: 5px;  
 }
 .containt_center_cen{
@@ -711,7 +711,7 @@ a:hover .des_cont_three_left {background: url(../images/tatreem_box_left_hover.j
 }
 #datmuathe{margin: 5px 13px;border: none;}
 .dic{
-    background:url(../images/img_homepage-1.png)/*tpa=http://data.thuviengiaoduc.org/images/v2/home/img_homepage.png*/ -303px -861px no-repeat;
+    background:url(../images/img_homepage-1.png) -303px -861px no-repeat;
     width: 180px;
     padding-left: 30px;
     margin: 20px 10px;
@@ -1569,7 +1569,7 @@ ul.ptl_content2 {background:url(../images/ptl_bg_list2.jpg)/*tpa=http://data.thu
 .avt_info_box_img{float:left; border:1px solid #bac6c7;width:80px; height:80px;}
 .avt_info_box_img img {width:80px; height:80px;} 
 .avt_info_r {width:245px; float:left; margin-left:7px; _width:225px;}
-.avt_info_name {width:100%; float:left; height:20px; font-weight:bold; color:#ee7600;}
+.avt_info_name {text-align:center; width:100%; height:20px; font-weight:bold; color:#ee7600;}
 
 
 .avt_info_ca {width:100%; float:left; height:25px; font-weight:normal; font-size:11px; color:#646464;}.avt_info_te {width:100%; float:left; font-weight:normal; height:20px;}
@@ -1634,7 +1634,7 @@ white-space: nowrap;*/ font-size:10pt}
 
 /*Nhan biet loai tai khoan thanh vien*/
 .tk_username, .tk_username:hover, .tk_vip ,.tk_vip_kids,.tk_vip:hover ,.tk_vip_kids:hover{color:#d16c1a !important; font-weight:bold}
-.tk_username{float: left; font-size: 12px !important;}
+.tk_username{font-size: 12px !important;}
 .img_vip_kid{margin-left: 3px; margin-top: -4px;}
 .img_vip_kid img{vertical-align: middle;}
 .kidwithvip{margin-left: -3px;margin-top: -2px;}
@@ -1794,7 +1794,7 @@ input.pne_st1_r_file_bt:disabled {background:url(../images/pne_bt_dis.jpg)/*tpa=
 .lik_tieude_box_img{float:left; border:0px solid #fff; box-shadow:0 0 1px #333; border-radius:4px;}
 .lik_info_box_img img {width:80px; height:80px;}
 .lik_tieude_box_img img {height:120px;}
-.lik_info_box_ct {width:538px; border:1px solid #bac6c7; background:#fff; float:left; padding-bottom:5px;}
+.lik_info_box_ct {width:538px; border:1px solid #bac6c7; background:#fff; float:left; padding-bottom:0px;}
 .lik_info_te {width:100%; float:left; font-weight:normal; height:20px; font-size:11px; color:#727272}
 .lik_info_te.blue { color:#0081a1}
 
@@ -1859,7 +1859,7 @@ input.pne_st1_r_file_bt:disabled {background:url(../images/pne_bt_dis.jpg)/*tpa=
 .swap_bauchon .button_bauchon{ width: 78px; height: 32px;background: url(../images/df_bauchon.png) no-repeat right 0; border: none;  cursor: pointer; float: right; margin:0; padding:0}
 .swap_bauchon .diem{ width: 60px; float: left; font-size: 22px; text-align: center; margin-left: 5px; padding-top: 2px;}
 
-.lik_info_box_top {width:528px; float:left; height:88px;border-bottom:1px solid #bababa; padding:5px; background:#f2f7f9;}
+.lik_info_box_top {width:82px; float:left; height:110px;border-bottom:1px solid #bababa; padding:5px; background:#f2f7f9;}
 .lik_tieude_box_top {float:left; height:130px;border-bottom:1px solid #bababa; padding:5px; background:#f2f7f9;}
 .lik_i_list{width:100%; padding-left:10px; height:20px; float:left; line-height:20px; font-weight:normal; color:#727272; font-size:11px;}
 .lik_i_list img { margin-left:3px;}
@@ -1868,8 +1868,8 @@ input.pne_st1_r_file_bt:disabled {background:url(../images/pne_bt_dis.jpg)/*tpa=
 .lik_tieude_r {width:225px; float:left; margin-left:27px; _width:225px;}
 .lik_tieude_right {width:200px; float:right}
 .lik_ar_d {width:100%; float:left; background:url(../images/lik_ar_down_cm.png)/*tpa=http://data.thuviengiaoduc.org/images/v2/home/lik_ar_down_cm.png*/ 35px 0 no-repeat; margin-top:-1px; height:8px;}
-.lik_info_box_bot  {width:518px; padding:10px; float:left; line-height:18px;word-wrap: break-word;}
-.lik_date_l {width:308px; float:left; margin-top:5px;  height:10px; border-bottom:1px dotted #bababa;}
+.lik_info_box_bot  {width:420px; height: 80px; padding:5px; float:left; line-height:18px;word-wrap: break-word;}
+.lik_date_l {width:225px; float:left; margin-top:5px;  height:10px; border-bottom:1px dotted #bababa;}
 .lik_date_r {width:220px; float:right;}
 .lik_date_r_f{width:43px; float:left; background:url(../images/lik_date_send_r_f.png)/*tpa=http://data.thuviengiaoduc.org/images/v2/home/lik_date_send_r_f.png*/ no-repeat; height:20px; margin-top:5px;}
 .lik_date_r_l{width:177px; float:left; background:url(../images/lik_date_send_r_repeat.png)/*tpa=http://data.thuviengiaoduc.org/images/v2/home/lik_date_send_r_repeat.png*/ repeat; height:20px; margin-top:5px; font-size:11px; line-height:20px; color:#8f8f8f;}
@@ -2061,8 +2061,8 @@ a:hover .hld2_l2_item_tit {color:#ee7600}
 .hld2_tch_left_ico3 {background: url(../images/img_homepage-1.png)/*tpa=http://data.thuviengiaoduc.org/images/v2/home/img_homepage.png*/ -110px -296px no-repeat}
 .hld2_tch_left_te {float:left; margin:4px 0 0 4px; color:#6f6e6e;}
 .hld2_tch_right_te {width:100%; float:left; color:#6f6e6e; text-align:justify; margin:6px 0;}
-.hld2_tch_right_bt {float:right; margin:6px 0;background:#5a9301; border-radius:3px; padding:4px 16px;  color:#333;}
-.hld2_tch_right_bt span {color:white; font-weight:bold;}/*Huong dan hoc*/
+.hld2_tch_right_bt {float:right; margin:6px 0;background:#5a9301; border-radius:3px; padding:4px 16px;  color:#FFF; font-weight: bold;}
+.hld2_tch_right_bt span {color:black; font-weight:bold;}/*Huong dan hoc*/
 .bt_hdh_vip {float:left;width:250px; height:28px; background:url(../images/bg_hdh_vip.jpg)/*tpa=http://data.thuviengiaoduc.org/images/v2/home/bg_hdh_vip.jpg*/ repeat-x; border-radius:6px; padding:4px 14px 0 16px}
 .bt_hdh_vip_in {float:left; height:28px; width:100%; background:url(../images/bg_hdh_vip_faqicon.png)/*tpa=http://data.thuviengiaoduc.org/images/v2/home/bg_hdh_vip_faqicon.png*/ top right no-repeat; color:#fff; font-weight:bold}
 a:hover .bt_hdh_vip_in{color:#fff35f;}
@@ -4407,4 +4407,141 @@ div.PKL_thinker.off{
 .boxsharefb{float: left;}
 #rsHoiDapNhanh .font_weight a {
     color: #0081A1;
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000000;
+}
+.modal-backdrop.fade {
+    opacity: 0;
+}
+.modal-backdrop,
+.modal-backdrop.fade.in {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+.modal {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    z-index: 1050;
+    width: 560px;
+    margin-left: -280px;
+    background-color: #ffffff;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    *border: 1px solid #999;
+    /* IE6-7 */
+
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    background-clip: padding-box;
+    outline: none;
+}
+.modal.fade {
+    -webkit-transition: opacity 0.3s linear, top 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, top 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, top 0.3s ease-out;
+    transition: opacity 0.3s linear, top 0.3s ease-out;
+    top: -25%;
+}
+.modal.fade.in {
+    top: 10%;
+}
+.modal-header {
+    padding: 14px 15px 15px;
+    margin-bottom: 0;
+    text-align: right;
+    background-color: #f5f5f5;
+    -webkit-border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    -webkit-box-shadow: inset 0 1px 0 #ffffff;
+    -moz-box-shadow: inset 0 1px 0 #ffffff;
+    box-shadow: inset 0 1px 0 #ffffff;
+    *zoom: 1;
+    padding: 9px 15px;
+    border-bottom: 1px solid #eee;
+}
+.modal-header .close {
+    margin-top: 2px;
+}
+.modal-header h3 {
+    margin: 0;
+    line-height: 30px;
+}
+.modal-body {
+    position: relative;
+    overflow-y: auto;
+    max-height: 400px;
+    padding: 15px;
+}
+.modal-form {
+    margin-bottom: 0;
+}
+.modal-footer {
+    padding: 14px 15px 15px;
+    margin-bottom: 0;
+    text-align: right;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    -webkit-border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
+    -webkit-box-shadow: inset 0 1px 0 #ffffff;
+    -moz-box-shadow: inset 0 1px 0 #ffffff;
+    box-shadow: inset 0 1px 0 #ffffff;
+    *zoom: 1;
+}
+.modal-footer:before,
+.modal-footer:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+.modal-footer:after {
+    clear: both;
+}
+.modal-footer .btn + .btn {
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+.modal-footer .btn-group .btn + .btn {
+    margin-left: -1px;
+}
+.modal-footer .btn-block + .btn-block {
+    margin-left: 0;
+}
+.lbsendmail
+{
+    width: 130px;
+    float: left;
+}
+.inputsendmail input
+{
+    width: 200px;
+    font-family: Tahoma;
+    font-size: 14px;
+}
+.inputsendmail select
+{
+    width: 200px;
+    font-family: Tahoma;
+    font-size: 14px;
+    height: 25px;
+}
+.pageactive
+{
+    color: #ff0000;
 }

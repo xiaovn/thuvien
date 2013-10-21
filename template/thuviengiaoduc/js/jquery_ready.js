@@ -315,9 +315,9 @@ $(document).ready(function(){
 
     //Back Top
     $("#tops").hover(function(){
-        $(this).css("background","url(http://data.thuviengiaoduc.org/images/v2/home/img_homepage.png) no-repeat scroll -220px -455px transparent")
+        $(this).css("background","url(./template/thuviengiaoduc/images/img_homepage-1.png) no-repeat scroll -220px -455px transparent")
         },function(){
-            $(this).css("background","url(http://data.thuviengiaoduc.org/images/v2/home/img_homepage.png) no-repeat scroll -170px -455px transparent")
+            $(this).css("background","url(./template/thuviengiaoduc/images/img_homepage-1.png) no-repeat scroll -170px -455px transparent")
     })
 
     //Menu Cus Login

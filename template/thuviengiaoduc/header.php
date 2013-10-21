@@ -66,10 +66,12 @@ include "config.php";
     <!-- Chat 123 -->
 
     <link rel="stylesheet" type="text/css" href="<?php echo $template_path;?>css/chat_123.css"/>
+    <link rel="stylesheet" type="text/css" href="<?php echo $template_path;?>css/reveal.css"/>
 
     <!-- Chat 123 -->
     <!-- AUDIO PLAYER -->
     <script type="text/javascript" src="<?php echo $template_path;?>css/swfobject.js" ></script>
     <script src="<?php echo $template_path;?>js/libs_audio.js"></script>
     <script type="text/javascript" src="<?php echo $template_path;?>js/pickle.js"></script>
+    <script type="text/javascript" src="<?php echo $template_path;?>js/jquery.reveal.js"></script>
 

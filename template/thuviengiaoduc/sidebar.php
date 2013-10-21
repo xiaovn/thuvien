@@ -14,7 +14,11 @@
             <input class="btnsm" name="sa" style="width: 37px; height: 38px;" type="image" src="<?php echo $template_path;?>/images/bg_search_right.jpg" tppabs="http://data.thuviengiaoduc.org/images/v2/home/bg_search_right.jpg">
         </form>
         <script type="text/javascript" src="<?php echo $template_path;?>/js/brand.js"></script>
-    </div>
+        </div>
+
+    <div class="content_hoidapnhanh">
+        <img src="<?php echo $template_path;?>images/ad210x300.png">
+        </div>
     <div class="content_hoidapnhanh">
 
 

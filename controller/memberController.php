@@ -15,6 +15,29 @@ Class memberController extends baseController
     }
     public function register()
     {
+        $email = "kenzakivn@live.com";
+        global $db;
+        $db->query("INSERT INTO xdata_subscribe(xemail) VALUES('".$email."')");
         $this->view->show('register');
+    }
+    public function ajaxsubs()
+    {
+        if(isset($_POST['email']) && $_POST['email'] != "")
+        {
+            $email = $_POST['email'];
+            if(member::getInstance()->check_subs($email))
+            {
+                return false;
+            }
+            else
+            {
+                global $db;
+                $db->query("INSERT INTO xdata_subscribe(xemail) VALUES('".$email."')");
+            }
+        }
+        else
+        {
+            echo 'ERROR';
+        }
     }
 }

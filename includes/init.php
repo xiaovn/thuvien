@@ -12,6 +12,8 @@
  /*** include the registry class ***/
  include __SITE_PATH . '/application/' . 'registry.class.php';
  include __SITE_PATH . '/application/' . 'general.class.php';
+ include __SITE_PATH . '/application/' . 'member.class.php';
+ include __SITE_PATH . '/application/' . 'book.class.php';
 
  /*** include the router class ***/
  include __SITE_PATH . '/application/' . 'router.class.php';
