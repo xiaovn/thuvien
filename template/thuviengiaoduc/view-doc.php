@@ -119,35 +119,30 @@ include_once "header.php";
     Liên hệ quảng cáo : <strong>0935.765.797</strong>
 </h3>
 
-<div id="form_comment_area">
+    <div id="form_comment_area">
 
 
 
 
-    <div class="form_send_comment">
-        <div class="lik_title_comment">GỬI PHẢN HỒI</div>
-        <div class="comment_ico_title">
-            <div id="emt_icon" class="comment_ico_img">
-                <img src="<?php echo $template_path;?>images/comment_smile_ico.png">
+        <div class="form_send_comment">
+            <div class="lik_title_comment">GỬI PHẢN HỒI</div>
+            <div class="comment_ico_title">
+                <div id="emt_icon" class="comment_ico_img">
+                    <img src="<?php echo $template_path;?>images/comment_smile_ico.png">
+                </div>
+                <div class="comment_ico_text">Chèn biểu tượng cảm xúc</div>
             </div>
-            <div class="comment_ico_text">Chèn biểu tượng cảm xúc</div>
+            <div class="row-fluid">
+                <form name="commentfrm" action="" method="POST">
+                    <div class="separator bottom"></div>
+                    <p><textarea name="noidung" cols="200" rows="7" class="span12"></textarea> </p>
+                    <p><input type="submit" name="submit" value="Gửi phản hồi"></p>
+                </form>
+            </div>
+            <span id="show_error_msg"></span>
         </div>
-
-
-
-
-        <div class="tbao_status_comment textarea_comment" style="border:1px solid #cecece;"><span style="color:red">Bạn phải đăng nhập để sử dụng chức năng này</span></div>
-
-        <span id="show_error_msg"></span>
+        </div>
     </div>
-    <div class="form_send_comment_bt">
-
-
-        <img src="<?php echo $template_path;?>images/bt_comment_invi.png">
-
-    </div>
-
-</div>
 
 
 
@@ -193,11 +188,20 @@ include_once "header.php";
         </div>
         <div class="lik_ar_d"></div>
         <div class="lik_info_box_bot" id="com_337356">
-
             <span class="s_content">Đây là bình lựng nè</span>
+            <?php
+            $listcomment = general::getInstance()->viewcomment($masach);
+            foreach($listcomment as $comm)
+            {
+                ?>
+                <div class="tweet"><?php echo $comm->comment;?> </div>
+            <?php
+            }
+            ?>
         </div>
         <div class="lik_date_l"></div>
         <div class="lik_date_r"><div class="lik_date_r_f"></div><div class="lik_date_r_l">Gửi lúc: 08:21:19 ngày 07-10-2013</div></div>
+
         <div class="lik_chuky"><div class="mem_sign">Đây là chữ ký của tui</div></div>
 
 
