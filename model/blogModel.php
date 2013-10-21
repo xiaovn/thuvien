@@ -24,7 +24,7 @@ Class blogModel Extends baseModel {
     public function guibinhluan($xid,$bookid,$comment,$status,$time)
     {
         global $db;
-        $db->query("INSERT INTO xiaob_comment(xid,bookid,comment,status,time) VALUE (".$xid.",'".$bookid."','".$comment."','".$status."','".$time."')");
+        $db->query("INSERT INTO xiaob_comment(xid,bookid,comment,status,xtime) VALUE (".$xid.",'".$bookid."','".$comment."','".$status."','".$time."')");
         return true;
     }
 

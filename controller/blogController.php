@@ -8,8 +8,6 @@ Class blogController Extends baseController {
 		$this->view->data['blog_heading'] = 'This is the blog Index';
 		$this->view->show('blog_index');
 	}
-
-
 	public function view($args){
 		$id_blog = $args[1];
 		$blog_detail = $this->model->get('blogModel')->get_blog_detail($id_blog);

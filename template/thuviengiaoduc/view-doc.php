@@ -272,35 +272,30 @@ $parent_dir = general::getInstance()->get_subject($b->booksubj);
     Liên hệ quảng cáo : <strong>0935.765.797</strong>
 </h3>
 
-<div id="form_comment_area">
+    <div id="form_comment_area">
 
 
 
 
-    <div class="form_send_comment">
-        <div class="lik_title_comment">GỬI PHẢN HỒI</div>
-        <div class="comment_ico_title">
-            <div id="emt_icon" class="comment_ico_img">
-                <img src="<?php echo $template_path;?>images/comment_smile_ico.png">
+        <div class="form_send_comment">
+            <div class="lik_title_comment">GỬI PHẢN HỒI</div>
+            <div class="comment_ico_title">
+                <div id="emt_icon" class="comment_ico_img">
+                    <img src="<?php echo $template_path;?>images/comment_smile_ico.png">
+                </div>
+                <div class="comment_ico_text">Chèn biểu tượng cảm xúc</div>
             </div>
-            <div class="comment_ico_text">Chèn biểu tượng cảm xúc</div>
+            <div class="row-fluid">
+                <form name="commentfrm" action="" method="POST">
+                    <div class="separator bottom"></div>
+                    <p><textarea name="noidung" cols="200" rows="7" class="span12"></textarea> </p>
+                    <p><input type="submit" name="submit" value="Gửi phản hồi"></p>
+                </form>
+            </div>
+            <span id="show_error_msg"></span>
         </div>
-
-
-
-
-        <div class="tbao_status_comment textarea_comment" style="border:1px solid #cecece;"><span style="color:red">Bạn phải đăng nhập để sử dụng chức năng này</span></div>
-
-        <span id="show_error_msg"></span>
-    </div>
-    <div class="form_send_comment_bt">
-
-
-        <img src="<?php echo $template_path;?>images/bt_comment_invi.png">
-
     </div>
 
-</div>
 
 
 

@@ -72,6 +72,19 @@ Class viewController extends baseController
         $masach = $this->func->getid($para[1]);
         if($this->func->checkid($masach,"xiaob_book","bookid"))
         {
+            if(isset($_POST['noidung'])&& $_POST['noidung']!="")
+            {
+
+                $xid = $_SESSION['xID'];
+                $bookid = $masach;
+                $comment = $_POST['noidung'];
+                $status = 0;
+                $time = date("Y-m-d H:i:s");
+                $this->model->get('blogModel')->guibinhluan($xid,$bookid,$comment,$status,$time);
+                $this->view->show('view-doc');
+            }
+            else
+            {
             $this->view->data['xdata'] = $masach;
             $this->model->get('m4011Model')->updateview($masach);
             $this->view->data['books'] = $books = $this->model->get('viewModel')->getbook($masach);
@@ -81,6 +94,7 @@ Class viewController extends baseController
             $this->view->data['baicungchude'] = $this->model->get('m4331Model')->baicungchude($books->bookname);
             $this->view->data['tags'] = $this->model->get('m4606Model')->get_tags($masach);
             $this->view->show('view-doc');
+            }
         }
         else
         {
