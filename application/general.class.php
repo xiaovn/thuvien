@@ -66,6 +66,17 @@ Class general{
         }
         else return "";
     }
+    public function get_grade($gradeid)
+    {
+        if($gradeid != "")
+        {
+            global $db;
+            $blog = $db->query("SELECT * FROM xiaob_grade WHERE id=".$gradeid);
+            $me = $db->fetch_object($first_row = true);
+            return $me->gradename;
+        }
+        else return "";
+    }
     public function get_subject($subjid)
     {
         if($subjid != "")
